@@ -1,0 +1,173 @@
+Wordmove setup instructions - by Craig Morris - Team 20
+--This assumes you are using a LAMP stack local or developer environment environment--
+--steps 3 to # assumes you have set up passwordless ssh for the server environment from your local one--
+--see steps # to # for passwordless ssh setup in linux--
+
+Step one;
+wordmove only need to be installed on the local environment, the remote server end does not need it installed at all
+open the terminal in your linux environment
+--If using a virtual enivronment such as scotch-box/vagrant you will need to navigate into the virtual environment--
+--to do this you need to open bash (bourne again shell) such as gitBash or macOS terminal--
+--once in the bash command line environment navigate to your vitrual environment directory, eg. c:/scotch-box for windows, and start the virtual machine--
+--if using the scotch-box/vagrant virutal environment this is achieved by typing 'vagrant up' (no quotes) inside the command line directory--
+--once varant is running type 'vagrant ssh' and now your inside the linux virtual machine terminal--
+
+now type 'gem install wordmove' (no quotes)
+--if you recieve an error and it does not install its more than likey your linux environment is running a version of ruby less than v2.4--
+--to upgrade ruby or install it type 'sudo apt-get install ruby-full' (no quotes)--
+
+Step 2;
+once wordmove has installed itself successfully we need to initilise wordmove to the local wordpress directory (similar to git)
+move into the directory of your local wordpress site eg, cd scotch-box/var/www/public/wordpress-site
+once in the directory type 'wordmove init'
+you will see output that a movefile.yml file was created in the directory
+
+Step 3;
+type 'wordmove doctor', this will display the status of the wordmove tool for the initilised directory
+--you may see some red crosses on some items such as ssh values in the output, we can fix this now--
+
+use a text editor to open movefile.yml, if you are still using the terminal you can use nano or vim to do it as well.
+--either type 'nano movefile.yml' or 'vim movefile.yml'--
+now we need to establish the correct values inside this file to ensure pushes and pulls work correctly
+
+Step 4;
+--the # symbol are line comments, words in [braces] are just my insights and dont exist in the actual file--
+at the top of the file you will see the local values as below: 
+
+local: [this is your local dev environment, eg scotch-box/vagrant]
+  vhost: http://192.168.33.10/wordpress [local url address of the wordpress site, DO NOT have a trailing '/' or it breaks the push/pull by reverting the server IP address to your local one]
+  wordpress_path: /var/www/public/wordpress # use an absolute path here [local directory path to the wordpress site]
+
+  database: [local mysql databse]
+    name: wordpressdemo [local mysql database name]
+    user: root [local mysql user name, ensure this user has appropriate super user permissions]
+    password: root # could be blank, so always use quotes around [you may find the password has quotes around it initially, eg 'root', remove these quotes manually]
+    host: localhost [the localhost of the local environment]
+
+once these vaules are set we need to configure the server side values
+
+Step 5;
+--the # symbol are line comments, words in [braces] are just my insights and dont exist in the actual file--
+below the local values in movefile.yml you will see the below;
+
+production: [live server]
+  vhost: http://206.189.35.250 [the url address for the live server site]
+  wordpress_path: /var/www/html # use an absolute path here [the directory path for the wordpress site on the server end]
+
+  database: [the remote servers mysql database for wordpress]
+    name: wordpress [remote server mysql database name]
+    user: root [remote server mysql user name]
+    password: f40161dd1b [remote servers above mysql above username password]
+    host: localhost [this is 'local' for the remote server so leave as localhost unless specified by your hosting company]
+    # port: 3308 # Use just in case you have exotic server config
+    # mysqldump_options: '--max_allowed_packet=1G' # Only available if using SSH
+    # mysql_options: '--protocol=TCP' # mysql command is used to import db
+
+--the mysql password for the servers database is found differently dependeding on which VPS or shared hosting company you use--
+--check the VPS documentation for how to get your mysql database user password, eg for digitalocean its located in a file in the root dir--
+--to find out the remote server databases name you need to use a DBMS to access the remote server such as mysqlWorkbench, sequalPro, or myPHPadmin--
+--alternativly in the terminal command line in the remote server you can go into mysql by typing 'mysql' (no quotes) and typing 'show databases;' (no quotes)
+
+once this is done we now have to values wordmove needs to alter the database local values to remote server values and vise versa on push and pulls
+
+Step 6;
+now still inside movefile.yml scroll down until you get to the ssh section as below:
+
+  ssh:
+    host: 206.189.35.250 [IP address for the remote server, eg when you use 'ssh root@THIS_IP_ADDRESS']
+    user: root [the ssh user fort he remote server, eg when you use 'ssh THIS_USER@206.189.35.250']
+  #   password: password # password is optional, will use public keys if available. [leave commented out if you have passwordless ssh set up for you local environment (scotch-box/vagrant) to remote server, if not then uncomment this line and enter your user password for remote server access]
+  #   port: 22 # Port is optional
+  #   rsync_options: '--verbose --itemize-changes' # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: host
+  #     user: user
+  #     password: password # password is optional, will use public keys if available.
+
+  now that that is done all other values can be left as is inside movefile.yml
+  save the file and exit your text editor
+
+Step 7;
+now type 'wordmove doctor' (no quotes) while in your local wordpress site directory and you should see outputs with green ticks across the board
+we can now push and pull the entire wordpress site from local to server without neededing any manual databse or content handling
+'wordpress push -[some option]' (no quotes) to push content from local to server
+'wordpress pull -[some option]' (no quotes) to pull content from server to local
+--if the database is all you want this to handle then 'wordmove push -d' will only push to database--
+--if pulling the database its best to use 'wordmove pull -du' [d==databse, u==uploads], this pulls media files and the database--
+--wordmove allows pushes and pulls of sections only such as themes, plugins, database, media, etc--
+--the push and pull commands will only work if you are in the local wordpress site direcotry that was inititlsed in step 2--
+
+Step 8;
+push and/or pull to test if wordmove works correctly
+--push to the remote server ans see if the content updated remotely, if so then click on some links and try to change a post in the back end and see if it works, if not see step 9--
+if so then thats it you can now push and pull the local database to the server without doing any manual handling :)
+if not see step 9
+
+Step 9 (Nein!);
+if after a push the content updated but the lnks show an internal server error or when updating a post/page in the backend it says 'update failed X' keep reading
+this is caused by a directory pointer error on the server side and happens if you perform you very first wordmove push (wordmove push --all)
+and your local directory structure is different from the servers directory structure (too many or too little sub directories)
+--an example is pushing from var/www/public/wordpress-site locally to var/www/html remotely--
+--the remote site lives in the root web directory whereas the local site was pushed from a SUB web directory so the remote host wprdpress site is trying to point one directory deeper than currently exists cause its in the web root directory only--
+
+to fix this open the .htaccess file in the wordpress site directoy on the remote server using a text editor like in step 3
+--eg in the above example it would be in var/www/html/.htaccess--
+the file will look similar to below:
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
+# END WordPress
+
+the line below:
+RewriteRule . /wordpress/index.php [L]
+is telling wordpress that it live in a sub directory called 'wordpress' in the remote server but this is not the case above as we
+put it directly into the webroot, so all links and post updates are pointing to a directory that does not exist.
+
+to fix this we need to change this line (or comment it out) to point to the correct directory structure within the servers web root
+in the above example its in the web root folder so cange the line to below:
+RewriteRule . /index.php [L]
+
+so now the file should look something like below:
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /wordpress/index.php [L]
+RewriteRule . /index.php [L]
+</IfModule>
+
+save the file.
+and thats that, now test the remote server site and everything should be working as indended :)
+--optionally we can restart the apache web server to make sure this takes effect but was not nessesary in my case--
+--type 'service apache2 restart' (no quotes)--
+
+Step 10 (passwordless ssh);
+--this assumes that you are doing this from a linux environment to another linux environment--
+
+first ensure that you have a ssh keygen pair, you can tell by navigating to root/.ssh and inside that directory you should have an
+authorised_keys file, rsa_id file and an rsa_id.pub file
+--if not type ssh-keygen in the teminal and follow the prompts and it will make they keys and files for you--
+--you will know its done cause it will draw a weird box picture representing your key--
+--ssh-keygen and ssh-id-copy are built in packages of the debian/ubuntu operating systems and should already be installed--
+--ssh-id-copy works on mac terminals but requires installation through 'brew install ssh-copy-id'
+
+now type 'ssh-id-copy REMOTE_SERVER_USERNAME@IP_ADDRESS' , eg ssh-id-copy root@206.189.35.250
+it will ask to pair, say yes
+it will ask for you remote server user password, enter it. (the password for the user name before the '@' symbol)
+
+if successful it will confirm and ask you to test it by just ssh-ing into your remote server and it wont ask for a password it will just let you in
+and thats that.
+--if doing this from scotch-box/vagrant virtual machine to the remote server the server will only recognise the VIRTUAL MACHINE using passwordless ssh and NOT your actual operating system (such as windows or macOS)
+
