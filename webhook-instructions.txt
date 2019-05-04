@@ -99,3 +99,25 @@ we can check this by going into the wp-content folder on the SERVER SIDE and jus
 you should see the new file that was created and pushed locally sitting there in the folder
 if so than that's that, webhooks are working and the server will now automatically pull every time your local git pushes :)
 
+Step 8 TROUBLESHOOTING;
+if you have followed the above steps and the webhooks page on the github.com site is showing a green response of '200'
+and looks like its all working but the remote server is not autmatically updating then this is caused by a permission issue
+on the server.
+When new files are created locally and moved to github and pulled to the server the server lists these files owner
+as "root" where as the apache webserver is "www-data".
+This causes a permissions issue that is hidden in the console not allowing the apache webserver to create and remove files.
+you can check this is the case by making a new file on a local environment and pushing it to github, then manually calling a "git pull" on the servers git directory.
+when you fully list the directory on the server (ls -lah) you will see most files and folders are owned by "www-data" but the new file is owned by "root".
+This means that any new commits from local are being ignored by the server when it tried to call the webhook to pull.
+To fix this first;
+Change all directory contents ownership to the web server by typing "chown -R www-data:www-data filePath/to/webDir"
+
+now if you type "ls -lah" in the web directory you should see that all files and folders are now owned by apache
+this however will break the .git folder as this need to be owned by root.
+To fix this we need to type "chown -R root:root .git" inside the parent git direcotry of the web root (eg, //var/www/html)
+
+now that the .git is owned by "root" and everything else by "www-data" we now need the directory to have access to perform RWX actions.
+the easiest (albeit vulnerable) way to do this is to give the directy full Read Write eXecute access to everyone, this will allow www-data to own and perform root actioned files.
+in the console now type "chmod -R 777 filePath/to/webDir" (no quotes), this will now allow the directory to perform all actions and will
+assign new files created from local and pulled to the server to the owner www:data (apache).
+Once this is all done webhooks should be working as normal now.
