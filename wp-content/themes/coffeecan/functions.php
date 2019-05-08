@@ -83,6 +83,52 @@ if ( ! function_exists( 'coffeecan_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'coffeecan_setup' );
 
+function coffeecan_fonts_url() {
+    $fonts_url = '';
+
+    /*
+     * Translators: If there are characters in your language that are not
+     * supported by Nanito and Stylish, translate this to 'off'. Do not translate
+     * into your own language.
+     */
+    $nunito = _x( 'on', 'Libre Franklin font: on or off', 'coffeecan' );
+    $stylish = _x( 'on', 'Libre Franklin font: on or off', 'coffeecan' );
+
+    $font_families = array();
+
+    if ('off' !== $nunito) {
+        $font_families[] = 'Nunito:400,700,900';
+    }
+    if ('off' !== $stylish) {
+        $font_families[] = 'Stylish';
+    }
+    if ( in_array( 'on', array($nunito, $stylish)) ) {
+
+        $query_args = array(
+            'family' => urlencode( implode( '|', $font_families ) ),
+            'subset' => urlencode( 'latin,latin-ext' ),
+        );
+
+        $fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
+    }
+
+    return esc_url_raw( $fonts_url );
+}
+
+/**
+ * Add preconnect for Google Fonts.
+ */
+function coffeecan_resource_hints( $urls, $relation_type ) {
+    if ( wp_style_is( 'coffeecan-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+        $urls[] = array(
+            'href' => 'https://fonts.gstatic.com',
+            'crossorigin',
+        );
+    }
+
+    return $urls;
+}
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -122,6 +168,7 @@ add_action( 'widgets_init', 'coffeecan_widgets_init' );
 function coffeecan_scripts() {
     // Adding google fonts for the site: Source Nunito and Stylish
     wp_enqueue_style( 'coffeecan-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,900|Stylish" );
+    wp_enqueue_style( 'coffeecan-fonts', coffeecan_fonts_url() );
 
 	wp_enqueue_style( 'coffeecan-style', get_stylesheet_uri() );
 

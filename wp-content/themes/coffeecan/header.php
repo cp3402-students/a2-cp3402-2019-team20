@@ -24,23 +24,33 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'coffeecan' ); ?></a>
 
+    <?php if ( get_header_image() and is_front_page()) : ?> <!-- If statement to check if header image is set and user is on home page -->
+        <figure class="header-image-container">
+        <?php the_header_image_tag(); ?>
+        </figure>
+    <?php endif; ?>
+<!--    uncomment above to display the custom header element-->
+
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
+                <div class="branding-text-container">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
-			endif;
+			endif; ?>
+            <?php
 			$coffeecan_description = get_bloginfo( 'description', 'display' );
 			if ( $coffeecan_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $coffeecan_description; /* WPCS: xss ok. */ ?></p>
+                </div>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
