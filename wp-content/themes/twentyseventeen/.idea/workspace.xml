@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
+    <list default="true" id="8e015576-f806-4a28-a3f9-f92dfe66b5b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../githubhook.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../index.php" beforeDir="false" />
@@ -319,86 +319,86 @@
       <change beforePath="$PROJECT_DIR$/../../plugins/wordpress-importer/parsers.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../plugins/wordpress-importer/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../plugins/wordpress-importer/wordpress-importer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coffeecan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/custom-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/jetpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/customizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/coffeecan.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/content-sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/sidebar-content.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpcs.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/elements/_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/elements/_lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/elements/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/forms/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/forms/_fields.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/forms/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_content-sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_no-sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_sidebar-content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_captions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_galleries.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_accessibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_alignments.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_clearings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_infinite-scroll.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/navigation/_links.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/navigation/_navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/_site.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/primary/_comments.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/typography/_copy.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/typography/_headings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/typography/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_columns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_structure.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_variables-site.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-none.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/coffeecan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/inc/jetpack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/js/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/languages/coffeecan.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/languages/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/layouts/content-sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/layouts/sidebar-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/phpcs.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/elements/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/elements/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/elements/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/forms/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/forms/_fields.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/forms/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/layout/_content-sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/layout/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/layout/_no-sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/layout/_sidebar-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/media/_captions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/media/_galleries.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/media/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/mixins/_mixins-master.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/modules/_accessibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/modules/_alignments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/modules/_clearings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/modules/_infinite-scroll.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/navigation/_links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/navigation/_menus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/navigation/_navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/site/_site.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/site/header/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/site/primary/_comments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/site/primary/_posts-and-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/site/secondary/_widgets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/typography/_copy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/typography/_headings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/typography/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_columns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_media-query-sizes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_structure.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sass/variables-site/_variables-site.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/template-parts/style.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentynineteen/404.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentynineteen/archive.php" beforeDir="false" />
@@ -490,63 +490,63 @@
       <change beforePath="$PROJECT_DIR$/../twentynineteen/template-parts/header/site-branding.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentynineteen/template-parts/post/author-bio.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentynineteen/template-parts/post/discussion-meta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/blocks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/editor-blocks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/css/ie9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/images/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/back-compat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/color-patterns.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/custom-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/icon-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/template-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/searchform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twentyseventeen/template-parts/post/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/espresso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sandwich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/customize-controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/color-patterns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/icon-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/footer/footer-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/footer/site-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/header/header-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/header/site-branding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/navigation/navigation-top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page/content-front-page-panels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page/content-front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-audio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-excerpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/post/content.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentysixteen/404.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentysixteen/archive.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twentysixteen/comments.php" beforeDir="false" />
@@ -769,118 +769,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="76" column="3" lean-forward="true" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            <state relative-caret-position="101">
+              <caret line="295" selection-start-line="295" selection-end-line="313" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SCSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>font-family</find>
-      <find>fonts</find>
-      <find>setup</find>
-      <find>twentyseventeen</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>coffeecan</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Craig Morris &lt;craig.morris1@my.jcu.edu.au&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/sass/variables-site/_typography.scss" />
-        <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" />
-        <option value="$PROJECT_DIR$/sass/variables-site/_variables-site.scss" />
-        <option value="$PROJECT_DIR$/sass/typography/_typography.scss" />
-        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
-        <option value="$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss" />
-        <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
-        <option value="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" />
-        <option value="$PROJECT_DIR$/sass/site/_site.scss" />
-        <option value="$PROJECT_DIR$/inc/custom-header.php" />
-        <option value="$PROJECT_DIR$/sass/elements/_elements.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
-        <option value="$PROJECT_DIR$/sass/navigation/_links.scss" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -900,24 +807,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="twentyseventeen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twentyseventeen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -927,13 +818,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -952,193 +840,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="" />
-      <created>1557271625335</created>
+      <changelist id="8e015576-f806-4a28-a3f9-f92dfe66b5b8" name="Default Changelist" comment="" />
+      <created>1557279590281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557271625335</updated>
-      <workItem from="1557271626684" duration="635000" />
-      <workItem from="1557276684972" duration="12368000" />
+      <updated>1557279590281</updated>
+      <workItem from="1557279591801" duration="1465000" />
     </task>
-    <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
-      <created>1557290149097</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1557290149097</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13003000" />
+    <option name="totallyTimeSpent" value="1465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935917" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/forms/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="388" column="13" selection-start-line="388" selection-start-column="2" selection-end-line="388" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/mixins/_mixins-master.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_structure.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_columns.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_variables-site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1487" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/typography/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="76" column="3" lean-forward="true" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="101">
+          <caret line="295" selection-start-line="295" selection-end-line="313" selection-end-column="1" />
         </state>
       </provider>
     </entry>
