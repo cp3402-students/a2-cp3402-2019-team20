@@ -120,6 +120,9 @@ add_action( 'widgets_init', 'coffeecan_widgets_init' );
  * Enqueue scripts and styles.
  */
 function coffeecan_scripts() {
+    // Adding google fonts for the site: Source Nunito and Stylish
+    wp_enqueue_style( 'coffeecan-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,900|Stylish" );
+
 	wp_enqueue_style( 'coffeecan-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'coffeecan-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
