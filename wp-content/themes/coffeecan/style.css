@@ -883,23 +883,39 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
+.header-image-container {
+  overflow: hidden;
+}
 .header-image-container img {
   display: block;
   width: 100vw;
   max-height: 55vw;
-  overflow: hidden;
+  opacity: 0.8;
+}
+.header-image-container a, .header-image-container .site-header,
+.header-image-container .site-title, .header-image-container .site-description {
+  color: #FFFFFF;
+}
+
+.transparent {
+  background: rgba(129, 66, 3, 0.6);
+  z-index: 2;
 }
 
 .site-header {
-  position: relative;
-  padding: 1em;
+  padding: 3em 2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100vw;
+  background: none;
   font-family: "Oxygen", Calibri, sans-serif;
   color: #fff;
-  background-color: #FFFFCF;
 }
 @media screen and (min-width: 560px) {
   .site-header {
-    padding: 1em 2em;
+    padding: 3em 2em;
   }
 }
 
@@ -930,7 +946,7 @@ a:hover, a:active {
   line-height: 1em;
 }
 .site-title a {
-  color: #8E6F12;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .site-title a:hover, .site-title a:focus {

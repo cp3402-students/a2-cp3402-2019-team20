@@ -1,22 +1,37 @@
 .header-image-container {
+  overflow: hidden;
   img {
     display: block;
     width: 100vw;
     max-height: 55vw;
-    overflow: hidden;
+    opacity: .8;
   }
+  a, .site-header,
+  .site-title, .site-description {
+    color: $color__theme-white;
+  }
+
+}
+
+.transparent {
+  background: rgba(129, 66, 3, 0.6);
+  z-index: 2;
 }
 
 .site-header {
-	position: relative;
-	padding: 1em;
-	font-family: $font__nav;
-	color: #fff;
-	background-color: $color__theme-off-white;
+  padding: 3em 2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100vw;
+  background: none;
+  font-family: $font__nav;
+  color: #fff;
 
-	@media screen and (min-width: $width-phone) {
-		padding: 1em 2em;
-	}
+  @media screen and (min-width: $width-phone) {
+    padding: 3em 2em;
+  }
 }
 
 .site-branding {
@@ -32,41 +47,39 @@
 }
 
 .custom-logo {
-    display: block;
-    max-height: 65px;
-    max-width: 65px;
+  display: block;
+  max-height: 65px;
+  max-width: 65px;
   margin-right: 1em;
 }
 
 .site-title {
-	margin: 0;
-	padding: 0;
-	font-size: 1.8em;
-	font-weight: 900;
-	line-height: 1em;
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+  font-weight: 900;
+  line-height: 1em;
 
-	a {
-		color: $color__theme-brown;
-		text-decoration: none;
+  a {
+    color: $color__theme-white;
+    text-decoration: none;
 
-		&:hover,
-		&:focus {
-          color: $color__theme-pink;
-			//text-decoration: underline;
-		}
-	}
+    &:hover,
+    &:focus {
+      color: $color__theme-pink;
+      //text-decoration: underline;
+    }
+  }
 }
 
 .site-description {
-	margin: 0;
-    margin-top: 0.3em;
-	font-size: .9em;
-	font-style: italic;
-	font-weight: 400;
-    color: $color__theme-red;
+  margin: 0;
+  margin-top: 0.3em;
+  font-size: .9em;
+  font-style: italic;
+  font-weight: 400;
+  color: $color__theme-red;
 }
-
-
 
 @media screen and (min-width: $width-tablet) {
   .site-header {
@@ -85,3 +98,4 @@
 }
 
 //@import "header-menu";
+//@import "featured-image-of-site";
