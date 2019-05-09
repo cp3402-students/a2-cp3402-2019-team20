@@ -59,6 +59,7 @@
 
 .site-description {
 	margin: 0;
+    margin-top: 0.3em;
 	font-size: .9em;
 	font-style: italic;
 	font-weight: 100;
@@ -77,6 +78,8 @@
   }
 
   #site-navigation {
-    width: 50%
+    width: 60%
   }
 }
+
+@import "header-menu";

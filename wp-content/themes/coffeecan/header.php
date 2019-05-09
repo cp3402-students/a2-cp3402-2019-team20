@@ -34,10 +34,11 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
-			the_custom_logo();
+			the_custom_logo(); ?>
+			<div class="branding-text-container">
+                <?php
 			if ( is_front_page() && is_home() ) :
 				?>
-                <div class="branding-text-container">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
@@ -50,8 +51,8 @@
 			if ( $coffeecan_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $coffeecan_description; /* WPCS: xss ok. */ ?></p>
-                </div>
 			<?php endif; ?>
+            </div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

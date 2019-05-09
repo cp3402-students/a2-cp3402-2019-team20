@@ -44,7 +44,7 @@ if ( ! function_exists( 'coffeecan_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'coffeecan' ),
+			'menu-1' => esc_html__( 'Header-Menu', 'coffeecan' ),
 		) );
 
 		/*
@@ -88,21 +88,21 @@ function coffeecan_fonts_url() {
 
     /*
      * Translators: If there are characters in your language that are not
-     * supported by Nanito and Stylish, translate this to 'off'. Do not translate
+     * supported by Nanito and Oxygen, translate this to 'off'. Do not translate
      * into your own language.
      */
-    $nunito = _x( 'on', 'Libre Franklin font: on or off', 'coffeecan' );
-    $stylish = _x( 'on', 'Libre Franklin font: on or off', 'coffeecan' );
+    $nunito = _x( 'on', 'Nunito font: on or off', 'coffeecan' );
+    $oxygen = _x( 'on', 'Oxygen font: on or off', 'coffeecan' );
 
     $font_families = array();
 
     if ('off' !== $nunito) {
         $font_families[] = 'Nunito:400,700,900';
     }
-    if ('off' !== $stylish) {
-        $font_families[] = 'Stylish';
+    if ('off' !== $oxygen) {
+        $font_families[] = 'Oxygen:400,700';
     }
-    if ( in_array( 'on', array($nunito, $stylish)) ) {
+    if ( in_array( 'on', array($nunito, $oxygen)) ) {
 
         $query_args = array(
             'family' => urlencode( implode( '|', $font_families ) ),
@@ -166,8 +166,8 @@ add_action( 'widgets_init', 'coffeecan_widgets_init' );
  * Enqueue scripts and styles.
  */
 function coffeecan_scripts() {
-    // Adding google fonts for the site: Source Nunito and Stylish
-    wp_enqueue_style( 'coffeecan-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,900|Stylish" );
+    // Adding google fonts for the site: Source Nunito and Oxygen
+    wp_enqueue_style( 'coffeecan-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,900|Oxygen:400,700" );
     wp_enqueue_style( 'coffeecan-fonts', coffeecan_fonts_url() );
 
 	wp_enqueue_style( 'coffeecan-style', get_stylesheet_uri() );
