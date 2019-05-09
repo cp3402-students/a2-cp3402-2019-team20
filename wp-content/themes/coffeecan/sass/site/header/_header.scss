@@ -1,0 +1,87 @@
+.header-image-container {
+  img {
+    display: block;
+    width: 100vw;
+    max-height: 55vw;
+    overflow: hidden;
+  }
+}
+
+.site-header {
+	position: relative;
+	padding: 1em;
+	font-family: $font__nav;
+	color: #fff;
+	background-color: $color__theme-off-white;
+
+	@media screen and (min-width: $width-phone) {
+		padding: 1em 2em;
+	}
+}
+
+.site-branding {
+  min-height: 65px;
+  display: flex;
+}
+
+.branding-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65px
+}
+
+.custom-logo {
+    display: block;
+    max-height: 65px;
+    max-width: 65px;
+  margin-right: 1em;
+}
+
+.site-title {
+	margin: 0;
+	padding: 0;
+	font-size: 1.8em;
+	font-weight: 900;
+	line-height: 1em;
+
+	a {
+		color: $color__theme-brown;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+          color: $color__theme-pink;
+			//text-decoration: underline;
+		}
+	}
+}
+
+.site-description {
+	margin: 0;
+    margin-top: 0.3em;
+	font-size: .9em;
+	font-style: italic;
+	font-weight: 100;
+    color: $color__theme-red;
+}
+
+
+
+@media screen and (min-width: $width-tablet) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-branding {
+    width: 33%;
+    flex: 1 0 auto;
+  }
+
+  #site-navigation {
+    width: 60%
+  }
+}
+
+//@import "header-menu";
