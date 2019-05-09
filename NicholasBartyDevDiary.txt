@@ -1,3 +1,12 @@
-6/05:
+06/05:
 - Add initial pages to wordpress
 - Add initial readme to github
+- Add dev diaries to github
+
+08/05:
+- Add filler / starter content to initial pages
+
+09/05: 
+- Add pictures & content provided to the home, menu, & location page
+- Add featured images to Home, Menu & Location pages
+- Add map to locations page
