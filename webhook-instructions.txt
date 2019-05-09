@@ -1,0 +1,101 @@
+Github Webhooks doc - Craig Morris - Team20
+
+Step 1;
+initialise a git repo on Github
+do an initial commit of contents to the new Github repo
+--this can be done through the command line in linux by navigating into the directory you wish to git track--
+--once inside the directory type 'git init' (no quotes)--
+--then type git remote add origin https://github.com/userName/repoName (or just copy the repo URL in the browser)
+--then type 'git add .' (no quotes) to track the files--
+--then type 'git commit -m "commit message here"--
+--finally now type 'git push origin master'--
+
+Step 2;
+now that the repo has an init commit into it we can clone this repo to our server or local environment
+--this can be done by typing 'git clone https://github.com/userName/repoName .' (no quotes) into an EMPTY directory, the period means clone contents into this directory without the parent folder--
+once we have git established on both ends we can test this by making a change and
+'git add .', 'git commit -m "message"', and 'git push' (no quotes) in that order and pull it from the other end
+
+Step 3; [WORDPRESS ONLY]
+now that we have tracked files on both end that push and pull as expected we now need to make some changes
+as Wordpress has a strict directory structure we differnt file values for database referencing and use we need to ignore all content except the wp-content/ folder
+first go into the parent git directory (the one you used git init in) and create a .gitignore file
+--this can be done in linux by typing 'touch .gitignore' (no quotes)--
+now edit the .gitignore file to contain all the folders and filenames except for wp-content, example below
+
+.htaccess 
+license.txt  
+xmlrpc.php
+readme.html  
+index.php  
+wp-config-sample.php  
+wp-login.php          
+wp-config.php         
+wp-mail.php
+wp-settings.php
+wp-activate.php       
+wp-cron.php           
+wp-signup.php
+wp-admin              
+wp-includes           
+wp-trackback.php  
+wp-blog-header.php    
+wp-links-opml.php     
+wp-comments-post.php  
+wp-load.php
+
+once this file is saved we now need to clear the git cache to make these ignore rules take effect
+return the parent git directory and type 'git rm -rf --cached .' (no quotes)
+now type 'git add .' (no quotes), this will add the ignore rules and untrack all unwanted changes
+now type 'git commit -m "message"' (no quotes)
+then 'git push' (no quotes)
+if this was done correctly if you go into your github repo online you will see that all the .gitignore files have dissapeared
+
+Step 4; [WORDPRESS ONLY]
+--if using Wordpress you may have found that cloning the repo to either the server or local from github may show an error page when loding the URL--
+--this is because the wp-config.php file has the other ends database values loaded into it, we need to change this--
+--the example is from init commit and push from server side and cloning into local side--
+--create a new MySQL databse for this Wordpress instance to use (use your DBMS tool of choice)--
+--when making this databse remember the name of the database and set the character encoding to 'utf8mb4'--
+--now change the values as below--
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', '[DATABASE NAME]' ); // no brackets but keep singe quotes
+
+/** MySQL database username */
+define( 'DB_USER', '[DATABASE USER NAME]' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', '[DATABSE USERNAME MYSQL PASSWORD]' );
+
+--if done correctly once you reference the page it will ask you to set up the database and use these values for the Wordpress database install--
+
+Step 5;
+once we have both sides (local and server) git pushing and pull only what we want correctly we will set up github Webhooks
+first we need to make a file for the Webhooks to point to
+go into the parent git directory on the local side and create a githubhook.php file
+inside this file type the line below;
+<?php 'git pull';
+
+save the file and 'git add .', 'git commit -m "message", 'git push' (no quotes) in that order to push the new file to github
+now go into the server side and 'git pull' (no quotes) from the servers parent git directory and check that the new githubhook.php file is there
+--I did it this way to avoid commit conflicts--
+
+Step 6;
+now that both sides are up to date go into the repo on Github
+press the settings button (located under the watch button and above the create new file button)
+on the left panel select webhooks and press the 'add webhook' button on the right side
+now in the Payload URL field enter the url address for the SERVER SIDE githubhook.php we created
+--eg, http://206.189.35.250/githubhook.php--
+make sure the radio button for push is selected and accept
+if you refresh the page you will see a green tick and a hash address appear down the bottom, this means it has found the hook and can communicate with it
+
+Step 7;
+now let's test it, go into your LOCAL SIDE git directory and make a change inside the wp-content folder
+--easiest way is to make a blank file--
+now navigate back to the parent git directory (eg , cd ..) and 'git add .', 'git commit -m "message", 'git push' (no quotes) in that order
+now that we have pushed from local to github the server should have automaticlly performed a 'git pull'
+we can check this by going into the wp-content folder on the SERVER SIDE and just list whats inside the folder (ls)
+you should see the new file that was created and pushed locally sitting there in the folder
+if so than that's that, webhooks are working and the server will now automatically pull every time your local git pushes :)
+
