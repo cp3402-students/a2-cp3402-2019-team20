@@ -1,0 +1,3 @@
+6/05:
+- Add initial pages to wordpress
+- Add initial readme to github
