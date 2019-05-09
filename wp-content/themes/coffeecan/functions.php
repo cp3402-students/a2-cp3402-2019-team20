@@ -173,10 +173,6 @@ function coffeecan_scripts() {
 	wp_enqueue_style( 'coffeecan-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'coffeecan-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
-//    wp_localize_script('coffeecan-navigation', 'coffeecanScreenReaderText', array(
-//        'expand' => __('Expand child menu', 'coffeecan'),
-//        'collapse' => __('Collapse child menu', 'coffeecan')
-//    ));
 
 	wp_enqueue_script( 'coffeecan-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

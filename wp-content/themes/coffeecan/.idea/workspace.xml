@@ -4,12 +4,254 @@
     <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/navigation/_menus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/header/_header-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/header/_header-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/typography/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/typography/_headings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/admin-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/admin-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/admin-network-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/admin-network-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-0ce75ad2f775d1cac9696967d484808c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-1a0cd6a7128913b15c1a10dd68951869.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-1bba9045bb07c89671c88a3f328548e8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-28b3c3d595952907e08d98287077426c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-2c5d274ea625dd91556554ad82901529.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-4a38fe1c0c45989e44682ba6109d9f46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-68f2cec7514bf8563c723a4d675fcfe6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-7f13c36c641b114bf18cd0bcc9ecc7e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-803bf1ce2131e13efc590c1bc47851fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-8860e58c20c6a2ab5876a0f07be43bd9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-a25d1cc7bf7ca0b4e114f6bea64943f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-bf0f094965d3d4a95b47babcb35fc136.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU-f8f49d9fc4a9cf7d78ec99285417bd9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/plugins/akismet-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/plugins/akismet-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentynineteen-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentynineteen-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentyseventeen-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentyseventeen-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentysixteen-en_AU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/languages/themes/twentysixteen-en_AU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/_inc/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/class.akismet-cli.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/class.akismet-rest-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/class.akismet-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/views/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/views/get.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/views/notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/views/start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/views/stats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/akismet/wrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/plugins/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/classes/class-twentynineteen-svg-icons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/color-patterns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/icon-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/js/customize-controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/js/priority-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/js/touch-keyboard-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/blocks/_blocks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/elements/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/elements/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/elements/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/forms/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/forms/_fields.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/forms/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/layout/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/media/_captions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/media/_galleries.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/media/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/mixins/_mixins-master.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/modules/_accessibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/modules/_alignments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/modules/_clearings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_menu-footer-navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_menu-main-navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_menu-social-navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/navigation/_next-previous.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/_site.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/footer/_site-footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/header/_site-featured-image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/header/_site-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/primary/_archives.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/primary/_comments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/primary/_posts-and-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/site/secondary/_widgets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/typography/_copy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/typography/_headings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/typography/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_columns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_structure.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/sass/variables-site/_variables-site.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style-editor-customizer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style-editor-customizer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style-editor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/content/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/content/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/content/content-single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/content/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/header/entry-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/header/site-branding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/post/author-bio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/editor-blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/icon-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/editor-blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/Genericons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/Genericons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/Genericons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/Genericons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/genericons/genericons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/color-scheme-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/sidebar-content-bottom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/biography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/content-single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../upgrade/wordpress-5.2-8EDdBn/wordpress/wp-content/themes/twentysixteen/template-parts/content.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +283,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="1160">
               <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
             </state>
           </provider>
@@ -50,49 +292,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+            <state relative-caret-position="2380">
+              <caret line="119" column="88" selection-start-line="119" selection-start-column="88" selection-end-line="119" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
+        <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="76" selection-start-line="76" selection-end-line="79" selection-end-column="3" />
+            <state relative-caret-position="260">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
+        <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_navigation.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="452">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="32" column="79" lean-forward="true" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            <state relative-caret-position="400">
+              <caret line="174" column="135" selection-start-line="174" selection-start-column="135" selection-end-line="174" selection-end-column="135" />
             </state>
           </provider>
         </entry>
@@ -100,8 +337,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="520">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -112,6 +349,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,10 +364,15 @@
       <find>primary</find>
       <find>twentyseventeen</find>
       <find>border</find>
+      <find>humescores</find>
+      <find>twentyseventeenScreenReaderText</find>
+      <find>coffeecanScreenReaderText</find>
+      <find>quotesicon</find>
     </findStrings>
     <replaceStrings>
       <replace>oxygen</replace>
       <replace>coffeecan</replace>
+      <replace>coffeecanScreenReaderText</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,9 +391,7 @@
         <option value="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" />
         <option value="$PROJECT_DIR$/sass/variables-site/_variables-site.scss" />
         <option value="$PROJECT_DIR$/sass/typography/_typography.scss" />
-        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
         <option value="$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss" />
-        <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
         <option value="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" />
         <option value="$PROJECT_DIR$/sass/site/_site.scss" />
         <option value="$PROJECT_DIR$/inc/custom-header.php" />
@@ -158,12 +399,15 @@
         <option value="$PROJECT_DIR$/sass/navigation/_links.scss" />
         <option value="$PROJECT_DIR$/sass/variables-site/_typography.scss" />
         <option value="$PROJECT_DIR$/sass/site/secondary/_header-menu.scss" />
-        <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/js/navigation.js" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
+        <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
+        <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
+        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
       </list>
     </option>
   </component>
@@ -192,12 +436,19 @@
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +481,12 @@
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="typography" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="variables-site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +539,8 @@
       <updated>1557271625335</updated>
       <workItem from="1557271626684" duration="635000" />
       <workItem from="1557276684972" duration="12641000" />
-      <workItem from="1557359599905" duration="8124000" />
+      <workItem from="1557359599905" duration="8184000" />
+      <workItem from="1557371835937" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
       <created>1557290149097</created>
@@ -291,17 +549,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557290149097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;reset menu dropdown functionality back to _s default due to JS functionality failure for drowpdown when using twentysventeen naigation.js file, dropdown are now identified by undelines at the moment, trying to insert img icons into 'menu-item-has-children' class elements with JS doesnt work either'">
+      <created>1557369790156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557369790156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21400000" />
+    <option name="totallyTimeSpent" value="25348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,7 +592,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss" />
+    <MESSAGE value="&quot;reset menu dropdown functionality back to _s default due to JS functionality failure for drowpdown when using twentysventeen naigation.js file, dropdown are now identified by undelines at the moment, trying to insert img icons into 'menu-item-has-children' class elements with JS doesnt work either'" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;reset menu dropdown functionality back to _s default due to JS functionality failure for drowpdown when using twentysventeen naigation.js file, dropdown are now identified by undelines at the moment, trying to insert img icons into 'menu-item-has-children' class elements with JS doesnt work either'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sass/forms/_buttons.scss">
@@ -389,20 +655,6 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/typography/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -417,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -431,24 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="1160">
           <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -462,31 +693,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
+    <entry file="file://$PROJECT_DIR$/js/customizer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-368">
+          <caret line="209" column="8" selection-start-line="209" selection-start-column="8" selection-end-line="209" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
+    <entry file="file://$PROJECT_DIR$/js/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="76" selection-start-line="76" selection-end-line="79" selection-end-column="3" />
+        <state relative-caret-position="520">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
+    <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        <state relative-caret-position="440">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" column="79" lean-forward="true" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        <state relative-caret-position="400">
+          <caret line="174" column="135" selection-start-line="174" selection-start-column="135" selection-end-line="174" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="119" column="88" selection-start-line="119" selection-start-column="88" selection-end-line="119" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
