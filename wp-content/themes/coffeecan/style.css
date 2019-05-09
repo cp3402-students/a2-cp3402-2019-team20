@@ -433,6 +433,11 @@ h6 {
   font-size: 1.5em;
 }
 
+.entry-title {
+  margin: 0;
+  margin-top: 0.5em;
+}
+
 p {
   margin-bottom: 1.5em;
 }
@@ -748,6 +753,10 @@ a:hover, a:active {
   width: 50%;
 }
 
+.menu-item a img {
+  height: 24px;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -865,7 +874,9 @@ a:hover, a:active {
 }
 @media screen and (min-width: 560px) {
   .site-content {
+    margin: 1em 1.5em;
     padding: 1em 1.5em;
+    background-color: #FFFFCF;
   }
 }
 

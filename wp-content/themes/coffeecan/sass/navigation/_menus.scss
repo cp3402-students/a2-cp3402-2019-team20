@@ -117,3 +117,11 @@
 	}
 }
 
+// this sets the size of the icon images that are imported from the Menu Image WP plugin
+.menu-item {
+	a {
+		img {
+			height: 24px;
+		}
+	}
+}
