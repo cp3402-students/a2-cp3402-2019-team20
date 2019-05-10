@@ -894,12 +894,14 @@ a:hover, a:active {
   max-height: 55vh;
   opacity: 0.8;
 }
-.header-image-container a, .header-image-container .site-header,
-.header-image-container .site-title, .header-image-container .site-description {
+.header-image-container a,
+.header-image-container .site-header,
+.header-image-container .site-title,
+.header-image-container .site-description {
   color: #FFFFFF;
 }
 
-.transparent, .site-header {
+.transparent {
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
@@ -915,9 +917,12 @@ a:hover, a:active {
   font-family: "Oxygen", Calibri, sans-serif;
   color: #fff;
 }
-@media screen and (min-width: 560px) {
-  .site-header {
-    padding: 3em 2em;
+
+@media only screen and (min-width: 1001px) and (max-width: 1999px) {
+  .main-navigation {
+    float: right;
+    width: 50%;
+    clear: none;
   }
 }
 
@@ -939,7 +944,7 @@ a:hover, a:active {
 .site-header-basic .site-branding a {
   color: #8E6F12;
 }
-@media screen and (min-width: 560px) {
+@media screen and (max-width: 560px) {
   .site-header-basic {
     padding: 3em 2em;
   }
@@ -949,6 +954,7 @@ a:hover, a:active {
 .site-branding-basic {
   min-height: 65px;
   display: flex;
+  float: left;
 }
 
 .branding-text-container {
@@ -989,22 +995,6 @@ a:hover, a:active {
   color: #E72000;
 }
 
-@media screen and (min-width: 800px) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .site-branding,
-.site-branding-basic {
-    width: 33%;
-    flex: 1 0 auto;
-  }
-
-  #site-navigation {
-    width: 60%;
-  }
-}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/

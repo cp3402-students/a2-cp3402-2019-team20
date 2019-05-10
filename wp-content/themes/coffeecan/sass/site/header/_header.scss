@@ -1,3 +1,41 @@
+// Media queries for each size //
+
+@mixin respond-to($media) {
+  @if $media == smallest {
+    @media only screen and (max-width: $width-smallest) {
+      @content;
+    }
+    //below 340
+  } @else if $media == phone {
+    @media only screen and (min-width: $width-smallest + 1) and (max-width: $width-phone - 1) {
+      @content;
+    }
+    //340 - 560
+  } @else if $media == tablet {
+    @media only screen and (min-width: $width-phone + 1) and (max-width: $width-tablet - 1) {
+      @content;
+    }
+    // 560 - 800
+  } @else if $media == monitor {
+    @media only screen and (min-width: $width-tablet + 1) and (max-width: $width-monitor - 1) {
+      @content;
+    }
+    // 800 - 1000
+  } @else if $media == large-screen {
+    @media only screen and (min-width: $width-monitor + 1) and (max-width: $width-UHD - 1) {
+      @content;
+    }
+    // 1000 - 2000
+  } @else if $media == uhd {
+    @media only screen and (min-width: $width-UHD) {
+      @content;
+    }
+    // ITS OVER 2000!
+  }
+}
+
+// Use by @include respond-to(phone){whatever content. exapmple, width: 100%;} //
+
 .header-image-container {
   overflow: hidden;
   img {
@@ -7,14 +45,13 @@
     max-height: 55vh;
     opacity: .8;
   }
-  a, .site-header,
-  .site-title, .site-description {
+  a,
+  .site-header,
+  .site-title,
+  .site-description {
     color: $color__theme-white;
   }
-
 }
-
-
 
 .transparent {
   background: rgba(129, 66, 3, 0.6);
@@ -25,11 +62,10 @@
   display: -webkit-flex;
   display: -moz-flex;
   display: -o-flex;
-  display:flex;
+  display: flex;
 }
 
 .site-header {
-  @extend .transparent;
   padding: 3em 2em;
   position: absolute;
   top: 0;
@@ -39,9 +75,12 @@
   background: none;
   font-family: $font__nav;
   color: #fff;
-
-  @media screen and (min-width: $width-phone) {
-    padding: 3em 2em;
+}
+.main-navigation {
+  @include respond-to(large-screen){
+    float: right;
+    width: 50%;
+    clear: none;
   }
 }
 
@@ -63,15 +102,16 @@
       color: $color__theme-brown;
     }
   }
-  @media screen and (min-width: $width-phone) {
+  @media screen and (max-width: $width-phone) {
     padding: 3em 2em;
   }
 }
 
 .site-branding,
-.site-branding-basic  {
+.site-branding-basic {
   min-height: 65px;
   display: flex;
+  float: left;
 }
 
 .branding-text-container {
@@ -116,22 +156,22 @@
   color: $color__theme-red;
 }
 
-@media screen and (min-width: $width-tablet) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .site-branding,
-  .site-branding-basic {
-    width: 33%;
-    flex: 1 0 auto;
-  }
-
-  #site-navigation {
-    width: 60%
-  }
-}
+//@media screen and (min-width: $width-tablet) {
+//  .site-header {
+//    display: flex;
+//    justify-content: space-between;
+//  }
+//
+//  .site-branding,
+//  .site-branding-basic {
+//    width: 33%;
+//    flex: 1 0 auto;
+//  }
+//
+//  #site-navigation {
+//    width: 60%
+//  }
+//}
 
 //@import "header-menu";
 //@import "featured-image-of-site";
