@@ -1,0 +1,22 @@
+a {
+	color: $color__theme-brown;
+	text-decoration: none;
+
+	&:visited {
+		color: $color__theme-red;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		transition: color 0.5s;
+		color: $color__theme-pink;
+
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

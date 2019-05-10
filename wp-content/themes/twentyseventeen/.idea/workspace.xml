@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e015576-f806-4a28-a3f9-f92dfe66b5b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../twentynineteen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twentynineteen/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twentynineteen/.idea/twentynineteen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twentynineteen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twentynineteen/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/twentyseventeen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/Coffee-Van-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/Coffee-Van-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/Coffee-Van-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/Coffee-Van-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/Coffee-Van.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/CoffeeCan-logo-clean-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/CoffeeCan-logo-clean-212x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/CoffeeCan-logo-clean-724x1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/CoffeeCan-logo-clean-768x1086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/CoffeeCan-logo-clean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-Coffee-Van-1024x275.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-Coffee-Van-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-Coffee-Van-300x81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-Coffee-Van-768x206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-Coffee-Van.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-1024x1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-300x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-768x767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1-1024x1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1-300x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1-768x767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-1024x1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-300x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean-768x767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo-clean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-CoffeeCan-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-food_takeaway-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-food_takeaway-300x200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-food_takeaway-768x511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/cropped-food_takeaway.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/food_takeaway-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/food_takeaway-300x239.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/food_takeaway-768x613.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2019/05/food_takeaway.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffeecan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../coffeecan/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="295" selection-start-line="295" selection-end-line="313" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="41" />
+    <option name="width" value="1400" />
+    <option name="height" value="763" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="twentyseventeen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twentyseventeen" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e015576-f806-4a28-a3f9-f92dfe66b5b8" name="Default Changelist" comment="" />
+      <created>1557279590281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557279590281</updated>
+      <workItem from="1557279591801" duration="1465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="41" width="1400" height="763" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="295" selection-start-line="295" selection-end-line="313" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
