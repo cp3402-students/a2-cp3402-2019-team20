@@ -503,6 +503,9 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
+  max-width: 2000px;
+  margin: 0 auto;
+  float: none;
 }
 
 hr {
@@ -546,7 +549,7 @@ img {
 }
 
 figure {
-  margin: 0em;
+  margin: 0 auto;
 }
 
 table {
@@ -704,7 +707,7 @@ a:hover, a:active {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  margin: 0 0.5em;
+  margin-right: 0.5em;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
@@ -894,30 +897,64 @@ a:hover, a:active {
   max-height: 55vh;
   opacity: 0.8;
 }
-.header-image-container a, .header-image-container .site-header,
-.header-image-container .site-title, .header-image-container .site-description {
+.header-image-container a,
+.header-image-container .site-header,
+.header-image-container .site-title,
+.header-image-container .site-description {
   color: #FFFFFF;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.header-image-container .main-navigation li:hover > a, .header-image-container .main-navigation li:focus > a {
+  color: #7fa99b;
+}
+.header-image-container .main-navigation ul a:hover,
+.header-image-container .main-navigation ul a.focus {
+  color: #f79c1d;
+}
+.header-image-container .main-navigation .current_page_item > a,
+.header-image-container .main-navigation .current-menu-item > a,
+.header-image-container .main-navigation .current_page_ancestor > a,
+.header-image-container .main-navigation .current-menu-ancestor > a {
+  color: #F8F506;
+  text-decoration: none;
 }
 
-.transparent, .site-header {
+.transparent {
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
 
 .site-header {
-  padding: 3em 2em;
-  position: absolute;
+  background: rgba(1, 1, 1, 0.3);
+  padding: 1em 1em;
+  position: fixed;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 100vw;
-  background: none;
+  width: 100%;
   font-family: "Oxygen", Calibri, sans-serif;
   color: #fff;
 }
-@media screen and (min-width: 560px) {
-  .site-header {
-    padding: 3em 2em;
+
+@media only screen and (min-width: 1001px) and (max-width: 1999px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .main-navigation {
+    margin-top: 1.2em;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .main-navigation {
+    margin-top: 0.8em;
   }
 }
 
@@ -939,7 +976,7 @@ a:hover, a:active {
 .site-header-basic .site-branding a {
   color: #8E6F12;
 }
-@media screen and (min-width: 560px) {
+@media screen and (max-width: 560px) {
   .site-header-basic {
     padding: 3em 2em;
   }
@@ -949,6 +986,7 @@ a:hover, a:active {
 .site-branding-basic {
   min-height: 65px;
   display: flex;
+  float: left;
 }
 
 .branding-text-container {
@@ -977,7 +1015,7 @@ a:hover, a:active {
   text-decoration: none;
 }
 .site-title a:hover, .site-title a:focus {
-  color: #FF4FA0;
+  color: #f79c1d;
 }
 
 .site-description {
@@ -989,22 +1027,6 @@ a:hover, a:active {
   color: #E72000;
 }
 
-@media screen and (min-width: 800px) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .site-branding,
-.site-branding-basic {
-    width: 33%;
-    flex: 1 0 auto;
-  }
-
-  #site-navigation {
-    width: 60%;
-  }
-}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -1014,7 +1036,7 @@ a:hover, a:active {
 
 .post,
 .page {
-  margin: 0 0 1.5em;
+  margin: 0 auto;
 }
 
 .updated:not(.published) {
