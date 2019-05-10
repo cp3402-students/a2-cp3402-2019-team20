@@ -34,7 +34,31 @@
   }
 }
 
-.site-branding {
+.site-header-basic {
+  padding: 3em 2em;
+  display: flex;
+  width: 100vw;
+  background: none;
+  font-family: $font__nav;
+  color: #fff;
+  border: $color__theme-red solid 5px;
+
+  a {
+    color: $color__theme-brown;
+  }
+
+  .site-branding {
+    a {
+      color: $color__theme-brown;
+    }
+  }
+  @media screen and (min-width: $width-phone) {
+    padding: 3em 2em;
+  }
+}
+
+.site-branding,
+.site-branding-basic  {
   min-height: 65px;
   display: flex;
 }
@@ -87,7 +111,8 @@
     justify-content: space-between;
   }
 
-  .site-branding {
+  .site-branding,
+  .site-branding-basic {
     width: 33%;
     flex: 1 0 auto;
   }

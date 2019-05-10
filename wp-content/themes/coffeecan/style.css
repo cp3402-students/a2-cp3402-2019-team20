@@ -877,6 +877,7 @@ a:hover, a:active {
     margin: 1em 1.5em;
     padding: 1em 1.5em;
     background-color: #FFFFCF;
+    box-shadow: 10px 10px 20px grey;
   }
 }
 
@@ -919,7 +920,29 @@ a:hover, a:active {
   }
 }
 
-.site-branding {
+.site-header-basic {
+  padding: 3em 2em;
+  display: flex;
+  width: 100vw;
+  background: none;
+  font-family: "Oxygen", Calibri, sans-serif;
+  color: #fff;
+  border: #E72000 solid 5px;
+}
+.site-header-basic a {
+  color: #8E6F12;
+}
+.site-header-basic .site-branding a {
+  color: #8E6F12;
+}
+@media screen and (min-width: 560px) {
+  .site-header-basic {
+    padding: 3em 2em;
+  }
+}
+
+.site-branding,
+.site-branding-basic {
   min-height: 65px;
   display: flex;
 }
@@ -968,7 +991,8 @@ a:hover, a:active {
     justify-content: space-between;
   }
 
-  .site-branding {
+  .site-branding,
+.site-branding-basic {
     width: 33%;
     flex: 1 0 auto;
   }
