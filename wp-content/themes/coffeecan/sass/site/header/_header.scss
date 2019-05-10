@@ -50,7 +50,33 @@
   .site-title,
   .site-description {
     color: $color__theme-white;
+    text-shadow: 1.5px 1.5px $color__theme-black;
   }
+  .main-navigation {
+    li {
+      &:hover > a,
+      &:focus > a {
+        color: $color__theme2-blue-grey;
+      }
+    }
+    ul {
+      :hover > a,
+      .focus > a {
+      }
+      a:hover,
+      a.focus {
+        color: $color__theme2-orange;
+      }
+    }
+    .current_page_item > a,
+    .current-menu-item > a,
+    .current_page_ancestor > a,
+    .current-menu-ancestor > a {
+      color: $color__theme-yellow;
+      text-decoration: none;
+    }
+  }
+
 }
 
 .transparent {
@@ -76,11 +102,24 @@
   font-family: $font__nav;
   color: #fff;
 }
-.main-navigation {
-  @include respond-to(large-screen){
+
+.main-navigation-div {
+  @include respond-to(large-screen) {
     float: right;
-    width: 50%;
     clear: none;
+  }
+  @include respond-to(uhd) {
+    float: right;
+    clear: none;
+  }
+}
+
+.main-navigation {
+  @include respond-to(smallest) {
+    margin-top: 1.2em;
+  }
+  @include respond-to(phone) {
+    margin-top: .8em;
   }
 }
 
@@ -141,7 +180,7 @@
 
     &:hover,
     &:focus {
-      color: $color__theme-pink;
+      color: $color__theme2-orange;
       //text-decoration: underline;
     }
   }

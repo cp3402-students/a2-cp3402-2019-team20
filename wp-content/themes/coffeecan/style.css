@@ -704,7 +704,7 @@ a:hover, a:active {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  margin: 0 0.5em;
+  margin-right: 0.5em;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
@@ -899,6 +899,21 @@ a:hover, a:active {
 .header-image-container .site-title,
 .header-image-container .site-description {
   color: #FFFFFF;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.header-image-container .main-navigation li:hover > a, .header-image-container .main-navigation li:focus > a {
+  color: #7fa99b;
+}
+.header-image-container .main-navigation ul a:hover,
+.header-image-container .main-navigation ul a.focus {
+  color: #f79c1d;
+}
+.header-image-container .main-navigation .current_page_item > a,
+.header-image-container .main-navigation .current-menu-item > a,
+.header-image-container .main-navigation .current_page_ancestor > a,
+.header-image-container .main-navigation .current-menu-ancestor > a {
+  color: #F8F506;
+  text-decoration: none;
 }
 
 .transparent {
@@ -919,10 +934,26 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1999px) {
-  .main-navigation {
+  .main-navigation-div {
     float: right;
-    width: 50%;
     clear: none;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .main-navigation {
+    margin-top: 1.2em;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .main-navigation {
+    margin-top: 0.8em;
   }
 }
 
@@ -983,7 +1014,7 @@ a:hover, a:active {
   text-decoration: none;
 }
 .site-title a:hover, .site-title a:focus {
-  color: #FF4FA0;
+  color: #f79c1d;
 }
 
 .site-description {
