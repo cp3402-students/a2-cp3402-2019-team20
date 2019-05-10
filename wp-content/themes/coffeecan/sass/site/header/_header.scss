@@ -1,9 +1,10 @@
 .header-image-container {
   overflow: hidden;
   img {
+    object-fit: cover;
     display: block;
     width: 100vw;
-    max-height: 55vw;
+    max-height: 55vh;
     opacity: .8;
   }
   a, .site-header,
@@ -13,12 +14,22 @@
 
 }
 
+
+
 .transparent {
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
 
+@mixin flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display:flex;
+}
+
 .site-header {
+  @extend .transparent;
   padding: 3em 2em;
   position: absolute;
   top: 0;
@@ -36,7 +47,7 @@
 
 .site-header-basic {
   padding: 3em 2em;
-  display: flex;
+  @include flex;
   width: 100vw;
   background: none;
   font-family: $font__nav;

@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Team-20
 Author URI: http://underscores.me/
 Description: Theme for CP3403 Assignment 2
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: coffeecan
@@ -888,9 +888,10 @@ a:hover, a:active {
   overflow: hidden;
 }
 .header-image-container img {
+  object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 55vw;
+  max-height: 55vh;
   opacity: 0.8;
 }
 .header-image-container a, .header-image-container .site-header,
@@ -898,7 +899,7 @@ a:hover, a:active {
   color: #FFFFFF;
 }
 
-.transparent {
+.transparent, .site-header {
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
@@ -922,6 +923,9 @@ a:hover, a:active {
 
 .site-header-basic {
   padding: 3em 2em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
   display: flex;
   width: 100vw;
   background: none;
