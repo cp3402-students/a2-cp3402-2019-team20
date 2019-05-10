@@ -1,0 +1,20 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: $color__text-main;
+  font-family: $font__body;
+  @include font-size(0.9);
+  line-height: $font__line-height-body;
+
+  //media query to change text size on smaller screens
+  @media screen and (min-width: $width-phone) {
+    @include font-size(1);
+  }
+}
+
+@import "headings";
+
+@import "copy";

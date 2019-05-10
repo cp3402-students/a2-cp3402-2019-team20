@@ -1,0 +1,9 @@
+08/05:
+- Create paper prototype layout for pages; About Us, Events, Inquire.
+- Edit and upload images to media server for use on pages.
+- Fill About-Us page layout with content for presentation and critique.
+
+09/05: 
+- Edit + format About-Us page based on feedback.
+- Add feature image to About-Us.
+- Add placeholder images for review.
