@@ -22,8 +22,10 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				coffeecan_posted_on();
-				coffeecan_posted_by();
+                coffeecan_posted_by();
+                coffeecan_posted_on();
+                coffeecan_show_comments();
+                coffeecan_show_edit_link();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
