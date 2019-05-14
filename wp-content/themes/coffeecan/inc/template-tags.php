@@ -155,3 +155,17 @@ if (!function_exists("coffeecan_show_edit_link")) {
         );
     }
 }
+
+/**
+ * Post navigation (previous / next post) for single posts.
+ */
+function coffeecan_post_navigation() {
+    the_post_navigation( array(
+        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'coffeecan' ) . '</span> ' .
+            '<span class="screen-reader-text">' . __( 'Next post:', 'coffeecan' ) . '</span> ' .
+            '<span class="post-title">%title</span>',
+        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'coffeecan' ) . '</span> ' .
+            '<span class="screen-reader-text">' . __( 'Previous post:', 'coffeecan' ) . '</span> ' .
+            '<span class="post-title">%title</span>',
+    ) );
+}
