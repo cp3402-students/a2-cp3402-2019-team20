@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/site/footer/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/_site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/_site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/template-tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,92 +34,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
+        <entry file="file://$PROJECT_DIR$/template-parts/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1597" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="90" column="37" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/footer/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="358">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page.php">
+        <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding>
-                <element signature="e#6#363#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="94" selection-start-line="94" selection-start-column="2" selection-end-line="110" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -153,6 +82,7 @@
       <find>quotesicon</find>
       <find>title</find>
       <find>oxygen</find>
+      <find>posted on</find>
     </findStrings>
     <replaceStrings>
       <replace>oxygen</replace>
@@ -188,13 +118,15 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
-        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/sass/site/_site.scss" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/sass/site/footer/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
+        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
+        <option value="$PROJECT_DIR$/template-parts/content.php" />
+        <option value="$PROJECT_DIR$/inc/template-tags.php" />
       </list>
     </option>
   </component>
@@ -223,38 +155,7 @@
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +212,7 @@
       <workItem from="1557371835937" duration="4207000" />
       <workItem from="1557444274582" duration="3628000" />
       <workItem from="1557483452469" duration="349000" />
-      <workItem from="1557793813105" duration="1598000" />
+      <workItem from="1557793813105" duration="4924000" />
     </task>
     <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
       <created>1557290149097</created>
@@ -341,14 +242,22 @@
       <option name="project" value="LOCAL" />
       <updated>1557483634009</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css">
+      <created>1557795748808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557795748808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31242000" />
+    <option name="totallyTimeSpent" value="34568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,7 +288,8 @@
     <MESSAGE value="&quot;reset menu dropdown functionality back to _s default due to JS functionality failure for drowpdown when using twentysventeen naigation.js file, dropdown are now identified by undelines at the moment, trying to insert img icons into 'menu-item-has-children' class elements with JS doesnt work either'" />
     <MESSAGE value="add plugin to insert icon images into menu links&#10;changed margins for .entry-title elements to margin-top: .5em&#10;add icons to parent menu item links&#10;add background colour to site-body content to display padding and margins" />
     <MESSAGE value="themeDev commit before merging from master" />
-    <option name="LAST_COMMIT_MESSAGE" value="themeDev commit before merging from master" />
+    <MESSAGE value="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sass/forms/_buttons.scss">
@@ -478,16 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -510,31 +410,10 @@
         <state relative-caret-position="-1597" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/footer/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -566,13 +445,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/footer/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="491">
           <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
             <element signature="e#6#363#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="94" selection-start-line="94" selection-start-column="2" selection-end-line="110" selection-end-column="5" />
         </state>
       </provider>
     </entry>
