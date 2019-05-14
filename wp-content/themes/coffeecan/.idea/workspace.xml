@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/media/_images.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/media/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/template-tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_captions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_captions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/navigation/_menus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
     </list>
@@ -39,51 +39,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/skip-link-focus-fix.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
+        <entry file="file://$PROJECT_DIR$/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="170" column="65" selection-start-line="170" selection-start-column="65" selection-end-line="170" selection-end-column="65" />
+            <state relative-caret-position="280">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/functions.js">
+        <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/media/_media.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="370">
+              <caret line="164" column="78" selection-start-line="164" selection-start-column="78" selection-end-line="164" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/media/_images.scss">
+        <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="754">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
@@ -147,7 +124,6 @@
         <option value="$PROJECT_DIR$/sass/site/secondary/_header-menu.scss" />
         <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/js/navigation.js" />
-        <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
         <option value="$PROJECT_DIR$/header.php" />
@@ -157,13 +133,16 @@
         <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
         <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
         <option value="$PROJECT_DIR$/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/sass/elements/_tables.scss" />
         <option value="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/sass/media/_media.scss" />
+        <option value="$PROJECT_DIR$/js/functions.js" />
+        <option value="$PROJECT_DIR$/sass/media/_captions.scss" />
         <option value="$PROJECT_DIR$/sass/media/_images.scss" />
+        <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/inc/template-tags.php" />
+        <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
       </list>
     </option>
   </component>
@@ -192,7 +171,7 @@
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
@@ -203,13 +182,7 @@
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +239,7 @@
       <workItem from="1557371835937" duration="4207000" />
       <workItem from="1557444274582" duration="3628000" />
       <workItem from="1557483452469" duration="349000" />
-      <workItem from="1557793813105" duration="9461000" />
+      <workItem from="1557793813105" duration="14358000" />
     </task>
     <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
       <created>1557290149097</created>
@@ -317,11 +290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557802687599</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add functions.js file in js dir for jQuery function to wrap a figure element with the class &quot;bleed-image&quot; around images with the class &quot;align-center&quot;&#10;add _images.scss to media dir to style all images within a .bleed-image figure to fit the full screen&#10;add import statement for _images.scss file in _media.scss&#10;enqueue jquery script in functions.php">
+      <created>1557805874372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557805874372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39105000" />
+    <option name="totallyTimeSpent" value="44002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
@@ -359,7 +339,8 @@
     <MESSAGE value="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css" />
     <MESSAGE value="Change post meta data of author and post date to display in one line from left to right under post title&#10;extract php code for generating comments link and admin edit links into their own functions to allow them to be called individually when required, functions are called coffecan_show_edit_link() and coffeecan_show_comments() and defined in template-tags.php" />
     <MESSAGE value="add tables styling in _tables.scss&#10;add whitespace for tag links in template-tags.php&#10;add styles for separating each meta data post element with the &quot;|&quot; char and added margin, this is done with psuedo elements to add the pipe char after the post author and post date and before the comments and edit link &#10;fix comment spelling mistake in functions.php&#10;add Nunito font 400i to site google font request to add itialics option for the Nunito font if required" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tables styling in _tables.scss&#10;add whitespace for tag links in template-tags.php&#10;add styles for separating each meta data post element with the &quot;|&quot; char and added margin, this is done with psuedo elements to add the pipe char after the post author and post date and before the comments and edit link &#10;fix comment spelling mistake in functions.php&#10;add Nunito font 400i to site google font request to add itialics option for the Nunito font if required" />
+    <MESSAGE value="add functions.js file in js dir for jQuery function to wrap a figure element with the class &quot;bleed-image&quot; around images with the class &quot;align-center&quot;&#10;add _images.scss to media dir to style all images within a .bleed-image figure to fit the full screen&#10;add import statement for _images.scss file in _media.scss&#10;enqueue jquery script in functions.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functions.js file in js dir for jQuery function to wrap a figure element with the class &quot;bleed-image&quot; around images with the class &quot;align-center&quot;&#10;add _images.scss to media dir to style all images within a .bleed-image figure to fit the full screen&#10;add import statement for _images.scss file in _media.scss&#10;enqueue jquery script in functions.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sass/forms/_buttons.scss">
@@ -424,13 +405,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/global.js" />
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="119" column="88" selection-start-line="119" selection-start-column="88" selection-end-line="119" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -551,18 +525,6 @@
     <entry file="file://$PROJECT_DIR$/sass/site/primary/_comments.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -580,13 +542,6 @@
     <entry file="file://$PROJECT_DIR$/js/skip-link-focus-fix.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -601,10 +556,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/media/_captions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/media/_images.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="164" column="78" selection-start-line="164" selection-start-column="78" selection-end-line="164" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>

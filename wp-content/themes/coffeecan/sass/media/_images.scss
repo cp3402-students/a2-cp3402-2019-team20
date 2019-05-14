@@ -6,3 +6,12 @@
     margin: 0 -1.5em;
   }
 }
+.wp-block-image .aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 -1em;
+
+  @media screen and (min-width: $width-phone) {
+    margin: 0 auto;
+  }
+}
