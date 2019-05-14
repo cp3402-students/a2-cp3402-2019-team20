@@ -405,7 +405,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Oxygen", Calibri, sans-serif;
   font-weight: 700;
 }
 
@@ -1025,6 +1025,16 @@ a:hover, a:active {
   font-style: italic;
   font-weight: 400;
   color: #E72000;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.site-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+  background-color: #FFFFCF;
 }
 
 /*--------------------------------------------------------------
