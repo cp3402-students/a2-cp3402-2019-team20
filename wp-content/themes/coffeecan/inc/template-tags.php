@@ -19,14 +19,14 @@ if ( ! function_exists( 'coffeecan_posted_on' ) ) :
 
 		$time_string = sprintf( $time_string,
 			esc_attr( get_the_date( DATE_W3C ) ),
-			esc_html( get_the_date('jS F Y') ),
+			esc_html( get_the_date() ),
 			esc_attr( get_the_modified_date( DATE_W3C ) ),
 			esc_html( get_the_modified_date() )
 		);
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( ' on %s', 'post date', 'coffeecan' ),
+			esc_html_x( 'Posted on %s', 'post date', 'coffeecan' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
@@ -42,14 +42,14 @@ if ( ! function_exists( 'coffeecan_posted_by' ) ) :
 	function coffeecan_posted_by() {
 		$byline = sprintf(
 			/* translators: %s: post author. */
-			esc_html_x( 'Written by %s', 'post author', 'coffeecan' ),
+			esc_html_x( 'by %s', 'post author', 'coffeecan' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
 		echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+
 	}
 endif;
-
 
 if ( ! function_exists( 'coffeecan_entry_footer' ) ) :
 	/**
@@ -62,16 +62,52 @@ if ( ! function_exists( 'coffeecan_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'coffeecan' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( '%1$s', 'coffeecan' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'coffeecan' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'coffeecan' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( ' <span class="tags-links">' . esc_html__( 'Tagged %1$s', 'coffeecan' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'coffeecan' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
+
+		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+			echo '<span class="comments-link">';
+			comments_popup_link(
+				sprintf(
+					wp_kses(
+						/* translators: %s: post title */
+						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'coffeecan' ),
+						array(
+							'span' => array(
+								'class' => array(),
+							),
+						)
+					),
+					get_the_title()
+				)
+			);
+			echo '</span>';
+		}
+
+		edit_post_link(
+			sprintf(
+				wp_kses(
+					/* translators: %s: Name of current post. Only visible to screen readers */
+					__( 'Edit <span class="screen-reader-text">%s</span>', 'coffeecan' ),
+					array(
+						'span' => array(
+							'class' => array(),
+						),
+					)
+				),
+				get_the_title()
+			),
+			'<span class="edit-link">',
+			'</span>'
+		);
 	}
 endif;
 
@@ -110,62 +146,3 @@ if ( ! function_exists( 'coffeecan_post_thumbnail' ) ) :
 		endif; // End is_singular().
 	}
 endif;
-if ( ! function_exists("coffeecan_show_comments")) {
-
-    function coffeecan_show_comments() {
-        if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-            echo ' <span class="comments-link">';
-            comments_popup_link(
-                sprintf(
-                    wp_kses(
-                    /* translators: %s: post title */
-                        __( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'coffeecan' ),
-                        array(
-                            'span' => array(
-                                'class' => array(),
-                            ),
-                        )
-                    ),
-                    get_the_title()
-                )
-            );
-            echo '</span>';
-        }
-
-    }
-}
-if (!function_exists("coffeecan_show_edit_link")) {
-    function coffeecan_show_edit_link()
-    {
-        edit_post_link(
-            sprintf(
-                wp_kses(
-                /* translators: %s: Name of current post. Only visible to screen readers */
-                    __( ' [Edit] <span class="screen-reader-text">%s</span>', 'coffeecan' ),
-                    array(
-                        'span' => array(
-                            'class' => array(),
-                        ),
-                    )
-                ),
-                get_the_title()
-            ),
-            '<span class="edit-link">',
-            '</span>'
-        );
-    }
-}
-
-/**
- * Post navigation (previous / next post) for single posts.
- */
-function coffeecan_post_navigation() {
-    the_post_navigation( array(
-        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'coffeecan' ) . '</span> ' .
-            '<span class="screen-reader-text">' . __( 'Next post:', 'coffeecan' ) . '</span> ' .
-            '<span class="post-title">%title</span>',
-        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'coffeecan' ) . '</span> ' .
-            '<span class="screen-reader-text">' . __( 'Previous post:', 'coffeecan' ) . '</span> ' .
-            '<span class="post-title">%title</span>',
-    ) );
-}

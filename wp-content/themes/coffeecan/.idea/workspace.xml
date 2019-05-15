@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/primary/_comments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/primary/_comments.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
     </list>
@@ -37,42 +37,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/content-single.php">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+            <state relative-caret-position="62">
+              <caret line="66" column="94" selection-start-line="66" selection-start-column="94" selection-end-line="66" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_navigation.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/primary/_comments.scss">
+        <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="194" column="57" selection-start-line="194" selection-start-column="57" selection-end-line="194" selection-end-column="57" />
+            <state relative-caret-position="1579">
+              <caret line="124" selection-start-line="124" selection-end-line="124" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_normalize.scss">
+        <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="265" column="1" lean-forward="true" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
+            <state relative-caret-position="2180">
+              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,8 +66,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="504">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="174" column="135" selection-start-line="174" selection-start-column="135" selection-end-line="174" selection-end-column="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -91,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,7 +133,9 @@
       <find>font-family</find>
       <find>fonts</find>
       <find>setup</find>
+      <find>nunito</find>
       <find>stylish</find>
+      <find>oxygen</find>
       <find>primary</find>
       <find>twentyseventeen</find>
       <find>border</find>
@@ -109,12 +143,6 @@
       <find>twentyseventeenScreenReaderText</find>
       <find>coffeecanScreenReaderText</find>
       <find>quotesicon</find>
-      <find>title</find>
-      <find>oxygen</find>
-      <find>posted on</find>
-      <find>nunito</find>
-      <find>tagged</find>
-      <find>check</find>
     </findStrings>
     <replaceStrings>
       <replace>oxygen</replace>
@@ -133,10 +161,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" />
         <option value="$PROJECT_DIR$/sass/variables-site/_variables-site.scss" />
         <option value="$PROJECT_DIR$/sass/typography/_typography.scss" />
+        <option value="$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss" />
+        <option value="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" />
+        <option value="$PROJECT_DIR$/sass/site/_site.scss" />
         <option value="$PROJECT_DIR$/inc/custom-header.php" />
         <option value="$PROJECT_DIR$/sass/elements/_elements.scss" />
         <option value="$PROJECT_DIR$/sass/navigation/_links.scss" />
@@ -144,34 +176,13 @@
         <option value="$PROJECT_DIR$/sass/site/secondary/_header-menu.scss" />
         <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/js/navigation.js" />
-        <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/sass/site/_site.scss" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/sass/site/footer/_footer.scss" />
-        <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
-        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_tables.scss" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/sass/media/_media.scss" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/sass/media/_captions.scss" />
-        <option value="$PROJECT_DIR$/sass/media/_images.scss" />
-        <option value="$PROJECT_DIR$/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
-        <option value="$PROJECT_DIR$/inc/template-functions.php" />
-        <option value="$PROJECT_DIR$/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss" />
-        <option value="$PROJECT_DIR$/single.php" />
-        <option value="$PROJECT_DIR$/sass/layout/_content-sidebar.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
-        <option value="$PROJECT_DIR$/template-parts/content-single.php" />
+        <option value="$PROJECT_DIR$/sass/site/header/_header-menu.scss" />
+        <option value="$PROJECT_DIR$/sass/typography/_headings.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
-        <option value="$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss" />
-        <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-        <option value="$PROJECT_DIR$/sass/_normalize.scss" />
-        <option value="$PROJECT_DIR$/sass/site/primary/_comments.scss" />
-        <option value="$PROJECT_DIR$/comments.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
       </list>
     </option>
   </component>
@@ -207,6 +218,18 @@
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,18 +243,26 @@
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="primary" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="typography" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="variables-site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,10 +316,7 @@
       <workItem from="1557276684972" duration="12641000" />
       <workItem from="1557359599905" duration="8184000" />
       <workItem from="1557371835937" duration="4207000" />
-      <workItem from="1557444274582" duration="3628000" />
-      <workItem from="1557483452469" duration="349000" />
-      <workItem from="1557793813105" duration="15186000" />
-      <workItem from="1557883391332" duration="9254000" />
+      <workItem from="1557444274582" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
       <created>1557290149097</created>
@@ -311,70 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557377373338</updated>
     </task>
-    <task id="LOCAL-00004" summary="themeDev commit before merging from master">
-      <created>1557483634009</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1557483634009</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css">
-      <created>1557795748808</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1557795748808</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Change post meta data of author and post date to display in one line from left to right under post title&#10;extract php code for generating comments link and admin edit links into their own functions to allow them to be called individually when required, functions are called coffecan_show_edit_link() and coffeecan_show_comments() and defined in template-tags.php">
-      <created>1557799855283</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1557799855283</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add tables styling in _tables.scss&#10;add whitespace for tag links in template-tags.php&#10;add styles for separating each meta data post element with the &quot;|&quot; char and added margin, this is done with psuedo elements to add the pipe char after the post author and post date and before the comments and edit link &#10;fix comment spelling mistake in functions.php&#10;add Nunito font 400i to site google font request to add itialics option for the Nunito font if required">
-      <created>1557802687599</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1557802687599</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add functions.js file in js dir for jQuery function to wrap a figure element with the class &quot;bleed-image&quot; around images with the class &quot;align-center&quot;&#10;add _images.scss to media dir to style all images within a .bleed-image figure to fit the full screen&#10;add import statement for _images.scss file in _media.scss&#10;enqueue jquery script in functions.php">
-      <created>1557805874372</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1557805874372</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add coffeecan_post_navigation() function in template-tags.php to customise the sites next and previous post links&#10;overwrite the_post_navigation() funtion in single.php to coffeecan_post_navigation()&#10;remove italics on categories in _captions.scss as categories are now displayed in all uppercase&#10;add style rules for .wp-blick-image .aligncenter to make images full bleed on smaller screens on the front page&#10;comment out original post navigation styles in _menus.scss&#10;add custom styles to _menus.scss to change the display of post navigation on the site">
-      <created>1557812325311</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1557812325311</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added separate and distinct page layout functionality  for the side that responds to whether there are widgets present on posts.&#10;added php code in insert &quot;has-sidebar&quot; class into div page top level div element to identify if a page has widgets present.&#10;add css rules and media query for tablet sized screens in _global.scss to handle posts with widgets present, post with no widgets have had their rules commented out to test for design if required&#10;update media query size variables in _media-query-sizes for phone (560 -&gt; 600px) and monitor (1000px -&gt; 1080px)&#10;add content-single.php file to template-parts dir to handle single posts when displayed in a single post form by modifying content.php&#10;content-single.php uses conditional if statements in php to check if widgets are present and to insert div tags for styling purposes if true&#10;modified single.php to call content-single.php if a single post is displayed and extracted the post navigation  and conditional checks into content-single.php. Single.php now no longer uses the get_sidebar() function as it was moved into content-single.php">
-      <created>1557889759028</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1557889759028</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54084000" />
+    <option name="totallyTimeSpent" value="29171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935917" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32935917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -398,14 +377,7 @@
     <MESSAGE value="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss" />
     <MESSAGE value="&quot;reset menu dropdown functionality back to _s default due to JS functionality failure for drowpdown when using twentysventeen naigation.js file, dropdown are now identified by undelines at the moment, trying to insert img icons into 'menu-item-has-children' class elements with JS doesnt work either'" />
     <MESSAGE value="add plugin to insert icon images into menu links&#10;changed margins for .entry-title elements to margin-top: .5em&#10;add icons to parent menu item links&#10;add background colour to site-body content to display padding and margins" />
-    <MESSAGE value="themeDev commit before merging from master" />
-    <MESSAGE value="add footer dir in site dir in project files&#10;add _footer.scss style sheet in footer dir for footer styling&#10;alter footer.php to have 2 div elements in the .site-info div element to allow for two content boxes to flex left and right of the footer&#10;add php date function to footer to always show the current year&#10;footer main css properties are display: flex and the background colour.&#10;add @import statement for footer stylesheet in to _site.css" />
-    <MESSAGE value="Change post meta data of author and post date to display in one line from left to right under post title&#10;extract php code for generating comments link and admin edit links into their own functions to allow them to be called individually when required, functions are called coffecan_show_edit_link() and coffeecan_show_comments() and defined in template-tags.php" />
-    <MESSAGE value="add tables styling in _tables.scss&#10;add whitespace for tag links in template-tags.php&#10;add styles for separating each meta data post element with the &quot;|&quot; char and added margin, this is done with psuedo elements to add the pipe char after the post author and post date and before the comments and edit link &#10;fix comment spelling mistake in functions.php&#10;add Nunito font 400i to site google font request to add itialics option for the Nunito font if required" />
-    <MESSAGE value="add functions.js file in js dir for jQuery function to wrap a figure element with the class &quot;bleed-image&quot; around images with the class &quot;align-center&quot;&#10;add _images.scss to media dir to style all images within a .bleed-image figure to fit the full screen&#10;add import statement for _images.scss file in _media.scss&#10;enqueue jquery script in functions.php" />
-    <MESSAGE value="add coffeecan_post_navigation() function in template-tags.php to customise the sites next and previous post links&#10;overwrite the_post_navigation() funtion in single.php to coffeecan_post_navigation()&#10;remove italics on categories in _captions.scss as categories are now displayed in all uppercase&#10;add style rules for .wp-blick-image .aligncenter to make images full bleed on smaller screens on the front page&#10;comment out original post navigation styles in _menus.scss&#10;add custom styles to _menus.scss to change the display of post navigation on the site" />
-    <MESSAGE value="added separate and distinct page layout functionality  for the side that responds to whether there are widgets present on posts.&#10;added php code in insert &quot;has-sidebar&quot; class into div page top level div element to identify if a page has widgets present.&#10;add css rules and media query for tablet sized screens in _global.scss to handle posts with widgets present, post with no widgets have had their rules commented out to test for design if required&#10;update media query size variables in _media-query-sizes for phone (560 -&gt; 600px) and monitor (1000px -&gt; 1080px)&#10;add content-single.php file to template-parts dir to handle single posts when displayed in a single post form by modifying content.php&#10;content-single.php uses conditional if statements in php to check if widgets are present and to insert div tags for styling purposes if true&#10;modified single.php to call content-single.php if a single post is displayed and extracted the post navigation  and conditional checks into content-single.php. Single.php now no longer uses the get_sidebar() function as it was moved into content-single.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="added separate and distinct page layout functionality  for the side that responds to whether there are widgets present on posts.&#10;added php code in insert &quot;has-sidebar&quot; class into div page top level div element to identify if a page has widgets present.&#10;add css rules and media query for tablet sized screens in _global.scss to handle posts with widgets present, post with no widgets have had their rules commented out to test for design if required&#10;update media query size variables in _media-query-sizes for phone (560 -&gt; 600px) and monitor (1000px -&gt; 1080px)&#10;add content-single.php file to template-parts dir to handle single posts when displayed in a single post form by modifying content.php&#10;content-single.php uses conditional if statements in php to check if widgets are present and to insert div tags for styling purposes if true&#10;modified single.php to call content-single.php if a single post is displayed and extracted the post navigation  and conditional checks into content-single.php. Single.php now no longer uses the get_sidebar() function as it was moved into content-single.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plugin to insert icon images into menu links&#10;changed margins for .entry-title elements to margin-top: .5em&#10;add icons to parent menu item links&#10;add background colour to site-body content to display padding and margins" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sass/forms/_buttons.scss">
@@ -431,12 +403,41 @@
     <entry file="file://$PROJECT_DIR$/sass/variables-site/_columns.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/variables-site/_variables-site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1487" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-465">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/typography/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,6 +453,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/navigation/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -463,13 +474,17 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/global.js" />
-    <entry file="file://$PROJECT_DIR$/js/scroll.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_variables-site.scss">
+    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="2380">
+          <caret line="119" column="88" selection-start-line="119" selection-start-column="88" selection-end-line="119" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -480,235 +495,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/typography/_headings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/footer/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#363#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="170" column="65" selection-start-line="170" selection-start-column="65" selection-end-line="170" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/skip-link-focus-fix.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/media/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/media/_captions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/media/_images.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template-tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3160">
-          <caret line="164" column="78" selection-start-line="164" selection-start-column="78" selection-end-line="164" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="144" column="30" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_sidebar-content.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_media-query-sizes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="540">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_no-sidebar.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_content-sidebar.scss">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="174" column="135" selection-start-line="174" selection-start-column="135" selection-end-line="174" selection-end-column="135" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_elements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/_site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/primary/_posts-and-pages.scss">
+    <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="46" selection-start-line="46" selection-end-line="63" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content-single.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+        <state relative-caret-position="62">
+          <caret line="66" column="94" selection-start-line="66" selection-start-column="94" selection-end-line="66" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables-site/_colors.scss">
+    <entry file="file://$PROJECT_DIR$/sass/site/header/_header-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="2180">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_normalize.scss">
+    <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="265" column="1" lean-forward="true" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
+        <state relative-caret-position="1579">
+          <caret line="124" selection-start-line="124" selection-end-line="124" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/primary/_comments.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="194" column="57" selection-start-line="194" selection-start-column="57" selection-end-line="194" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
