@@ -1,34 +1,45 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+  background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/dark.jpg) center center;
+  max-width: 2000px;
+  margin: 0 auto;
+  float: none;
 }
 
 hr {
-	background-color: $color__background-hr;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
 }
 
 @import "lists";
 
 img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
 }
 
 figure {
-	//margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
-	margin: 0em;
+  //margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+  margin: 0 auto;
 }
 
 @import "tables";
