@@ -58,4 +58,5 @@
 	<footer class="entry-footer">
 		<?php coffeecan_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+
 </article><!-- #post-<?php the_ID(); ?> -->
