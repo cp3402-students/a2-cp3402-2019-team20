@@ -881,20 +881,30 @@ a:hover, a:active {
 ## Global css layouts
 --------------------------------------------------------------*/
 .site-content {
+  max-width: 1200px;
   padding: 1em;
   background-position-x: center;
   background-position-y: center;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
   background-origin: initial;
   background-clip: initial;
   background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 }
-@media screen and (min-width: 560px) {
+@media only screen and (min-width: 1201px) and (max-width: 1999px) {
   .site-content {
-    margin: 1em 1.5em;
-    padding: 1em 1.5em;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .site-content {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .site-content {
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
 
@@ -948,7 +958,7 @@ a:hover, a:active {
   color: #fff;
 }
 
-@media only screen and (min-width: 1001px) and (max-width: 1999px) {
+@media only screen and (min-width: 1201px) and (max-width: 1999px) {
   .main-navigation-div {
     float: right;
     clear: none;
