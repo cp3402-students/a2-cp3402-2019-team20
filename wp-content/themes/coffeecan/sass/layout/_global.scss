@@ -9,3 +9,57 @@
     box-shadow: 10px 10px 20px grey;
   }
 }
+
+@media screen  and (min-width: $width-tablet) {
+  .has-sidebar {
+
+    .hentry {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .entry-header {
+        width: 100%;
+        flex: 1 0 100%;
+      }
+
+      .single-post-content {
+        width: 60%;
+      }
+
+      .widget-area {
+        width: 30%;
+
+        // this is just to make the headings for the widgets smaller
+        h2 {
+          font-size: 1.8em;
+        }
+      }
+
+    }
+  }
+}
+
+// Commented out functionality for customising pages and posts that do not have widgets
+// post-content-wrapper and post-content body div elements are created in content-single.php
+// to allow for modularized css rules to content wrapped in elements.
+
+//@media screen and (min-width: $width-tablet) {
+//  .no-sidebar {
+//
+//    .post-content-wrapper {
+//      display: flex;
+//      justify-content: space-between;
+//
+//      .entry-meta {
+//        width: 20%;
+//      }
+//
+//      .post-content-body {
+//        width: 70%;
+//      }
+//    }
+//
+//  }
+//}
+
