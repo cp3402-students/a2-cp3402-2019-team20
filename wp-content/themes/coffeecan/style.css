@@ -503,6 +503,14 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/dark.jpg) center center;
   max-width: 2000px;
   margin: 0 auto;
   float: none;
@@ -874,13 +882,19 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-content {
   padding: 1em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 }
 @media screen and (min-width: 560px) {
   .site-content {
     margin: 1em 1.5em;
     padding: 1em 1.5em;
-    background-color: #FFFFCF;
-    box-shadow: 10px 10px 20px grey;
   }
 }
 
