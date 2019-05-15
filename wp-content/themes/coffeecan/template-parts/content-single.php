@@ -30,7 +30,12 @@
         <?php endif; ?>
     </header><!-- .entry-header -->
 
-    <?php coffeecan_post_thumbnail(); ?>
+    <?php
+    if ( has_post_thumbnail() ) { ?>
+    <figure class="bleed-image">
+     <?php coffeecan_post_thumbnail(); ?>
+    </figure>
+   <?php } ?>
 
     <section class="single-post-content">
         <?php
