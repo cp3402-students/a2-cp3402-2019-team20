@@ -1362,6 +1362,42 @@ a:hover, a:active {
   max-width: 100%;
 }
 
+/* Calendar widget custom rules for its table layout */
+.widget_calendar {
+  font-weight: 400;
+}
+.widget_calendar caption {
+  padding: 0.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+.widget_calendar thead {
+  background: transparent;
+  color: black;
+}
+.widget_calendar thead th {
+  border-bottom-width: 2px;
+}
+.widget_calendar td {
+  padding: 0.2em;
+  font-size: 0.8em;
+  text-align: center;
+  background: #FFFFCF;
+  border: 1px solid #8E6F12;
+}
+.widget_calendar th {
+  border: none;
+  text-align: center;
+}
+.widget_calendar .pad {
+  background: #dddddd;
+}
+.widget_calendar a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
