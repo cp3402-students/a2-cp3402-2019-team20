@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Team-20
 Author URI: http://underscores.me/
 Description: Theme for CP3403 Assignment 2
-Version: 1.0.0
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: coffeecan
@@ -503,6 +503,17 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/dark.jpg) center center;
+  max-width: 2000px;
+  margin: 0 auto;
+  float: none;
 }
 
 hr {
@@ -546,7 +557,7 @@ img {
 }
 
 figure {
-  margin: 0em;
+  margin: 0 auto;
 }
 
 table {
@@ -704,7 +715,7 @@ a:hover, a:active {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  margin: 0 0.5em;
+  margin-right: 0.5em;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
@@ -871,41 +882,125 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-content {
   padding: 1em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 }
 @media screen and (min-width: 560px) {
   .site-content {
     margin: 1em 1.5em;
     padding: 1em 1.5em;
-    background-color: #FFFFCF;
   }
 }
 
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
+.header-image-container {
+  overflow: hidden;
+}
 .header-image-container img {
+  object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 55vw;
-  overflow: hidden;
+  max-height: 55vh;
+  opacity: 0.8;
+}
+.header-image-container a,
+.header-image-container .site-header,
+.header-image-container .site-title,
+.header-image-container .site-description {
+  color: #FFFFFF;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.header-image-container .main-navigation li:hover > a, .header-image-container .main-navigation li:focus > a {
+  color: #7fa99b;
+}
+.header-image-container .main-navigation ul a:hover,
+.header-image-container .main-navigation ul a.focus {
+  color: #f79c1d;
+}
+.header-image-container .main-navigation .current_page_item > a,
+.header-image-container .main-navigation .current-menu-item > a,
+.header-image-container .main-navigation .current_page_ancestor > a,
+.header-image-container .main-navigation .current-menu-ancestor > a {
+  color: #F8F506;
+  text-decoration: none;
+}
+
+.transparent {
+  background: rgba(129, 66, 3, 0.6);
+  z-index: 2;
 }
 
 .site-header {
-  position: relative;
-  padding: 1em;
+  background: rgba(1, 1, 1, 0.3);
+  padding: 1em 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
   font-family: "Oxygen", Calibri, sans-serif;
   color: #fff;
-  background-color: #FFFFCF;
 }
-@media screen and (min-width: 560px) {
-  .site-header {
-    padding: 1em 2em;
+
+@media only screen and (min-width: 1001px) and (max-width: 1999px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
   }
 }
 
-.site-branding {
+@media only screen and (max-width: 340px) {
+  .main-navigation {
+    margin-top: 1.2em;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .main-navigation {
+    margin-top: 0.8em;
+  }
+}
+
+.site-header-basic {
+  padding: 3em 2em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: flex;
+  width: 100vw;
+  background: none;
+  font-family: "Oxygen", Calibri, sans-serif;
+  color: #fff;
+  border: #E72000 solid 5px;
+}
+.site-header-basic a {
+  color: #8E6F12;
+}
+.site-header-basic .site-branding a {
+  color: #8E6F12;
+}
+@media screen and (max-width: 560px) {
+  .site-header-basic {
+    padding: 3em 2em;
+  }
+}
+
+.site-branding,
+.site-branding-basic {
   min-height: 65px;
   display: flex;
+  float: left;
 }
 
 .branding-text-container {
@@ -930,11 +1025,11 @@ a:hover, a:active {
   line-height: 1em;
 }
 .site-title a {
-  color: #8E6F12;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .site-title a:hover, .site-title a:focus {
-  color: #FF4FA0;
+  color: #f79c1d;
 }
 
 .site-description {
@@ -942,25 +1037,10 @@ a:hover, a:active {
   margin-top: 0.3em;
   font-size: 0.9em;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 400;
   color: #E72000;
 }
 
-@media screen and (min-width: 800px) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .site-branding {
-    width: 33%;
-    flex: 1 0 auto;
-  }
-
-  #site-navigation {
-    width: 60%;
-  }
-}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -970,7 +1050,7 @@ a:hover, a:active {
 
 .post,
 .page {
-  margin: 0 0 1.5em;
+  margin: 0 auto;
 }
 
 .updated:not(.published) {
