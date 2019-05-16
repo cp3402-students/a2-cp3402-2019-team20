@@ -122,11 +122,15 @@ in the console now type "chmod -R 777 filePath/to/webDir" (no quotes), this will
 assign new files created from local and pulled to the server to the owner www:data (apache).
 Once this is all done webhooks should be working as normal now.
 
-To resolve any hidden merge conflict issues the webhook file can be changed from
-<?php 'git pull';
-To;
-<?php 'git pull -f';       or      <?php echo exec('git pull -f');
+Staging server git panic button;
+Delete the .git folder and start fresh.
 
-This will cause the git pull command to 'force' which should stop any hidden
-merge conflict issues on the serve side from updating edited files from pulling as intended.
+Then:
 
+git init 
+
+git remote add origin PATH/TO/REPO 
+
+git fetch 
+
+git checkout -t origin/master -f
