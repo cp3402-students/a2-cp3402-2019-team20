@@ -1,0 +1,33 @@
+.pagination {
+
+  font-family: $font__nav;
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 1em 0;
+  }
+
+  a,
+  span {
+    padding: .5em 1em;
+    background: $color__theme-off-white;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: $color__theme-off-white;
+      background: $color__theme-pink;
+    }
+  }
+
+  .current {
+    font-weight: 600;
+    color: $color__theme-brown;
+  }
+}

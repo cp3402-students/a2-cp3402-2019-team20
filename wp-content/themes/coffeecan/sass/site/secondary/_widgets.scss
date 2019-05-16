@@ -7,3 +7,47 @@
   }
 }
 
+/* Calendar widget custom rules for its table layout */
+.widget_calendar {
+	font-weight: 400;
+
+	caption {
+		padding: .5em 0;
+		font-size: 1em;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	thead {
+		background: transparent;
+		color: black;
+
+		th {
+			border-bottom-width: 2px;
+		}
+	}
+
+	td {
+		padding: .2em;
+		font-size: .8em;
+		text-align: center;
+		background: $color__theme-off-white;
+		border: 1px solid $color__theme-brown;
+	}
+
+	th {
+		border: none;
+		text-align: center;
+	}
+
+	.pad {
+		background: lighten($color__theme-comment-grey, 10%);
+	}
+
+	a {
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+}
+

@@ -1,0 +1,19 @@
+
+// This rule is to change the background only for archived posts while leaving the index page alone
+.archive-view {
+  &.archive {
+    .site-content {
+      background-color: lighten($color__theme-comment-grey, 15%);
+    }
+
+    .post {
+      margin-bottom: 2em;
+      border-bottom: 3px dashed $color__theme-pink;
+    }
+  }
+}
+
+.continue-reading {
+  text-decoration: underline;
+  margin: 0 0 0.5em 0
+}
