@@ -41,8 +41,13 @@ get_header();
 				get_template_part( 'template-parts/content', get_post_type() );
 
 			endwhile;
-
-			the_posts_navigation();
+            // function to show the 'previous / next' style page navigation
+//			the_posts_navigation();
+			// function to show pagination style navigation 'prev 1 2 ... 7 next'
+			the_posts_pagination(array(
+			        'prev_text' => __('Newer posts', 'coffeecan'),
+			        'next_text' => __('Older posts', 'coffeecan')
+            ));
 
 		else :
 
