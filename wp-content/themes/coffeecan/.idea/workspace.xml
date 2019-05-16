@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/navigation/_page-navigation.scss" afterDir="false" />
+    <list default="true" id="aed6f51d-20fd-48fe-a5a8-e58ac26a60f9" name="Default Changelist" comment="add archive-view class to archive posts, change colour of archived posts background to gray to highlight they are archived&#10;add link on bottom of archived post to link them to the actual post page&#10;changed the grey colour of the box shadow to the theme grey colour&#10;add import statement to _navigation for _page-navigation.scss&#10;add _page-navigation.scss to navigation dir to handle the styles for pagination style navigation on posts&#10;add call to get pagination style navigation in index.php and commented out the call for the standard nav style&#10;add _title-bar.scss file to handle styling of the title-bar element&#10;used the call for the function that gets the page or post title into header.php to separate the title from the content as requested by the team&#10;commented out the call for the title in content, content-page, and content-single.php files&#10;add _archive.scss file to secondary dir to handle the style rules for archive posts&#10;add import statement in _site.scss to call in _archive.scss">
       <change afterPath="$PROJECT_DIR$/sass/site/header/_title-bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/site/secondary/_archive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/template-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/navigation/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/navigation/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/site/_site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/_site.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-none.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-none.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +34,44 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/content-none.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="13" column="100" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/content-search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,7 +156,6 @@
         <option value="$PROJECT_DIR$/sass/site/_site.scss" />
         <option value="$PROJECT_DIR$/sass/site/secondary/_archive.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/template-parts/content-single.php" />
         <option value="$PROJECT_DIR$/sass/layout/_global.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_title-bar.scss" />
@@ -139,6 +164,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_navigation.scss" />
         <option value="$PROJECT_DIR$/sass/navigation/_page-navigation.scss" />
+        <option value="$PROJECT_DIR$/template-parts/content-search.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/template-parts/content-none.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -174,18 +203,6 @@
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffeecan" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffeecan" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +285,7 @@
       <workItem from="1557483452469" duration="349000" />
       <workItem from="1557793813105" duration="15186000" />
       <workItem from="1557883391332" duration="11485000" />
-      <workItem from="1557960922127" duration="7958000" />
+      <workItem from="1557960922127" duration="9987000" />
     </task>
     <task id="LOCAL-00001" summary="create theme css and php for site header&#10;add _media-query-sizes.scss in variables-site dir&#10;add media query width variables to _media-query-sizes.scss in variables-site dir&#10;add php code to check if header image exsists and calls it in header.php if true&#10;add _globals.scss to handle global site css layout&#10;add php code to functions.php for language translations and google font site pre-caching for improved loading performance&#10;change link colours and added focus and hover transitions, removed link text-decoration&#10;add google fonts to _typography.scss">
       <created>1557290149097</created>
@@ -361,14 +378,22 @@
       <option name="project" value="LOCAL" />
       <updated>1557962458907</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add archive-view class to archive posts, change colour of archived posts background to gray to highlight they are archived&#10;add link on bottom of archived post to link them to the actual post page&#10;changed the grey colour of the box shadow to the theme grey colour&#10;add import statement to _navigation for _page-navigation.scss&#10;add _page-navigation.scss to navigation dir to handle the styles for pagination style navigation on posts&#10;add call to get pagination style navigation in index.php and commented out the call for the standard nav style&#10;add _title-bar.scss file to handle styling of the title-bar element&#10;used the call for the function that gets the page or post title into header.php to separate the title from the content as requested by the team&#10;commented out the call for the title in content, content-page, and content-single.php files&#10;add _archive.scss file to secondary dir to handle the style rules for archive posts&#10;add import statement in _site.scss to call in _archive.scss">
+      <created>1557972529321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557972529321</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64273000" />
+    <option name="totallyTimeSpent" value="66302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="763" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24594992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,16 +433,10 @@
     <MESSAGE value="add post comments functionality ans styling for the site&#10;add custom style rules in _comments.scss to handle the way comments are displayed&#10;add new colour variable in _colors.scss called $color__theme-comment-grey which is used to visually separate comment blocks and threads&#10;Changed the text display of single and multiple comments in comments.php" />
     <MESSAGE value="add php conditional if statement to add the figure element &quot;bleed-image&quot; class to any feature images added to post in the site.&#10;add a featured image to the &quot;Hello World&quot; post to test full bleed capabilities" />
     <MESSAGE value="add css rules for the calendar widget to make it more obviously tabular, rules are in _widgets.scss in th site/secondary dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="add css rules for the calendar widget to make it more obviously tabular, rules are in _widgets.scss in th site/secondary dir" />
+    <MESSAGE value="add archive-view class to archive posts, change colour of archived posts background to gray to highlight they are archived&#10;add link on bottom of archived post to link them to the actual post page&#10;changed the grey colour of the box shadow to the theme grey colour&#10;add import statement to _navigation for _page-navigation.scss&#10;add _page-navigation.scss to navigation dir to handle the styles for pagination style navigation on posts&#10;add call to get pagination style navigation in index.php and commented out the call for the standard nav style&#10;add _title-bar.scss file to handle styling of the title-bar element&#10;used the call for the function that gets the page or post title into header.php to separate the title from the content as requested by the team&#10;commented out the call for the title in content, content-page, and content-single.php files&#10;add _archive.scss file to secondary dir to handle the style rules for archive posts&#10;add import statement in _site.scss to call in _archive.scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="add archive-view class to archive posts, change colour of archived posts background to gray to highlight they are archived&#10;add link on bottom of archived post to link them to the actual post page&#10;changed the grey colour of the box shadow to the theme grey colour&#10;add import statement to _navigation for _page-navigation.scss&#10;add _page-navigation.scss to navigation dir to handle the styles for pagination style navigation on posts&#10;add call to get pagination style navigation in index.php and commented out the call for the standard nav style&#10;add _title-bar.scss file to handle styling of the title-bar element&#10;used the call for the function that gets the page or post title into header.php to separate the title from the content as requested by the team&#10;commented out the call for the title in content, content-page, and content-single.php files&#10;add _archive.scss file to secondary dir to handle the style rules for archive posts&#10;add import statement in _site.scss to call in _archive.scss" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/typography/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -644,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content-none.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content-search.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -735,10 +746,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content-none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="100" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2260">
-          <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
+        <state relative-caret-position="370">
+          <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
         </state>
       </provider>
     </entry>
