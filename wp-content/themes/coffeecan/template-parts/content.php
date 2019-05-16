@@ -22,10 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-                coffeecan_posted_by();
-                coffeecan_posted_on();
-                coffeecan_show_comments();
-                coffeecan_show_edit_link();
+				coffeecan_posted_on();
+				coffeecan_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -62,5 +60,4 @@
 	<footer class="entry-footer">
 		<?php coffeecan_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-
 </article><!-- #post-<?php the_ID(); ?> -->

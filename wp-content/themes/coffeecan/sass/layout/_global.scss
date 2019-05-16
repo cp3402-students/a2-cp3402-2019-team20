@@ -1,6 +1,9 @@
 // Global css layouts for the site
+// Use by @include respond-to(phone){whatever content. exapmple, width: 100%;} //
 .site-content {
+  max-width: $width-monitor;
   padding: 1em;
+
 
   @media screen and (min-width: $width-phone) {
     margin: 1em 1.5em;
@@ -39,29 +42,30 @@
 
       }
     }
+
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/light.jpg) center center;
+
+  //@media screen and (min-width: $width-phone) {
+  //  margin: 1em 1em;
+  //  padding: 1em 1.5em;
+  //}
+  @include respond-to(large-screen) {
+    margin: 0 auto;
+  }
+  @include respond-to(uhd) {
+    margin: 0 auto;
+  }
+  @include respond-to(monitor){
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+  @include respond-to(tablet) {
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
-
-// Commented out functionality for customising pages and posts that do not have widgets
-// post-content-wrapper and post-content body div elements are created in content-single.php
-// to allow for modularized css rules to content wrapped in elements.
-
-//@media screen and (min-width: $width-tablet) {
-//  .no-sidebar {
-//
-//    .post-content-wrapper {
-//      display: flex;
-//      justify-content: space-between;
-//
-//      .entry-meta {
-//        width: 20%;
-//      }
-//
-//      .post-content-body {
-//        width: 70%;
-//      }
-//    }
-//
-//  }
-//}
-

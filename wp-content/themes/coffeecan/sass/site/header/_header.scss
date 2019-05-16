@@ -1,38 +1,3 @@
-// Media queries for each size //
-
-@mixin respond-to($media) {
-  @if $media == smallest {
-    @media only screen and (max-width: $width-smallest) {
-      @content;
-    }
-    //below 340
-  } @else if $media == phone {
-    @media only screen and (min-width: $width-smallest + 1) and (max-width: $width-phone - 1) {
-      @content;
-    }
-    //340 - 560
-  } @else if $media == tablet {
-    @media only screen and (min-width: $width-phone + 1) and (max-width: $width-tablet - 1) {
-      @content;
-    }
-    // 560 - 800
-  } @else if $media == monitor {
-    @media only screen and (min-width: $width-tablet + 1) and (max-width: $width-monitor - 1) {
-      @content;
-    }
-    // 800 - 1000
-  } @else if $media == large-screen {
-    @media only screen and (min-width: $width-monitor + 1) and (max-width: $width-UHD - 1) {
-      @content;
-    }
-    // 1000 - 2000
-  } @else if $media == uhd {
-    @media only screen and (min-width: $width-UHD) {
-      @content;
-    }
-    // ITS OVER 2000!
-  }
-}
 
 // Use by @include respond-to(phone){whatever content. exapmple, width: 100%;} //
 
@@ -107,6 +72,7 @@
   padding: 1em 1em;
   position: fixed;
   top: 0;
+  max-width: $width-UHD;
   width: 100%;
   font-family: $font__nav;
   color: #fff;
@@ -180,8 +146,8 @@
   margin: 0;
   padding: 0;
   font-size: 1.8em;
-  font-weight: 900;
   line-height: 1em;
+  font-family: $font__title;
 
   a {
     color: $color__theme-white;
@@ -198,10 +164,8 @@
 .site-description {
   margin: 0;
   margin-top: 0.3em;
-  font-size: .9em;
-  font-style: italic;
-  font-weight: 400;
-  color: $color__theme-red;
+  font-size: 1em;
+  font-family: $font__description;
 }
 
 //@media screen and (min-width: $width-tablet) {
