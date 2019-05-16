@@ -60,9 +60,10 @@
   }
 
   a {
+    font-family: $font__nav;
     display: block;
     text-decoration: none;
-    margin-right: 0.5em;
+    margin-right: 1em;
   }
 
   .current_page_item > a,
