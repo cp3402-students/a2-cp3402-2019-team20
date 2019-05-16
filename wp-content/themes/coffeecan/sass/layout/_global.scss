@@ -3,13 +3,30 @@
 .site-content {
   max-width: $width-monitor;
   padding: 1em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 
-
-  @media screen and (min-width: $width-phone) {
-    margin: 1em 1.5em;
-    padding: 1em 1.5em;
-    background-color: $color__theme-off-white;
-    box-shadow: 10px 10px 20px $color__theme-comment-grey;
+  //@media screen and (min-width: $width-phone) {
+  //  margin: 1em 1em;
+  //  padding: 1em 1.5em;
+  //}
+  @include respond-to(large-screen) {
+    margin: 0 auto;
+  }
+  @include respond-to(uhd) {
+    margin: 0 auto;
+  }
+  @include respond-to(monitor) {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+  @include respond-to(tablet) {
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
 
@@ -42,18 +59,12 @@
 
       }
     }
-
     background-position-x: center;
     background-position-y: center;
     background-size: initial;
     background-origin: initial;
     background-clip: initial;
     background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/light.jpg) center center;
-
-    //@media screen and (min-width: $width-phone) {
-    //  margin: 1em 1em;
-    //  padding: 1em 1.5em;
-    //}
     @include respond-to(large-screen) {
       margin: 0 auto;
     }
