@@ -146,8 +146,8 @@
   margin: 0;
   padding: 0;
   font-size: 1.8em;
-  font-weight: 900;
   line-height: 1em;
+  font-family: $font__title;
 
   a {
     color: $color__theme-white;
@@ -164,10 +164,8 @@
 .site-description {
   margin: 0;
   margin-top: 0.3em;
-  font-size: .9em;
-  font-style: italic;
-  font-weight: 400;
-  color: $color__theme-red;
+  font-size: 1em;
+  font-family: $font__description;
 }
 
 //@media screen and (min-width: $width-tablet) {
