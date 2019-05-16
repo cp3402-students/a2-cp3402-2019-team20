@@ -17,6 +17,9 @@
   @include respond-to(large-screen) {
     margin: 0 auto;
   }
+  @include respond-to(uhd) {
+    margin: 0 auto;
+  }
   @include respond-to(monitor){
     margin-right: 1.5em;
     margin-left: 1.5em;

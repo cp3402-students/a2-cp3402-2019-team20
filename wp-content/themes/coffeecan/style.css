@@ -895,6 +895,11 @@ a:hover, a:active {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 2000px) {
+  .site-content {
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   .site-content {
     margin-right: 1.5em;
@@ -953,6 +958,7 @@ a:hover, a:active {
   padding: 1em 1em;
   position: fixed;
   top: 0;
+  max-width: 2000px;
   width: 100%;
   font-family: "Oxygen", Calibri, sans-serif;
   color: #fff;
