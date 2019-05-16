@@ -1,29 +1,66 @@
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 20) * 1px;
-	font-size: $sizeValue * 1.25rem;
+  font-size: ($sizeValue * 20) * 1px;
+  font-size: $sizeValue * 1.25rem;
 }
 
 // Center block
 @mixin center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Clearfix
 @mixin clearfix() {
-	content: "";
-	display: table;
-	table-layout: fixed;
+  content: "";
+  display: table;
+  table-layout: fixed;
 }
 
 // Clear after (not all clearfix need this also)
 @mixin clearfix-after() {
-	clear: both;
+  clear: both;
 }
 
 // Column width with margin
 @mixin column-width($numberColumns: 3) {
-	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+  width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+// Media queries for each size //
+
+@mixin respond-to($media) {
+  @if $media == smallest {
+    @media only screen and (max-width: $width-smallest) {
+      @content;
+    }
+    //below 340
+  } @else if $media == phone {
+    @media only screen and (min-width: $width-smallest + 1) and (max-width: $width-phone - 1) {
+      @content;
+    }
+    //340 - 560
+  } @else if $media == tablet {
+    @media only screen and (min-width: $width-phone + 1) and (max-width: $width-tablet - 1) {
+      @content;
+    }
+    // 560 - 800
+  } @else if $media == monitor {
+    @media only screen and (min-width: $width-tablet + 1) and (max-width: $width-monitor - 1) {
+      @content;
+    }
+    // 800 - 1000
+  } @else if $media == large-screen {
+    @media only screen and (min-width: $width-monitor + 1) and (max-width: $width-UHD - 1) {
+      @content;
+    }
+    // 1000 - 2000
+  } @else if $media == uhd {
+    @media only screen and (min-width: $width-UHD) {
+      @content;
+    }
+    // ITS OVER 2000!
+  }
+}
+// Use by @include respond-to(phone){whatever content. exapmple, width: 100%;} //

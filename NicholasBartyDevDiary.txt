@@ -10,3 +10,11 @@
 - Add pictures & content provided to the home, menu, & location page
 - Add featured images to Home, Menu & Location pages
 - Add map to locations page
+
+15/05:
+- Added missing content to the menu page
+- Re-formatted menu page to better suit theme
+- Add content with call to actions relevant to the site so far
+
+16/05:
+- Update readme to add relevant information

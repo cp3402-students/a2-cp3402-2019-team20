@@ -60,9 +60,10 @@
   }
 
   a {
+    font-family: $font__nav;
     display: block;
     text-decoration: none;
-    margin-right: 0.5em;
+    margin-right: 1em;
   }
 
   .current_page_item > a,
@@ -95,26 +96,26 @@
   }
 }
 
-//.comment-navigation,
-//.posts-navigation,
-//.post-navigation {
-//
-//  .site-main & {
-//    margin: 0 0 1.5em;
-//    overflow: hidden;
-//  }
-//
-//  .nav-previous {
-//    float: left;
-//    width: 50%;
-//  }
-//
-//  .nav-next {
-//    float: right;
-//    text-align: right;
-//    width: 50%;
-//  }
-//}
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
 
 // this sets the size of the icon images that are imported from the Menu Image WP plugin
 .menu-item {
@@ -123,96 +124,4 @@
       height: 24px;
     }
   }
-}
-
-// post navigation
-
-.comment-navigation,
-.posts-navigation,
-.post-navigation,
-.paging-navigation {
-  padding: 2em 0;
-  font-family: $font__nav;
-  text-align: left;
-  overflow: hidden;
-
-  a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    padding: 1em;
-    border: 1px solid $color__theme-off-white;
-    color: $color__theme-brown;
-
-  }
-
-}
-
-
-.nav-links {
-  margin: 0 auto;
-  padding: 0 .4em;
-}
-
-.nav-previous {
-  padding-bottom: 1em;
-}
-
-
-@media screen and (min-width: $width-tablet) {
-
-  .nav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding: 0;
-  }
-
-  .comment-navigation,
-  .posts-navigation,
-  .post-navigation {
-
-    .nav-previous,
-    .nav-next {
-      float: left;
-      display: flex;
-      align-items: stretch;
-      width: 48%;
-    }
-
-    .nav-next {
-      float: right;
-      text-align: right;
-    }
-  }
-
-  .nav-previous {
-    padding-bottom: 0;
-  }
-
-
-}
-
-.post-navigation {
-
-  .meta-nav {
-    display: block;
-  }
-
-  @media screen and ($width-phone) {
-    padding-bottom: 1em;
-  }
-
-  .post-title {
-    font-size: 1.2em;
-    font-weight: 700;
-    border-bottom: 3px solid $color__theme-pink;
-  }
-
-  a:hover .post-title,
-  a:focus .post-title{
-    transition: padding 0.7s;
-    padding: 0 2em;
-  }
-
 }

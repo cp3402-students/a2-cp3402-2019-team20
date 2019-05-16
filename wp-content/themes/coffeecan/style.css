@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Team-20
 Author URI: http://underscores.me/
 Description: Theme for CP3403 Assignment 2
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: coffeecan
@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Fredoka+One|Luckiest+Guy|Permanent+Marker");
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -391,7 +392,7 @@ textarea {
   font-size: 1.125rem;
   line-height: 1.5;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 560px) {
   body,
 button,
 input,
@@ -405,12 +406,13 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Oxygen", Calibri, sans-serif;
+  font-family: "Nunito", Arial, sans-serif;
   font-weight: 700;
 }
 
 h1 {
   font-size: 3em;
+  font-family: "Chewy", cursive;
 }
 
 h2 {
@@ -487,6 +489,7 @@ big {
 }
 
 /*--------------------------------------------------------------
+
 # Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -913,6 +916,7 @@ big {
 }
 
 /*--------------------------------------------------------------
+
 # Elements
 --------------------------------------------------------------*/
 html {
@@ -929,6 +933,14 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/dark.jpg) center center;
   max-width: 2000px;
   margin: 0 auto;
   float: none;
@@ -979,43 +991,8 @@ figure {
 }
 
 table {
-  border-collapse: collapse;
   margin: 0 0 1.5em;
   width: 100%;
-}
-
-thread th {
-  border-bottom: 2px solid #bbb;
-  padding-bottom: 0.5em;
-}
-
-td,
-th {
-  vertical-align: top;
-}
-
-th {
-  padding: 0.4em;
-  text-align: left;
-  background-color: #ffff9c;
-}
-
-tr {
-  border-bottom: 1px solid #FF4FA0;
-}
-
-td {
-  padding: 0.4em;
-}
-
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-
-th:last-child,
-td:last-child {
-  padding-right: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1166,9 +1143,10 @@ a:hover, a:active {
   position: relative;
 }
 .main-navigation a {
+  font-family: "Luckiest Guy", cursive;
   display: block;
   text-decoration: none;
-  margin-right: 0.5em;
+  margin-right: 1em;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
@@ -1197,87 +1175,28 @@ a:hover, a:active {
     text-decoration: underline;
   }
 }
-.menu-item a img {
-  height: 24px;
-}
-
-.comment-navigation,
-.posts-navigation,
-.post-navigation,
-.paging-navigation {
-  padding: 2em 0;
-  font-family: "Oxygen", Calibri, sans-serif;
-  text-align: left;
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  margin: 0 0 1.5em;
   overflow: hidden;
 }
-.comment-navigation a,
-.posts-navigation a,
-.post-navigation a,
-.paging-navigation a {
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  padding: 1em;
-  border: 1px solid #FFFFCF;
-  color: #8E6F12;
-}
-
-.nav-links {
-  margin: 0 auto;
-  padding: 0 0.4em;
-}
-
-.nav-previous {
-  padding-bottom: 1em;
-}
-
-@media screen and (min-width: 800px) {
-  .nav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding: 0;
-  }
-
-  .comment-navigation .nav-previous,
-.comment-navigation .nav-next,
+.comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
-.posts-navigation .nav-next,
-.post-navigation .nav-previous,
-.post-navigation .nav-next {
-    float: left;
-    display: flex;
-    align-items: stretch;
-    width: 48%;
-  }
-  .comment-navigation .nav-next,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-    float: right;
-    text-align: right;
-  }
+  float: right;
+  text-align: right;
+  width: 50%;
+}
 
-  .nav-previous {
-    padding-bottom: 0;
-  }
-}
-.post-navigation .meta-nav {
-  display: block;
-}
-@media screen and (600px) {
-  .post-navigation {
-    padding-bottom: 1em;
-  }
-}
-.post-navigation .post-title {
-  font-size: 1.2em;
-  font-weight: 700;
-  border-bottom: 3px solid #FF4FA0;
-}
-.post-navigation a:hover .post-title,
-.post-navigation a:focus .post-title {
-  transition: padding 0.7s;
-  padding: 0 2em;
+.menu-item a img {
+  height: 24px;
 }
 
 /*--------------------------------------------------------------
@@ -1453,6 +1372,225 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Global css layouts
+--------------------------------------------------------------*/
+.site-content {
+  max-width: 1200px;
+  padding: 1em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
+}
+@media only screen and (min-width: 1201px) and (max-width: 1999px) {
+  .site-content {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .site-content {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .site-content {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .site-content {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.header-image-container {
+  overflow: hidden;
+}
+.header-image-container img {
+  object-fit: cover;
+  display: block;
+  width: 100vw;
+  max-height: 55vh;
+  opacity: 0.8;
+}
+.header-image-container a,
+.header-image-container .site-header,
+.header-image-container .site-title,
+.header-image-container .site-description {
+  color: #FFFFFF;
+  text-shadow: 1.5px 1.5px #000000;
+}
+.header-image-container .main-navigation li:hover > a, .header-image-container .main-navigation li:focus > a {
+  color: #7fa99b;
+}
+.header-image-container .main-navigation ul a:hover,
+.header-image-container .main-navigation ul a.focus {
+  color: #f79c1d;
+}
+.header-image-container .main-navigation .current_page_item > a,
+.header-image-container .main-navigation .current-menu-item > a,
+.header-image-container .main-navigation .current_page_ancestor > a,
+.header-image-container .main-navigation .current-menu-ancestor > a {
+  color: #F8F506;
+  text-decoration: none;
+}
+
+.transparent {
+  background: rgba(129, 66, 3, 0.6);
+  z-index: 2;
+}
+
+.site-header {
+  background: rgba(1, 1, 1, 0.3);
+  padding: 1em 1em;
+  position: fixed;
+  top: 0;
+  max-width: 2000px;
+  width: 100%;
+  font-family: "Luckiest Guy", cursive;
+  color: #fff;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1999px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .main-navigation-div {
+    float: right;
+    clear: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .main-navigation {
+    margin-top: 1.2em;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .main-navigation {
+    margin-top: 0.8em;
+  }
+}
+
+.site-header-basic {
+  padding: 3em 2em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: flex;
+  width: 100vw;
+  background: none;
+  font-family: "Luckiest Guy", cursive;
+  color: #fff;
+  border: #E72000 solid 5px;
+}
+.site-header-basic a {
+  color: #8E6F12;
+}
+.site-header-basic .site-branding a {
+  color: #8E6F12;
+}
+@media screen and (max-width: 560px) {
+  .site-header-basic {
+    padding: 3em 2em;
+  }
+}
+
+.site-branding,
+.site-branding-basic {
+  min-height: 65px;
+  display: flex;
+  float: left;
+}
+
+.branding-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65px;
+}
+
+.custom-logo {
+  display: block;
+  max-height: 65px;
+  max-width: 65px;
+  margin-right: 1em;
+}
+
+.site-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+  line-height: 1em;
+  font-family: "Fredoka One", cursive;
+}
+.site-title a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.site-title a:hover, .site-title a:focus {
+  color: #f79c1d;
+}
+
+.site-description {
+  margin: 0;
+  margin-top: 0.3em;
+  font-size: 1em;
+  font-family: "Permanent Marker", cursive;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+  display: block;
+}
+
+.post,
+.page {
+  margin: 0 auto;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.bypostauthor {
+  display: block;
+}
+
+/*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
@@ -1504,36 +1642,11 @@ object {
   margin-right: auto;
 }
 .wp-caption .wp-caption-text {
-  margin: 0.3em 0;
-  font-style: italic;
+  margin: 0.8075em 0;
 }
 
 .wp-caption-text {
   text-align: center;
-}
-
-/*--------------------------------------------------------------
-## Images
---------------------------------------------------------------*/
-.bleed-image {
-  max-width: 100vw;
-  margin: 0 -1em;
-}
-@media screen and (min-width: 600px) {
-  .bleed-image {
-    margin: 0 -1.5em;
-  }
-}
-
-.wp-block-image .aligncenter {
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 -1em;
-}
-@media screen and (min-width: 600px) {
-  .wp-block-image .aligncenter {
-    margin: 0 auto;
-  }
 }
 
 /*--------------------------------------------------------------

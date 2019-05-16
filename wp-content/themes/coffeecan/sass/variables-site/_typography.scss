@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Fredoka+One|Luckiest+Guy|Permanent+Marker');
+
+//font variables
+$font__description: 'Permanent Marker', cursive;
+$font__title: 'Fredoka One', cursive;
+$font__nav: 'Luckiest Guy', cursive;
+$font__header: 'Chewy', cursive;
+
 $font__main: sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
@@ -5,4 +13,3 @@ $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
 
 $font__body: 'Nunito', Arial, sans-serif;
-$font__nav: 'Oxygen', Calibri,  sans-serif;
