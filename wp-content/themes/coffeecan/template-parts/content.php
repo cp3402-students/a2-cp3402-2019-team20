@@ -55,6 +55,10 @@
 		?>
 	</div><!-- .entry-content -->
 
+    <div class="continue-reading">
+         <a href="<?php echo esc_url( get_permalink() )?>" rel="bookmark">Go to this post</a>
+    </div>
+
 	<footer class="entry-footer">
 		<?php coffeecan_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
