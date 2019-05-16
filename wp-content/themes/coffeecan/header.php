@@ -111,8 +111,17 @@
         </header><!-- #masthead -->
     <?php endif; ?>
 
-    <!--    uncomment above to display the custom header element-->
-
+    <!-- Code to separate the post and page titles into their own element for styling -->
+    <!-- Uses conditional check to only place post post titles on pages that are not home -->
+    <?php if (!is_home()) : ?>
+        <div class="title-bar">
+            <?php the_title('<h2 class="title-text">', '</h2>'); ?>
+        </div>
+    <?php else : ?>
+        <div class="title-bar">
+            <h1 class="title-text">The Coffee Can Cairns</h1>
+        </div>
+    <?php endif; ?>
 
     <div id="content" class="site-content">
         <script src="/wp-content/themes/coffeecan/js/scroll.js"></script>

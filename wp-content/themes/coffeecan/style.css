@@ -500,27 +500,27 @@ big {
     margin: 1em 1.5em;
     padding: 1em 1.5em;
     background-color: #FFFFCF;
-    box-shadow: 10px 10px 20px grey;
+    box-shadow: 10px 10px 20px #c3c3c3;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .has-sidebar .hentry {
+  .single.has-sidebar .hentry {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .has-sidebar .hentry .entry-header {
+  .single.has-sidebar .hentry .entry-header {
     width: 100%;
     flex: 1 0 100%;
   }
-  .has-sidebar .hentry .single-post-content {
+  .single.has-sidebar .hentry .single-post-content {
     width: 60%;
   }
-  .has-sidebar .hentry .widget-area {
+  .single.has-sidebar .hentry .widget-area {
     width: 30%;
   }
-  .has-sidebar .hentry .widget-area h2 {
+  .single.has-sidebar .hentry .widget-area h2 {
     font-size: 1.8em;
   }
 }
@@ -667,6 +667,14 @@ big {
   color: #E72000;
 }
 
+.title-bar {
+  border: 2px solid #E72000;
+  display: block;
+  text-align: center;
+  background-color: #FFFFCF;
+  box-shadow: 10px 10px 20px #c3c3c3;
+}
+
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
@@ -720,6 +728,22 @@ big {
 .edit-link::before {
   content: "|";
   margin: 0.3em;
+}
+
+/*--------------------------------------------------------------
+## Archive posts and pages
+--------------------------------------------------------------*/
+.archive-view.archive .site-content {
+  background-color: #e9e9e9;
+}
+.archive-view.archive .post {
+  margin-bottom: 2em;
+  border-bottom: 3px dashed #FF4FA0;
+}
+
+.continue-reading {
+  text-decoration: underline;
+  margin: 0 0 0.5em 0;
 }
 
 /*--------------------------------------------------------------
@@ -1254,6 +1278,36 @@ a:hover, a:active {
 .post-navigation a:focus .post-title {
   transition: padding 0.7s;
   padding: 0 2em;
+}
+
+/*--------------------------------------------------------------
+## Page navigation for pagination nav
+--------------------------------------------------------------*/
+.pagination {
+  font-family: "Oxygen", Calibri, sans-serif;
+}
+.pagination .nav-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70vw;
+  padding: 1em 0;
+}
+.pagination a,
+.pagination span {
+  padding: 0.5em 1em;
+  background: #FFFFCF;
+}
+.pagination a {
+  text-decoration: none;
+}
+.pagination a:focus, .pagination a:hover {
+  color: #FFFFCF;
+  background: #FF4FA0;
+}
+.pagination .current {
+  font-weight: 600;
+  color: #8E6F12;
 }
 
 /*--------------------------------------------------------------
