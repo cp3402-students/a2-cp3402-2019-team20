@@ -41,7 +41,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Fredoka+One|Luckiest+Guy|Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai|Chewy&display=swap");
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -715,7 +715,7 @@ a:hover, a:active {
   position: relative;
 }
 .main-navigation a {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Baloo Bhai", cursive;
   display: block;
   text-decoration: none;
   margin-right: 1em;
@@ -775,7 +775,7 @@ a:hover, a:active {
 ## Page navigation for pagination nav
 --------------------------------------------------------------*/
 .pagination {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Baloo Bhai", cursive;
 }
 .pagination .nav-links {
   display: flex;
@@ -1079,7 +1079,7 @@ a:hover, a:active {
 
 .site-header, .site-header-basic {
   max-width: 2000px;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Baloo Bhai", cursive;
   padding: 1em 1em;
   position: fixed;
   width: 100%;
@@ -1148,11 +1148,12 @@ a:hover, a:active {
 }
 
 .site-title {
+  letter-spacing: 0.02em;
   margin: 0;
   padding: 0;
   font-size: 1.8em;
   line-height: 1em;
-  font-family: "Fredoka One", cursive;
+  font-family: "Chewy", cursive;
 }
 .site-title a {
   color: #FFFFFF;
@@ -1163,10 +1164,11 @@ a:hover, a:active {
 }
 
 .site-description {
+  letter-spacing: 0.02em;
   margin: 0;
   margin-top: 0.3em;
   font-size: 1em;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Chewy", cursive;
 }
 
 .title-bar {
