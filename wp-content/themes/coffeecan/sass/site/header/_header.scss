@@ -48,31 +48,11 @@
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
-
-@mixin flex {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -o-flex;
-  display: flex;
-}
-
-//.site-header {
-//  padding: 3em 2em;
-//  position: absolute;
-//  top: 0;
-//  left: 50%;
-//  transform: translate(-50%, 0);
-//  width: 100vw;
-//  background: none;
-//  font-family: $font__nav;
-//  color: #fff;
-//}
 .site-header {
-  background: rgba(1,1,1,.3);
+  background: rgba(51,42,29,.3);
   color: #fff;
 }
 .site-header, .site-header-basic {
-  background: rgba(1,1,1,.3);
   max-width: $width-UHD;
   font-family: $font__nav;
   padding: 1em 1em;
@@ -83,9 +63,7 @@
 }
 
 .site-header-basic {
-  background: none;
   color: #fff;
-  border: $color__theme-red solid 5px;
 
   a {
     color: $color__theme-brown;
