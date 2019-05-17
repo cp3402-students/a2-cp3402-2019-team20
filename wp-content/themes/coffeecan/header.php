@@ -25,7 +25,7 @@
 
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'coffeecan'); ?></a>
-    <?php if (get_header_image()) : ?> <!-- If statement to check if header image is set-->
+    <?php if (get_header_image() && is_home()) : ?> <!-- If statement to check if header image is set-->
         <figure id="header-image-con" class="header-image-container transparent">
             <?php the_header_image_tag(); ?>
             <header id="masthead" class="site-header">
@@ -70,7 +70,7 @@
         <!--    --><?php //endif; ?>
 
     <?php else : ?> <!-- If statement to check if header image is set-->
-        <?php the_header_image_tag(); ?>
+<!--        --><?php //the_header_image_tag(); ?>
         <header id="masthead" class="site-header-basic">
             <div class="site-branding">
                 <?php
