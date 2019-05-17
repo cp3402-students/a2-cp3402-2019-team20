@@ -48,37 +48,36 @@
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
-
-@mixin flex {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -o-flex;
-  display: flex;
-}
-
-//.site-header {
-//  padding: 3em 2em;
-//  position: absolute;
-//  top: 0;
-//  left: 50%;
-//  transform: translate(-50%, 0);
-//  width: 100vw;
-//  background: none;
-//  font-family: $font__nav;
-//  color: #fff;
-//}
 .site-header {
-  background: rgba(1,1,1,.3);
+  background: rgba(51,42,29,.3);
+  color: #fff;
+}
+.site-header, .site-header-basic {
+  max-width: $width-UHD;
+  font-family: $font__nav;
   padding: 1em 1em;
   position: fixed;
-  top: 0;
-  max-width: $width-UHD;
   width: 100%;
-  font-family: $font__nav;
-  color: #fff;
-  z-index: 3;
+  top: 0;
+  z-index: 10;
 }
 
+.site-header-basic {
+  color: #fff;
+
+  a {
+    color: $color__theme-brown;
+  }
+
+  .site-branding {
+    a {
+      color: $color__theme-brown;
+    }
+  }
+  @media screen and (max-width: $width-phone) {
+    padding: 3em 2em;
+  }
+}
 .main-navigation-div {
   @include respond-to(large-screen) {
     float: right;
@@ -99,28 +98,7 @@
   }
 }
 
-.site-header-basic {
-  padding: 3em 2em;
-  @include flex;
-  width: 100vw;
-  background: none;
-  font-family: $font__nav;
-  color: #fff;
-  border: $color__theme-red solid 5px;
 
-  a {
-    color: $color__theme-brown;
-  }
-
-  .site-branding {
-    a {
-      color: $color__theme-brown;
-    }
-  }
-  @media screen and (max-width: $width-phone) {
-    padding: 3em 2em;
-  }
-}
 
 .site-branding,
 .site-branding-basic {
@@ -169,22 +147,6 @@
   font-family: $font__description;
 }
 
-//@media screen and (min-width: $width-tablet) {
-//  .site-header {
-//    display: flex;
-//    justify-content: space-between;
-//  }
-//
-//  .site-branding,
-//  .site-branding-basic {
-//    width: 33%;
-//    flex: 1 0 auto;
-//  }
-//
-//  #site-navigation {
-//    width: 60%
-//  }
-//}
 
 //@import "header-menu";
 //@import "featured-image-of-site";
