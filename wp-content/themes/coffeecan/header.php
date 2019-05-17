@@ -25,7 +25,8 @@
 
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'coffeecan'); ?></a>
-    <?php if (get_header_image()) : ?> <!-- If statement to check if header image is set-->
+    <?php $classes[] = get_body_class(); ?>
+    <?php if (get_header_image() && in_array("home",$classes[0])): ?> <!-- If statement to check if header image is set-->
         <figure id="header-image-con" class="header-image-container transparent">
             <?php the_header_image_tag(); ?>
             <header id="masthead" class="site-header">
@@ -70,7 +71,7 @@
         <!--    --><?php //endif; ?>
 
     <?php else : ?> <!-- If statement to check if header image is set-->
-        <?php the_header_image_tag(); ?>
+<!--        --><?php //the_header_image_tag(); ?>
         <header id="masthead" class="site-header-basic">
             <div class="site-branding">
                 <?php
@@ -119,9 +120,9 @@
             <?php the_title('<h2 class="title-text">', '</h2>'); ?>
         </div>
     <?php else : ?>
-    <div class="title-bar">
-        <h1 class="title-text">The Coffee Can Cairns</h1>
-    </div>
+        <div class="title-bar">
+            <h1 class="title-text">The Coffee Can Cairns</h1>
+        </div>
     <?php endif; ?>
 
     <div id="content" class="site-content">
