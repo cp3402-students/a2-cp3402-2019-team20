@@ -952,13 +952,33 @@ a:hover, a:active {
 .site-content {
   max-width: 1200px;
   padding: 1em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 }
-@media screen and (min-width: 560px) {
+@media only screen and (min-width: 1201px) and (max-width: 1999px) {
   .site-content {
-    margin: 1em 1.5em;
-    padding: 1em 1.5em;
-    background-color: #FFFFCF;
-    box-shadow: 10px 10px 20px #666;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .site-content {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .site-content {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .site-content {
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
 
@@ -1061,6 +1081,7 @@ a:hover, a:active {
   width: 100%;
   font-family: "Luckiest Guy", cursive;
   color: #fff;
+  z-index: 3;
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1999px) {
@@ -1155,11 +1176,15 @@ a:hover, a:active {
 }
 
 .title-bar {
-  border: 2px solid #E72000;
   display: block;
   text-align: center;
-  background-color: #FFFFCF;
-  box-shadow: 10px 10px 20px #666;
+  background-color: #332a1d;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.title-bar .title-text {
+  margin: 0;
+  color: #d9bc8b;
 }
 
 /*--------------------------------------------------------------
@@ -1169,7 +1194,26 @@ a:hover, a:active {
   display: flex;
   justify-content: space-between;
   padding: 0 3em;
-  background-color: #FFFFCF;
+  background-color: #332a1d;
+  color: #d9bc8b;
+}
+.site-info a {
+  color: #3C5A99;
+  text-decoration: none;
+  text-shadow: 0 1px #38A1F3;
+}
+.site-info a:visited {
+  color: #FFFFFF;
+}
+.site-info a:hover, .site-info a:focus, .site-info a:active {
+  transition: color 0.5s;
+  text-shadow: 0 1px #3C5A99;
+}
+.site-info a:focus {
+  outline: thin dotted;
+}
+.site-info a:hover, .site-info a:active {
+  outline: 0;
 }
 
 /*--------------------------------------------------------------

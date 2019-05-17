@@ -1,7 +1,11 @@
 .title-bar {
-  border: 2px solid $color__theme-red;
   display: block;
   text-align: center;
-  background-color: $color__theme-off-white;
-  box-shadow: 10px 10px 20px $color__theme-comment-grey;
+  background-color: $color__theme-dark-brown;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  .title-text {
+    margin: 0;
+    color: $color__theme-light-brown;
+  }
 }
