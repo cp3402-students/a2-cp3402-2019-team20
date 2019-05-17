@@ -25,8 +25,11 @@
 
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'coffeecan'); ?></a>
-    <?php if (get_header_image() && is_home()) : ?> <!-- If statement to check if header image is set-->
+<!--    --><?php //$classes[] = get_body_class(); echo "<pre>"; var_dump($classes);echo "</pre>"; echo in_array("home", $classes[0]) ?>
+    <?php $classes[] = get_body_class(); ?>
+    <?php if (get_header_image() && in_array("home", $classes[0])) : ?> <!-- If statement to check if header image is set-->
         <figure id="header-image-con" class="header-image-container transparent">
+
             <?php the_header_image_tag(); ?>
             <header id="masthead" class="site-header">
                 <div class="site-branding">
