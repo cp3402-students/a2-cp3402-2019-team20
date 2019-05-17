@@ -1195,12 +1195,16 @@ a:hover, a:active {
 }
 .site-info .social-media-container {
   width: 100%;
-  display: flex;
+  display: block;
   text-align: center;
 }
-.site-info .social-media-container a {
+.site-info .social-media-container p {
+  margin-bottom: 0;
   width: 100%;
   text-align: center;
+}
+.site-info .social-media-container img {
+  max-width: 50px;
 }
 .site-info .footer-text-container {
   width: 100%;
@@ -1216,7 +1220,7 @@ a:hover, a:active {
   width: 100%;
   text-align: center;
   margin-bottom: -0.75em;
-  margin-top: -0.25em;
+  margin-top: 0;
 }
 .site-info .footer-text-container .slogan-small {
   font-size: 1.5em;

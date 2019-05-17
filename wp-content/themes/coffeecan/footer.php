@@ -16,7 +16,13 @@
 <footer id="colophon" class="site-footer">
     <div class="site-info">
         <div class="social-media-container">
-            <a href="https://www.facebook.com/Mycoffeecan"><p>Like us on Facebook</p></a>
+            <p class="footer-text">Follow us</p>
+            <a href="https://www.facebook.com/Mycoffeecan">
+                <img src="/wp-content/themes/coffeecan/images/facebook.png">
+            </a>
+            <a href="https://www.instagram.com/the_coffee_can">
+                <img src="/wp-content/themes/coffeecan/images/instagram.png">
+            </a>
         </div>
         <div class="footer-text-container">
             <p class="slogan">The Coffee Can</p><br>
@@ -33,3 +39,4 @@
 
 </body>
 </html>
+<!--<a href="https://www.facebook.com/Mycoffeecan"><p>Like us on Facebook</p></a>-->
