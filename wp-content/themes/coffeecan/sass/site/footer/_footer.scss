@@ -2,5 +2,30 @@
   display: flex;
   justify-content: space-between;
   padding: 0 3em;
-  background-color: $color__theme-off-white;
+  background-color: $color__theme-dark-brown;
+  color: $color__theme-light-brown;
+
+  a {
+    color: $color__theme-facebook-blue;
+    text-decoration: none;
+    text-shadow: 0 1px $color__theme-facebook-blue-hover;
+
+    &:visited {
+      color: $color__theme-white;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      transition: color 0.5s;
+      text-shadow: 0 1px $color__theme-facebook-blue;
+
+    }
+    &:focus {
+      outline: thin dotted;
+    }
+    &:hover,
+    &:active {
+      outline: 0;
+    }
+  }
 }
