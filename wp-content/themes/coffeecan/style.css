@@ -1073,12 +1073,11 @@ a:hover, a:active {
 }
 
 .site-header {
-  background: rgba(1, 1, 1, 0.3);
+  background: rgba(51, 42, 29, 0.3);
   color: #fff;
 }
 
 .site-header, .site-header-basic {
-  background: rgba(1, 1, 1, 0.3);
   max-width: 2000px;
   font-family: "Luckiest Guy", cursive;
   padding: 1em 1em;
@@ -1089,9 +1088,7 @@ a:hover, a:active {
 }
 
 .site-header-basic {
-  background: none;
   color: #fff;
-  border: #E72000 solid 5px;
 }
 .site-header-basic a {
   color: #8E6F12;
