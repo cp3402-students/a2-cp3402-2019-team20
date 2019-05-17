@@ -1074,14 +1074,35 @@ a:hover, a:active {
 
 .site-header {
   background: rgba(1, 1, 1, 0.3);
+  color: #fff;
+}
+
+.site-header, .site-header-basic {
+  background: rgba(1, 1, 1, 0.3);
+  max-width: 2000px;
+  font-family: "Luckiest Guy", cursive;
   padding: 1em 1em;
   position: fixed;
-  top: 0;
-  max-width: 2000px;
   width: 100%;
-  font-family: "Luckiest Guy", cursive;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header-basic {
+  background: none;
   color: #fff;
-  z-index: 3;
+  border: #E72000 solid 5px;
+}
+.site-header-basic a {
+  color: #8E6F12;
+}
+.site-header-basic .site-branding a {
+  color: #8E6F12;
+}
+@media screen and (max-width: 560px) {
+  .site-header-basic {
+    padding: 3em 2em;
+  }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1999px) {
@@ -1105,30 +1126,6 @@ a:hover, a:active {
 @media only screen and (min-width: 341px) and (max-width: 559px) {
   .main-navigation {
     margin-top: 0.8em;
-  }
-}
-
-.site-header-basic {
-  padding: 3em 2em;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -o-flex;
-  display: flex;
-  width: 100vw;
-  background: none;
-  font-family: "Luckiest Guy", cursive;
-  color: #fff;
-  border: #E72000 solid 5px;
-}
-.site-header-basic a {
-  color: #8E6F12;
-}
-.site-header-basic .site-branding a {
-  color: #8E6F12;
-}
-@media screen and (max-width: 560px) {
-  .site-header-basic {
-    padding: 3em 2em;
   }
 }
 
