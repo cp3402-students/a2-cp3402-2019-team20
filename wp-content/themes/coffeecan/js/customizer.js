@@ -39,4 +39,38 @@
 			}
 		} );
 	} );
+
+	// Header background colour
+	wp.customize( 'header_background', function( value ) {
+		value.bind( function( to ) {
+			$( '.site-header, .site-header-basic' ).css( {
+				'background-color': to
+			} );
+		} );
+	} );
+
+	wp.customize( 'footer_background', function( value ) {
+		value.bind( function( to ) {
+			$( '.site-info' ).css( {
+				'background-color': to
+			} );
+		} );
+	} );
+
+	wp.customize( 'title_background', function( value ) {
+		value.bind( function( to ) {
+			$( '.title-bar' ).css( {
+				'background-color': to
+			} );
+		} );
+	} );
+
+	wp.customize( 'title_text', function( value ) {
+		value.bind( function( to ) {
+			$( '.title-text' ).css( {
+				'color': to
+			} );
+		} );
+	} );
+
 } )( jQuery );
