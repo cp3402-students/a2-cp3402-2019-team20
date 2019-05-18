@@ -26,7 +26,7 @@
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'coffeecan'); ?></a>
     <?php $classes[] = get_body_class(); ?>
-    <?php if (get_header_image() && in_array("home",$classes[0])): ?> <!-- If statement to check if header image is set-->
+    <?php if (get_header_image() && in_array("home", $classes[0])): ?> <!-- If statement to check if header image is set-->
         <figure id="header-image-con" class="header-image-container transparent">
             <?php the_header_image_tag(); ?>
             <header id="masthead" class="site-header">
@@ -68,10 +68,13 @@
                 </div><!-- #site-navigation -->
             </header><!-- #masthead -->
         </figure>
+        <div class="title-bar">
+            <?php the_title('<h2 class="title-text">', '</h2>'); ?>
+        </div>
         <!--    --><?php //endif; ?>
 
     <?php else : ?> <!-- If statement to check if header image is set-->
-<!--        --><?php //the_header_image_tag(); ?>
+        <!--        --><?php //the_header_image_tag(); ?>
         <header id="masthead" class="site-header-basic">
             <div class="site-branding">
                 <?php
@@ -109,21 +112,24 @@
                     ?>
                 </nav>
             </div><!-- #site-navigation -->
+            <div class="title-bar">
+                <?php the_title('<h2 class="title-text">', '</h2>'); ?>
+            </div>
         </header><!-- #masthead -->
     <?php endif; ?>
 
     <!-- Code to separate the post and page titles into their own element for styling -->
     <!-- Uses conditional check to only place post post titles on pages that are not home -->
 
-    <?php if (!is_home()) : ?>
-        <div class="title-bar">
-            <?php the_title('<h2 class="title-text">', '</h2>'); ?>
-        </div>
-    <?php else : ?>
-        <div class="title-bar">
-            <h1 class="title-text">The Coffee Can Cairns</h1>
-        </div>
-    <?php endif; ?>
+<!--    --><?php //if (!is_home()) : ?>
+<!--        <div class="title-bar">-->
+<!--            --><?php //the_title('<h2 class="title-text">', '</h2>'); ?>
+<!--        </div>-->
+<!--    --><?php //else : ?>
+<!--        <div class="title-bar">-->
+<!--            <h1 class="title-text">The Coffee Can Cairns</h1>-->
+<!--        </div>-->
+<!--    --><?php //endif; ?>
 
     <div id="content" class="site-content">
         <script src="/wp-content/themes/coffeecan/js/scroll.js"></script>

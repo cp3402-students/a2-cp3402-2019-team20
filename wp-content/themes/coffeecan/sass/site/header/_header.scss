@@ -55,7 +55,6 @@
 .site-header, .site-header-basic {
   max-width: $width-UHD;
   font-family: $font__nav;
-  padding: 1em 1em;
   position: fixed;
   width: 100%;
   top: 0;
@@ -90,6 +89,7 @@
 }
 
 .main-navigation {
+  margin: 1em 1em 0 1em;
   @include respond-to(smallest) {
     margin-top: 1.2em;
   }
@@ -102,6 +102,8 @@
 
 .site-branding,
 .site-branding-basic {
+  margin-top: 1em;
+  margin-left: 1em;
   min-height: 65px;
   display: flex;
   float: left;
