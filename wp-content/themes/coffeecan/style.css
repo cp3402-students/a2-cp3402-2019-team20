@@ -41,7 +41,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Fredoka+One|Luckiest+Guy|Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai|Chewy&display=swap");
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -715,7 +715,7 @@ a:hover, a:active {
   position: relative;
 }
 .main-navigation a {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Baloo Bhai", cursive;
   display: block;
   text-decoration: none;
   margin-right: 1em;
@@ -775,7 +775,7 @@ a:hover, a:active {
 ## Page navigation for pagination nav
 --------------------------------------------------------------*/
 .pagination {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Baloo Bhai", cursive;
 }
 .pagination .nav-links {
   display: flex;
@@ -1073,15 +1073,33 @@ a:hover, a:active {
 }
 
 .site-header {
-  background: rgba(1, 1, 1, 0.3);
+  background: rgba(51, 42, 29, 0.3);
+  color: #fff;
+}
+
+.site-header, .site-header-basic {
+  max-width: 2000px;
+  font-family: "Baloo Bhai", cursive;
   padding: 1em 1em;
   position: fixed;
-  top: 0;
-  max-width: 2000px;
   width: 100%;
-  font-family: "Luckiest Guy", cursive;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header-basic {
   color: #fff;
-  z-index: 3;
+}
+.site-header-basic a {
+  color: #8E6F12;
+}
+.site-header-basic .site-branding a {
+  color: #8E6F12;
+}
+@media screen and (max-width: 560px) {
+  .site-header-basic {
+    padding: 3em 2em;
+  }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1999px) {
@@ -1108,30 +1126,6 @@ a:hover, a:active {
   }
 }
 
-.site-header-basic {
-  padding: 3em 2em;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -o-flex;
-  display: flex;
-  width: 100vw;
-  background: none;
-  font-family: "Luckiest Guy", cursive;
-  color: #fff;
-  border: #E72000 solid 5px;
-}
-.site-header-basic a {
-  color: #8E6F12;
-}
-.site-header-basic .site-branding a {
-  color: #8E6F12;
-}
-@media screen and (max-width: 560px) {
-  .site-header-basic {
-    padding: 3em 2em;
-  }
-}
-
 .site-branding,
 .site-branding-basic {
   min-height: 65px;
@@ -1154,11 +1148,12 @@ a:hover, a:active {
 }
 
 .site-title {
+  letter-spacing: 0.02em;
   margin: 0;
   padding: 0;
   font-size: 1.8em;
   line-height: 1em;
-  font-family: "Fredoka One", cursive;
+  font-family: "Chewy", cursive;
 }
 .site-title a {
   color: #FFFFFF;
@@ -1169,10 +1164,11 @@ a:hover, a:active {
 }
 
 .site-description {
+  letter-spacing: 0.02em;
   margin: 0;
   margin-top: 0.3em;
   font-size: 1em;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Chewy", cursive;
 }
 
 .title-bar {
@@ -1191,11 +1187,49 @@ a:hover, a:active {
 ## Footer
 --------------------------------------------------------------*/
 .site-info {
-  display: flex;
+  max-width: 2000px;
+  display: block;
   justify-content: space-between;
   padding: 0 3em;
   background-color: #332a1d;
   color: #d9bc8b;
+  padding: 0.25em;
+}
+.site-info .social-media-container {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.site-info .social-media-container p {
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.site-info .social-media-container img {
+  max-width: 50px;
+}
+.site-info .footer-text-container {
+  width: 100%;
+  display: block;
+}
+.site-info .footer-text-container .footer-text {
+  width: 100%;
+  text-align: center;
+}
+.site-info .footer-text-container .slogan {
+  font-size: 3em;
+  font-family: "Chewy", cursive;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -0.75em;
+  margin-top: 0;
+}
+.site-info .footer-text-container .slogan-small {
+  font-size: 1.5em;
+  font-family: "Chewy", cursive;
+  width: 100%;
+  text-align: center;
+  margin: 0;
 }
 .site-info a {
   color: #3C5A99;
