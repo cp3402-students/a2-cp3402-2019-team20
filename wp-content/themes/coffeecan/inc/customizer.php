@@ -16,6 +16,12 @@ function coffeecan_customize_register($wp_customize)
     $wp_customize->get_setting('blogdescription')->transport = 'postMessage';
     $wp_customize->get_setting('header_textcolor')->transport = 'postMessage';
 
+    $wp_customize->add_section('social_media_icons', array(
+        'title' => __('Social Media Icons', 'coffeecan'),
+        'priority' => 30,
+        'description' => __('Size of the social media icons in px', 'coffeecan')
+    ));
+
     // added options below
 
     $wp_customize->add_setting('header_background', array(
@@ -86,6 +92,23 @@ function coffeecan_customize_register($wp_customize)
         )
     );
 
+    $wp_customize->add_setting('social-icon', array(
+        'default' => '50px',
+        'transport' => 'postMessage',
+        'type' => 'theme_mod',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'social-icon', array(
+                'label' => __('Social media icons pixel size', 'coffeecan'),
+                'section' => 'social_media_icons',
+                'settings' => 'social-icon',
+                'type' => 'text'
+            )
+        )
+    );
+
     if (isset($wp_customize->selective_refresh)) {
         $wp_customize->selective_refresh->add_partial('blogname', array(
             'selector' => '.site-title a',
@@ -97,7 +120,6 @@ function coffeecan_customize_register($wp_customize)
         ));
     }
 }
-
 
 if (!function_exists('coffeecan_header_style')) :
     /**
@@ -112,6 +134,7 @@ if (!function_exists('coffeecan_header_style')) :
         $footer_background_color = get_theme_mod('footer_background');
         $title_bar_background_color = get_theme_mod('title_background');
         $title_bar_text_color = get_theme_mod('title_text');
+        $social_icon_size = get_theme_mod('social-icon');
         /*
          * If no custom options for text are set, let's bail.
          * get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: add_theme_support( 'custom-header' ).
@@ -146,7 +169,7 @@ if (!function_exists('coffeecan_header_style')) :
             <?php
         }
 
-        if ( strtolower('#ffffff') != $header_background_color) { ?>
+        if (strtolower('#ffffff') != $header_background_color) { ?>
             <style type="text/css">
                 .site-header,
                 .site-header-basic {
@@ -154,24 +177,31 @@ if (!function_exists('coffeecan_header_style')) :
                 }
             </style>
         <?php }
-        if ( strtolower('#FFFFCF') != $footer_background_color) { ?>
+        if (strtolower('#FFFFCF') != $footer_background_color) { ?>
             <style type="text/css">
                 .site-info {
                     background-color: <?php echo esc_attr($footer_background_color); ?>
                 }
             </style>
         <?php }
-        if ( strtolower('#FFFFCF') != $title_bar_background_color) { ?>
+        if (strtolower('#FFFFCF') != $title_bar_background_color) { ?>
             <style type="text/css">
                 .title-bar {
                     background-color: <?php echo esc_attr($title_bar_background_color); ?>
                 }
             </style>
         <?php }
-        if ( '#404040' != $title_bar_text_color) { ?>
+        if ('#404040' != $title_bar_text_color) { ?>
             <style type="text/css">
-                .title-text{
+                .title-text {
                     color: <?php echo esc_attr($title_bar_text_color); ?>
+                }
+            </style>
+        <?php }
+        if ('50px' != $social_icon_size) { ?>
+            <style type="text/css">
+                .site-info .social-media-container img {
+                    max-width: <?php echo esc_attr($social_icon_size); ?>
                 }
             </style>
         <?php }

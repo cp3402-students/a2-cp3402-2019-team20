@@ -73,4 +73,13 @@
 		} );
 	} );
 
+	wp.customize( 'social-icon', function( value ) {
+		value.bind( function( to ) {
+			$( '.site-info .social-media-container img' ).css( {
+				'max-width': to
+			} );
+		} );
+	} );
+
+
 } )( jQuery );
