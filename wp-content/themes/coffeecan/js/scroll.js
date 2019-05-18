@@ -8,17 +8,11 @@ var img = document.getElementById("header-image-con");
 
 var navHeight = navbar.clientHeight;
 
-// Get the offset position of the navbar
-
-var sticky = navbar.offsetTop;
-var color = navbar.backgroundColor;
-
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
     if (img != null) {
         var imgHeight = img.clientHeight;
         if (window.pageYOffset >= (imgHeight - navHeight)) {
-            console.log(titleHeight);
             transitionToDark()
         } else if (window.pageYOffset < (imgHeight - navHeight)) {
             transitionToLight()
