@@ -1080,7 +1080,6 @@ a:hover, a:active {
 .site-header, .site-header-basic {
   max-width: 2000px;
   font-family: "Baloo Bhai", cursive;
-  padding: 1em 1em;
   position: fixed;
   width: 100%;
   top: 0;
@@ -1115,6 +1114,9 @@ a:hover, a:active {
   }
 }
 
+.main-navigation {
+  margin: 1em 1em 0 1em;
+}
 @media only screen and (max-width: 340px) {
   .main-navigation {
     margin-top: 1.2em;
@@ -1128,6 +1130,8 @@ a:hover, a:active {
 
 .site-branding,
 .site-branding-basic {
+  margin-top: 1em;
+  margin-left: 1em;
   min-height: 65px;
   display: flex;
   float: left;
@@ -1175,8 +1179,6 @@ a:hover, a:active {
   display: block;
   text-align: center;
   background-color: #332a1d;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
 }
 .title-bar .title-text {
   margin: 0;
