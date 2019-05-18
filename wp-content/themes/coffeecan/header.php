@@ -115,7 +115,10 @@
             <div class="title-bar">
                 <?php the_title('<h2 class="title-text">', '</h2>'); ?>
             </div>
-        </header><!-- #masthead -->
+        </header>
+        <div id="div-spacer">
+<!--            a spacer so that the titles doesnt cover the begining of the page-->
+        </div> <!-- #masthead -->
     <?php endif; ?>
 
     <!-- Code to separate the post and page titles into their own element for styling -->
