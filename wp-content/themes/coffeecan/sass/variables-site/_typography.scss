@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Fredoka+One|Luckiest+Guy|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Chewy&display=swap');
 
 //font variables
-$font__description: 'Permanent Marker', cursive;
-$font__title: 'Fredoka One', cursive;
-$font__nav: 'Luckiest Guy', cursive;
+$font__description: 'Chewy', cursive;
+$font__title: 'Chewy', cursive;
+$font__nav: 'Baloo Bhai', cursive;
 $font__header: 'Chewy', cursive;
+$font__slogan: 'Chewy', cursive;
 
 $font__main: sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
@@ -13,3 +14,6 @@ $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
 
 $font__body: 'Nunito', Arial, sans-serif;
+
+$font__baloo: 'Baloo Bhai', cursive;
+$font__chewy: 'Chewy', cursive;
