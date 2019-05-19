@@ -91,9 +91,10 @@ _To Be Added_
 - **[Matthew Lewandowski](https://github.com/matthew-lewandowski)** - Theme Design
 - **[Nicholas Barty](https://github.com/nickbarty)** - Content Design
 - **[Kyle Ormonde](https://github.com/kyleormonde)** - Content Design
-- **[Peter Menzel](https://github.com/PeterMenzel)** - Site Features / PHP
+- **[Peter Menzel](https://github.com/PeterMenzel)** - Site Features / Content
 
 ## Dev Diaries
 These diaries are for team members who's work does not involve pushing to github and serve as a means of keeping track of contributions to the project
 - Nicholas Barty [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/NicholasBartyDevDiary.txt)
 - Kyle Ormonde [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/KyleOrmondeDevDiary.txt)
+- Peter Menzel [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/PeterMenzelDevDiary.txt)
