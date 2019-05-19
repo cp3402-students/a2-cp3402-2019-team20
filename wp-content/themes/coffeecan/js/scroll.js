@@ -5,30 +5,30 @@ window.onscroll = function() {myFunction()};
 // Get the header image
 var navbar = document.getElementById("masthead");
 var img = document.getElementById("header-image-con");
-var titleBar = document.getElementsByClassName("title-bar");
 
-var titleHeight = titleBar.clientHeight;
-var imgHeight = img.clientHeight;
-var navHeight = navbar.offsetTop;
-
-// Get the offset position of the navbar
-
-var sticky = navbar.offsetTop;
-var color = navbar.backgroundColor;
+var navHeight = navbar.clientHeight;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-    if (window.pageYOffset >= (imgHeight - navHeight)) {
-        console.log(titleHeight);
-        console.log(pageYOffset);
-        transitionToDark()
-    } else if (window.pageYOffset < (imgHeight - navHeight)) {
-        transitionToLight()
+    if (img != null) {
+        var imgHeight = img.clientHeight;
+        if (window.pageYOffset >= (imgHeight - navHeight)) {
+            transitionToDark()
+        } else if (window.pageYOffset < (imgHeight - navHeight)) {
+            transitionToLight()
+        }
+    } else {
+        if (window.pageYOffset >= (navHeight)) {
+            transitionToDark()
+        } else if (window.pageYOffset < (navHeight)) {
+            transitionToLight()
+        }
     }
+
 }
 function transitionToDark() {
     navbar.style.backgroundColor="rgba(51,42,29,1)";
 }
 function transitionToLight() {
-    navbar.style.backgroundColor="rgba(51,42,29,.3";
+    navbar.style.backgroundColor="rgba(51,42,29,0";
 }
