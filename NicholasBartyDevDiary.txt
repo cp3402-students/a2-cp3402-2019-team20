@@ -18,3 +18,8 @@
 
 16/05:
 - Update readme to add relevant information
+
+19/05:
+- Re-format menu page to be a more readable format
+- Re-format the home page to be more user friendly and add openening hours
+- Re-ordered nav menu to be more logical and in line with home page content
