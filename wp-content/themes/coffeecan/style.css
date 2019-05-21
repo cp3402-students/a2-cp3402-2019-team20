@@ -1132,7 +1132,7 @@ div#div-spacer {
   object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 55vh;
+  max-height: 35vh;
   opacity: 0.8;
 }
 
