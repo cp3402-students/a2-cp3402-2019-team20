@@ -1,5 +1,71 @@
-
 // Use by @include respond-to(phone){whatever content. exapmple, width: 100%;} //
+div#div-spacer {
+  width: 100%;
+  height: 105px;
+  background-color: $color__theme-dark-brown;
+  @include respond-to(monitor) {
+    height: 135px;
+  }
+  @include respond-to(tablet) {
+    height: 135px;
+  }
+  @include respond-to(phone) {
+    height: 148px;
+  }
+  @include respond-to(smallest) {
+    height: 148px;
+  }
+}
+
+.main-navigation {
+  li {
+    &:hover > a,
+    &:focus > a {
+      color: $color__theme-light-brown;
+    }
+  }
+  ul {
+    :hover > a,
+    .focus > a {
+    }
+    a:hover,
+    a.focus {
+      color: $color__theme-light-brown;
+    }
+  }
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_ancestor > a,
+  .current-menu-ancestor > a {
+    color: $color__theme-yellow;
+    text-decoration: none;
+  }
+  a {
+    color: $color__theme-white;
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+      transition: color 0.5s;
+      color: $color__theme-yellow;
+
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover,
+    &:active {
+      outline: 0;
+    }
+  }
+}
+
+.site-header,
+.site-title,
+.site-description {
+  color: $color__theme-white;
+  text-shadow: 1.5px 1.5px $color__theme-black;
+}
 
 .header-image-container {
   overflow: hidden;
@@ -10,73 +76,28 @@
     max-height: 55vh;
     opacity: .8;
   }
-  a,
-  .site-header,
-  .site-title,
-  .site-description {
-    color: $color__theme-white;
-    text-shadow: 1.5px 1.5px $color__theme-black;
-  }
-  .main-navigation {
-    li {
-      &:hover > a,
-      &:focus > a {
-        color: $color__theme2-blue-grey;
-      }
-    }
-    ul {
-      :hover > a,
-      .focus > a {
-      }
-      a:hover,
-      a.focus {
-        color: $color__theme2-orange;
-      }
-    }
-    .current_page_item > a,
-    .current-menu-item > a,
-    .current_page_ancestor > a,
-    .current-menu-ancestor > a {
-      color: $color__theme-yellow;
-      text-decoration: none;
-    }
-  }
-
 }
 
 .transparent {
   background: rgba(129, 66, 3, 0.6);
   z-index: 2;
 }
+
 .site-header {
-  background: rgba(51,42,29,.3);
+  background: rgba(51, 42, 29, .3);
   color: #fff;
 }
-.site-header, .site-header-basic {
+
+.site-header {
   max-width: $width-UHD;
   font-family: $font__nav;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
+  padding: 1em;
 }
 
-.site-header-basic {
-  color: #fff;
-
-  a {
-    color: $color__theme-brown;
-  }
-
-  .site-branding {
-    a {
-      color: $color__theme-brown;
-    }
-  }
-  @media screen and (max-width: $width-phone) {
-    padding: 3em 2em;
-  }
-}
 .main-navigation-div {
   @include respond-to(large-screen) {
     float: right;
@@ -89,21 +110,18 @@
 }
 
 .main-navigation {
-  margin: 1em 1em 0 1em;
   @include respond-to(smallest) {
     margin-top: 1.2em;
   }
   @include respond-to(phone) {
     margin-top: .8em;
   }
+  @include respond-to(tablet) {
+    padding: .25em;
+  }
 }
 
-
-
-.site-branding,
-.site-branding-basic {
-  margin-top: 1em;
-  margin-left: 1em;
+.site-branding {
   min-height: 65px;
   display: flex;
   float: left;
@@ -130,15 +148,13 @@
   font-size: 1.8em;
   line-height: 1em;
   font-family: $font__title;
-
   a {
     color: $color__theme-white;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: $color__theme2-orange;
-      //text-decoration: underline;
+      color: $color__theme-light-brown;
     }
   }
 }
@@ -150,7 +166,6 @@
   font-size: 1em;
   font-family: $font__description;
 }
-
 
 //@import "header-menu";
 //@import "featured-image-of-site";

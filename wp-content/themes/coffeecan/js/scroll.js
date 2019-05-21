@@ -18,11 +18,7 @@ function myFunction() {
             transitionToLight()
         }
     } else {
-        if (window.pageYOffset >= (navHeight)) {
-            transitionToDark()
-        } else if (window.pageYOffset < (navHeight)) {
-            transitionToLight()
-        }
+        transitionToDark()
     }
 
 }
@@ -30,5 +26,5 @@ function transitionToDark() {
     navbar.style.backgroundColor="rgba(51,42,29,1)";
 }
 function transitionToLight() {
-    navbar.style.backgroundColor="rgba(51,42,29,0";
+    navbar.style.backgroundColor="rgba(51,42,29,.3";
 }

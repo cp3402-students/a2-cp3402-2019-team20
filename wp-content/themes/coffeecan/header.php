@@ -75,7 +75,7 @@
 
     <?php else : ?> <!-- If statement to check if header image is set-->
         <!--        --><?php //the_header_image_tag(); ?>
-        <header id="masthead" class="site-header-basic">
+        <header id="masthead" class="site-header">
             <div class="site-branding">
                 <?php
                 the_custom_logo(); ?>
@@ -112,9 +112,12 @@
                     ?>
                 </nav>
             </div><!-- #site-navigation -->
-            <div class="title-bar">
-                <?php the_title('<h2 class="title-text">', '</h2>'); ?>
-            </div>
+
+<!--            Code the displays the title bar if the header picture is not present-->
+
+<!--            <div class="title-bar">-->
+<!--                --><?php //the_title('<h2 class="title-text">', '</h2>'); ?>
+<!--            </div>-->
         </header>
         <div id="div-spacer">
 <!--            a spacer so that the titles doesnt cover the begining of the page-->
