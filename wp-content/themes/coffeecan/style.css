@@ -617,6 +617,50 @@ table td {
   padding: 12px 35px;
   border-collapse: collapse;
 }
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  table {
+    font-size: 1rem;
+  }
+  table td {
+    padding: 12px 12px;
+    min-width: 90px;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  table {
+    font-size: 1rem;
+  }
+  table td {
+    padding: 12px 12px;
+    min-width: 90px;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  table {
+    font-size: 0.8rem;
+  }
+  table td {
+    padding: 12px 12px;
+    min-width: 90px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  table {
+    font-size: 0.8rem;
+  }
+  table td {
+    padding: 12px 12px;
+    min-width: 90px;
+  }
+}
+
+.wp-block-column {
+  flex-basis: 100%;
+}
+
+table.wp-block-table.aligncenter {
+  width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Forms
