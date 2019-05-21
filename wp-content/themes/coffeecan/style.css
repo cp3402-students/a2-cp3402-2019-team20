@@ -1290,22 +1290,18 @@ div#div-spacer {
   margin: 0;
 }
 .site-info a {
-  color: #3C5A99;
+  color: #d9bc8b;
   text-decoration: none;
-  text-shadow: 0 1px #38A1F3;
-}
-.site-info a:visited {
-  color: #FFFFFF;
 }
 .site-info a:hover, .site-info a:focus, .site-info a:active {
   transition: color 0.5s;
-  text-shadow: 0 1px #3C5A99;
 }
 .site-info a:focus {
   outline: thin dotted;
 }
 .site-info a:hover, .site-info a:active {
   outline: 0;
+  color: #f8c46c;
 }
 
 /*--------------------------------------------------------------
