@@ -29,7 +29,8 @@
             <p class="slogan-small">passionate about coffee</p>
         </div>
         <div class="footer-text-container">
-            <p class="footer-text">The Coffee Can, 28 Michaelangelo Drive, Redlynch, Cairns <?php echo date('Y') ?> </p>
+            <a href="https://goo.gl/maps/Tg487AVS8oJKtKMfA"><p class="footer-text">The Coffee Can, 28 Michaelangelo
+                    Drive, Redlynch, Cairns <?php echo date('Y') ?> </p></a>
         </div>
     </div><!-- .site-info -->
 </footer><!-- #colophon -->

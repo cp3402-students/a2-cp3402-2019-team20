@@ -30,6 +30,26 @@ hr {
   margin-bottom: 1.5em;
 }
 
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  @include respond-to(tablet) {
+    margin-right: 9%;
+    margin-left: 9%;
+    width: auto;
+  }
+  @include respond-to(phone) {
+    margin: 0 auto;
+    width: auto;
+  }
+  @include respond-to(smallest) {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
 @import "lists";
 
 img {
