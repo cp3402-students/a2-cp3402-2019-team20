@@ -529,6 +529,32 @@ hr {
   margin-bottom: 1.5em;
 }
 
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .map {
+    margin-right: 9%;
+    margin-left: 9%;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
