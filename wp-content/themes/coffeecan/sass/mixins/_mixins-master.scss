@@ -50,12 +50,12 @@
     @media only screen and (min-width: $width-tablet + 1) and (max-width: $width-monitor - 1) {
       @content;
     }
-    // 800 - 1000
+    // 800 - 1200
   } @else if $media == large-screen {
     @media only screen and (min-width: $width-monitor + 1) and (max-width: $width-UHD - 1) {
       @content;
     }
-    // 1000 - 2000
+    // 1200 - 2000
   } @else if $media == uhd {
     @media only screen and (min-width: $width-UHD) {
       @content;
