@@ -29,4 +29,40 @@ table {
     padding: 12px 35px;
     border-collapse: collapse;
   }
+  @include respond-to(monitor) {
+    font-size: 1rem;
+    td {
+      padding: 12px 12px;
+      min-width: 90px;
+    }
+  }
+  @include respond-to(tablet) {
+    font-size: 1rem;
+    td {
+      padding: 12px 12px;
+      min-width: 90px;
+    }
+  }
+  @include respond-to(phone) {
+    font-size: .8rem;
+    td {
+      padding: 12px 12px;
+      min-width: 90px;
+    }
+  }
+  @include respond-to(smallest){
+    font-size: .8rem;
+    td {
+      padding: 12px 12px;
+      min-width: 90px;
+    }
+  }
+
+}
+
+.wp-block-column {
+  flex-basis: 100%;
+}
+table.wp-block-table.aligncenter{
+  width: 100%;
 }
