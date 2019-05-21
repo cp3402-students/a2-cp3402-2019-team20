@@ -1,4 +1,32 @@
 table {
-	margin: 0 0 1.5em;
-	width: 100%;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+table {
+  background-color: $color__theme-dark-brown;
+
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.10),
+  0 10px 20px rgba(0, 0, 0, 0.05),
+  0 20px 20px rgba(0, 0, 0, 0.05),
+  0 30px 20px rgba(0, 0, 0, 0.05);
+  tr {
+    &:hover {
+      background: $color__theme-light-brown;
+
+      td {
+        color: $color__theme-dark-brown;
+        border: 1px solid $color__theme-dark-brown;
+      }
+    }
+  }
+  td {
+    color: lighten($color__theme-light-brown, 25%);
+    border: 1px solid $color__theme-light-brown;
+    padding: 12px 35px;
+    border-collapse: collapse;
+  }
 }
