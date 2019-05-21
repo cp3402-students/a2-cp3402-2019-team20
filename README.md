@@ -7,6 +7,7 @@
 - [Workflow](#workflow)
 - [Wordpress](#wordpress)
 - [Contributors](#contributors)
+- [Linkedin](#linkedin)
 - [Dev Diaries](#dev-diaries)
 
 ## Prerequisites
