@@ -37,7 +37,7 @@ div#div-spacer {
   .current-menu-item > a,
   .current_page_ancestor > a,
   .current-menu-ancestor > a {
-    color: $color__theme-yellow;
+    color: $color__theme-light-brown;
     text-decoration: none;
   }
   a {
@@ -47,7 +47,7 @@ div#div-spacer {
     &:focus,
     &:active {
       transition: color 0.5s;
-      color: $color__theme-yellow;
+      color: $color__theme-light-brown;
 
     }
     &:focus {
