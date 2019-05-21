@@ -11,3 +11,6 @@
 
 20/05:
 - Implement forms by adding them to Enquire page.
+
+21/05:
+- Update Linkedin links.

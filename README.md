@@ -95,7 +95,7 @@ _To Be Added_
 
 ## Linkedin:
 - **[Craig Morris](https://www.linkedin.com/in/craig-morris-25b39b140/)**
-- **[Matthew Lewandowski]()**
+- **[Matthew Lewandowski](https://www.linkedin.com/in/Matthew-Lewandowski93/)**
 - **[Nicholas Barty](https://www.linkedin.com/in/nicholas-barty/)**
 - **[Kyle Ormonde](https://www.linkedin.com/in/kyle-ormonde-7b9226160/)**
 - **[Peter Menzel](https://www.linkedin.com/in/peter-menzel-b6b729186/)**
