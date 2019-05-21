@@ -516,7 +516,7 @@ body {
   background-repeat-y: initial;
   background-origin: initial;
   background-clip: initial;
-  background: #d9bc8b url(/wp-content/themes/coffeecan/images/dark.jpg) center center;
+  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
   max-width: 2000px;
   margin: 0 auto;
   float: none;
@@ -961,7 +961,6 @@ a:hover, a:active {
   background-size: initial;
   background-origin: initial;
   background-clip: initial;
-  background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 }
 @media only screen and (min-width: 1201px) and (max-width: 1999px) {
   .site-content {
@@ -993,7 +992,6 @@ a:hover, a:active {
     background-size: initial;
     background-origin: initial;
     background-clip: initial;
-    background: #d9bc8b url(/wp-content/themes/coffeecan/images/light.jpg) center center;
   }
   .single.has-sidebar .hentry {
     display: flex;
