@@ -34,8 +34,8 @@ h6 {
 }
 
 .site-content {
-  h1, h2, h3, h4, h5, h6 {
+  h3, h4, h5, h6 {
+    font-family: $font__small_header;
     color: $color__theme-dark-brown;
-    text-shadow: 1.5px 1.5px $color__theme-light-brown;
   }
 }
