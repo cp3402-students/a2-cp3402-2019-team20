@@ -7,6 +7,7 @@
 - [Workflow](#workflow)
 - [Wordpress](#wordpress)
 - [Contributors](#contributors)
+- [Linkedin](#linkedin)
 - [Dev Diaries](#dev-diaries)
 
 ## Prerequisites
@@ -91,9 +92,17 @@ _To Be Added_
 - **[Matthew Lewandowski](https://github.com/matthew-lewandowski)** - Theme Design
 - **[Nicholas Barty](https://github.com/nickbarty)** - Content Design
 - **[Kyle Ormonde](https://github.com/kyleormonde)** - Content Design
-- **[Peter Menzel](https://github.com/PeterMenzel)** - Site Features / PHP
+- **[Peter Menzel](https://github.com/PeterMenzel)** - Site Features / Content
+
+## Linkedin:
+- **[Craig Morris](https://www.linkedin.com/in/craig-morris-25b39b140/)**
+- **[Matthew Lewandowski](https://www.linkedin.com/in/Matthew-Lewandowski93/)**
+- **[Nicholas Barty](https://www.linkedin.com/in/nicholas-barty/)**
+- **[Kyle Ormonde](https://www.linkedin.com/in/kyle-ormonde-7b9226160/)**
+- **[Peter Menzel](https://www.linkedin.com/in/peter-menzel-b6b729186/)**
 
 ## Dev Diaries
 These diaries are for team members who's work does not involve pushing to github and serve as a means of keeping track of contributions to the project
 - Nicholas Barty [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/NicholasBartyDevDiary.txt)
 - Kyle Ormonde [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/KyleOrmondeDevDiary.txt)
+- Peter Menzel [Dev Diary](https://github.com/cp3402-students/a2-cp3402-2019-team20/blob/master/PeterMenzelDevDiary.txt)
