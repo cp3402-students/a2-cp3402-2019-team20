@@ -18,3 +18,5 @@
 
 22/05:
 - Add Facebook events feed to Events page.
+- Work on a2.html file.
+- Add introduction to readme.
