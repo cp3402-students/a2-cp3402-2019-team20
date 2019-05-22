@@ -8,14 +8,12 @@
  *
  * @package CoffeeCan
  */
-$athing = get_template_directory();
 
 ?>
 
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer">
-    <?php echo var_dump($athing); ?>
     <div class="site-info">
         <div class="social-media-container">
             <p class="footer-text">Follow us</p>
