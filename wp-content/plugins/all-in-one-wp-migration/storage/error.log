@@ -1,3 +1,6 @@
 May 21 2019 10:36:39
 {"type":32,"message":"PHP Startup: Unable to load dynamic library '\/usr\/lib\/php\/20151012\/mongo.so' - \/usr\/lib\/php\/20151012\/mongo.so: cannot open shared object file: No such file or directory","file":"Unknown","line":0}
 
+May 22 2019 07:07:07
+{"type":32,"message":"PHP Startup: Unable to load dynamic library '\/usr\/lib\/php\/20151012\/mongo.so' - \/usr\/lib\/php\/20151012\/mongo.so: cannot open shared object file: No such file or directory","file":"Unknown","line":0}
+

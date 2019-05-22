@@ -529,32 +529,6 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
-@media only screen and (min-width: 561px) and (max-width: 799px) {
-  .map {
-    margin-right: 9%;
-    margin-left: 9%;
-    width: auto;
-  }
-}
-@media only screen and (min-width: 341px) and (max-width: 559px) {
-  .map {
-    margin: 0 auto;
-    width: auto;
-  }
-}
-@media only screen and (max-width: 340px) {
-  .map {
-    margin: 0 auto;
-    width: auto;
-  }
-}
-
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
@@ -599,7 +573,6 @@ table {
 
 table {
   background-color: #332a1d;
-  margin: 25px auto;
   border-collapse: collapse;
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05), 0 20px 20px rgba(0, 0, 0, 0.05), 0 30px 20px rgba(0, 0, 0, 0.05);
@@ -655,6 +628,37 @@ table td {
   }
 }
 
+hr {
+  background-color: #332a1d;
+  height: 1.5px;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .map {
+    margin-right: 9%;
+    margin-left: 9%;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
 .wp-block-column {
   flex-basis: 100%;
 }
@@ -663,9 +667,20 @@ table.wp-block-table.aligncenter {
   width: 100%;
 }
 
-hr {
-  background-color: #332a1d;
-  height: 1.5px;
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  p strong {
+    font-size: 20px;
+  }
+}
+
+.wp-block-image img {
+  width: 100%;
+}
+
+p.wp-block-cover-text {
+  font-family: "Chewy", cursive;
+  font-size: 4em;
+  text-shadow: 1.5px 1.5px #000000;
 }
 
 /*--------------------------------------------------------------
@@ -1203,7 +1218,7 @@ div#div-spacer {
   object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 35vh;
+  max-height: 40vh;
   opacity: 0.8;
 }
 

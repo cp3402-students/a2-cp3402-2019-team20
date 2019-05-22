@@ -1,0 +1,42 @@
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  @include respond-to(tablet) {
+    margin-right: 9%;
+    margin-left: 9%;
+    width: auto;
+  }
+  @include respond-to(phone) {
+    margin: 0 auto;
+    width: auto;
+  }
+  @include respond-to(smallest) {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+.wp-block-column {
+  flex-basis: 100%;
+}
+table.wp-block-table.aligncenter{
+  width: 100%;
+}
+p {
+  strong{
+    @include respond-to(monitor){
+      font-size: 20px;
+    }
+  }
+}
+.wp-block-image{
+  img{
+    width: 100%;
+  }
+}
+p.wp-block-cover-text{
+  font-family: $font__title;
+  font-size: 4em;
+  text-shadow: 1.5px 1.5px $color__theme-black;
+}
