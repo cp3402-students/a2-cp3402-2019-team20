@@ -4,3 +4,14 @@
 
 17/05:
 - Create Coffee Van Inquiry form
+
+19/05:
+- Add Linkedin links to readme
+- Add roles in readme
+
+20/05:
+- Implement forms by adding them to Enquire page.
+
+21/05:
+- Update Linkedin links.
+- Add Facebook timeline/events/messages feed.

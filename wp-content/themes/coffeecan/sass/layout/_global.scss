@@ -8,7 +8,6 @@
   background-size: initial;
   background-origin: initial;
   background-clip: initial;
-  background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/light.jpg) center center;
 
   //@media screen and (min-width: $width-phone) {
   //  margin: 1em 1em;
@@ -64,7 +63,6 @@
     background-size: initial;
     background-origin: initial;
     background-clip: initial;
-    background: rgb(217, 188, 139) url(/wp-content/themes/coffeecan/images/light.jpg) center center;
     @include respond-to(large-screen) {
       margin: 0 auto;
     }

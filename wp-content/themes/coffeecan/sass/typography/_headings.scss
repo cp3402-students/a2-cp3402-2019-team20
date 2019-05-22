@@ -1,30 +1,41 @@
 h1, h2, h3, h4, h5, h6 {
-	clear: both;
-	font-family: $font__body;
-	font-weight: 700;
+  clear: both;
+  font-family: $font__header;
+  font-weight: 700;
 }
 
 h1 {
-	font-size: 3em;
-	font-family: $font__header;
+  font-size: 3em;
 }
+
 h2 {
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
+
 h3 {
-	font-size: 2.25em;
+  font-size: 2.25em;
 }
+
 h4 {
-	font-size: 2em;
+  font-size: 2em;
 }
+
 h5 {
-	font-size: 1.7em;
+  font-size: 1.7em;
 }
+
 h6 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .entry-title {
-	margin: 0;
-	margin-top: 0.5em;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.site-content {
+  h3, h4, h5, h6 {
+    font-family: $font__small_header;
+    color: $color__theme-dark-brown;
+  }
 }

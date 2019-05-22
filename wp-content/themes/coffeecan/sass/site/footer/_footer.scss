@@ -45,18 +45,15 @@
 
 
   a {
-    color: $color__theme-facebook-blue;
+    color: $color__theme-light-brown;
     text-decoration: none;
-    text-shadow: 0 1px $color__theme-facebook-blue-hover;
 
     &:visited {
-      color: $color__theme-white;
     }
     &:hover,
     &:focus,
     &:active {
       transition: color 0.5s;
-      text-shadow: 0 1px $color__theme-facebook-blue;
 
     }
     &:focus {
@@ -65,6 +62,7 @@
     &:hover,
     &:active {
       outline: 0;
+      color: saturate($color__theme-light-brown, 40%);
     }
   }
 }
