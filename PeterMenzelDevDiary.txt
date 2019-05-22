@@ -15,3 +15,6 @@
 21/05:
 - Update Linkedin links.
 - Add Facebook timeline/events/messages feed.
+
+22/05:
+- Add Facebook events feed to Events page.
