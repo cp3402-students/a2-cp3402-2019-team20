@@ -654,6 +654,10 @@ hr {
   flex-basis: 100%;
 }
 
+.wp-block-columns.has-3-columns {
+  flex-wrap: nowrap;
+}
+
 table.wp-block-table.aligncenter {
   width: 100%;
 }
@@ -668,6 +672,11 @@ table.wp-block-table.aligncenter {
   width: 100%;
 }
 
+@media (min-width: 800px) {
+  .wp-block-column:not(:last-child) {
+    margin-right: 32px;
+  }
+}
 p.wp-block-cover-text {
   font-family: "Chewy", cursive;
   text-shadow: 3px 3px #000000;

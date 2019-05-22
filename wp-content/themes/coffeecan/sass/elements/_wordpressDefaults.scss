@@ -22,6 +22,14 @@
   flex-basis: 100%;
 }
 
+.wp-block-columns.has-3-columns {
+  flex-wrap: nowrap;
+}
+
+.wp-block-columns.has-2-columns {
+
+}
+
 table.wp-block-table.aligncenter {
   width: 100%;
 }
@@ -37,6 +45,12 @@ p {
 .wp-block-image {
   img {
     width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  .wp-block-column:not(:last-child) {
+    margin-right: 32px;
   }
 }
 
