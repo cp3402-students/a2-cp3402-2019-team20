@@ -568,22 +568,12 @@ figure {
 }
 
 table {
-  margin: 0 0 1.5em;
-  width: 100%;
-}
-
-table {
   background-color: #332a1d;
+  margin: 0 0 3em;
+  width: 100%;
   border-collapse: collapse;
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05), 0 20px 20px rgba(0, 0, 0, 0.05), 0 30px 20px rgba(0, 0, 0, 0.05);
-}
-table tr:hover {
-  background: #d9bc8b;
-}
-table tr:hover td {
-  color: #332a1d;
-  border: 1px solid #332a1d;
 }
 table td {
   color: #f8f3eb;
@@ -680,8 +670,16 @@ table.wp-block-table.aligncenter {
 
 p.wp-block-cover-text {
   font-family: "Chewy", cursive;
+  text-shadow: 3px 3px #000000;
+}
+
+.wp-block-cover .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover-image .wp-block-cover-text,
+.wp-block-cover-image h2 {
   font-size: 4em;
-  text-shadow: 1.5px 1.5px #000000;
 }
 
 /*--------------------------------------------------------------

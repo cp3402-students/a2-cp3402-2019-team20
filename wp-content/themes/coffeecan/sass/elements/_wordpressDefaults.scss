@@ -17,26 +17,40 @@
     width: auto;
   }
 }
+
 .wp-block-column {
   flex-basis: 100%;
 }
-table.wp-block-table.aligncenter{
+
+table.wp-block-table.aligncenter {
   width: 100%;
 }
+
 p {
-  strong{
-    @include respond-to(monitor){
+  strong {
+    @include respond-to(monitor) {
       font-size: 20px;
     }
   }
 }
-.wp-block-image{
-  img{
+
+.wp-block-image {
+  img {
     width: 100%;
   }
 }
-p.wp-block-cover-text{
+
+p.wp-block-cover-text {
   font-family: $font__title;
+
+  text-shadow: 3px 3px $color__theme-black;
+}
+
+.wp-block-cover .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover-image .wp-block-cover-text,
+.wp-block-cover-image h2 {
   font-size: 4em;
-  text-shadow: 1.5px 1.5px $color__theme-black;
 }
