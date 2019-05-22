@@ -573,7 +573,6 @@ table {
 
 table {
   background-color: #332a1d;
-  margin: 25px auto;
   border-collapse: collapse;
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05), 0 20px 20px rgba(0, 0, 0, 0.05), 0 30px 20px rgba(0, 0, 0, 0.05);
@@ -629,14 +628,6 @@ table td {
   }
 }
 
-.wp-block-column {
-  flex-basis: 100%;
-}
-
-table.wp-block-table.aligncenter {
-  width: 100%;
-}
-
 hr {
   background-color: #332a1d;
   height: 1.5px;
@@ -666,6 +657,30 @@ hr {
     margin: 0 auto;
     width: auto;
   }
+}
+
+.wp-block-column {
+  flex-basis: 100%;
+}
+
+table.wp-block-table.aligncenter {
+  width: 100%;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  p strong {
+    font-size: 20px;
+  }
+}
+
+.wp-block-image img {
+  width: 100%;
+}
+
+p.wp-block-cover-text {
+  font-family: "Chewy", cursive;
+  font-size: 4em;
+  text-shadow: 1.5px 1.5px #000000;
 }
 
 /*--------------------------------------------------------------
@@ -1203,7 +1218,7 @@ div#div-spacer {
   object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 35vh;
+  max-height: 40vh;
   opacity: 0.8;
 }
 

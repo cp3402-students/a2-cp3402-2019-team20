@@ -17,3 +17,26 @@
     width: auto;
   }
 }
+.wp-block-column {
+  flex-basis: 100%;
+}
+table.wp-block-table.aligncenter{
+  width: 100%;
+}
+p {
+  strong{
+    @include respond-to(monitor){
+      font-size: 20px;
+    }
+  }
+}
+.wp-block-image{
+  img{
+    width: 100%;
+  }
+}
+p.wp-block-cover-text{
+  font-family: $font__title;
+  font-size: 4em;
+  text-shadow: 1.5px 1.5px $color__theme-black;
+}
