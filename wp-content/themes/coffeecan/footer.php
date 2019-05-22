@@ -8,20 +8,24 @@
  *
  * @package CoffeeCan
  */
+$athing = get_template_directory();
 
 ?>
 
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer">
+    <?php echo var_dump($athing); ?>
     <div class="site-info">
         <div class="social-media-container">
             <p class="footer-text">Follow us</p>
             <a href="https://www.facebook.com/Mycoffeecan">
                 <img src="/wp-content/themes/coffeecan/images/facebook.png">
+<!--                <img src="--><?php //echo get_template_directory() . '/images/facebook.png' ?><!--">-->
             </a>
             <a href="https://www.instagram.com/the_coffee_can">
                 <img src="/wp-content/themes/coffeecan/images/instagram.png">
+<!--                <img src="--><?php //echo get_template_directory() . '/images/instagram.png' ?><!--">-->
             </a>
         </div>
         <div class="footer-text-container">
