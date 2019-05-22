@@ -28,6 +28,7 @@ table {
     border: 1px solid $color__theme-light-brown;
     padding: 12px 35px;
     border-collapse: collapse;
+    min-width: 140px;
   }
   @include respond-to(monitor) {
     font-size: 1rem;

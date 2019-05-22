@@ -616,6 +616,7 @@ table td {
   border: 1px solid #d9bc8b;
   padding: 12px 35px;
   border-collapse: collapse;
+  min-width: 140px;
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   table {
