@@ -1,6 +1,7 @@
 # CoffeeCan Wordpress Site
 
 ## Contents of this readme
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Setting up a local environment](#setting-up-a-local-environment)
 - [Theme Details](#theme-details)
@@ -9,6 +10,10 @@
 - [Contributors](#contributors)
 - [Linkedin](#linkedin)
 - [Dev Diaries](#dev-diaries)
+
+## Introduction
+Project repository containing all necessary requirements, instructions and details to implement a website the 
+"The Coffee Can", a local business in Cairns, Far North Queensland.
 
 ## Prerequisites
 - [Vagrant](https://www.vagrantup.com/)
