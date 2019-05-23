@@ -80,6 +80,13 @@
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+
+}
+.main-navigation.toggled {
+  button {
+    color: white;
+    background-color: darken($color__theme-light-brown, 5%);
+  }
 }
 
 @media screen and (min-width: 37.5em) {

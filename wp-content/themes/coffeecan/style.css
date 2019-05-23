@@ -698,21 +698,16 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border: 3px solid;
   border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+  background-color: #d9bc8b;
+  border: #000000;
   font-size: 15px;
   font-size: 0.9375rem;
+  font-weight: bold;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-}
-button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
-  border-color: #ccc #bbb #aaa;
 }
 button:active, button:focus,
 input[type=button]:active,
@@ -721,7 +716,7 @@ input[type=reset]:active,
 input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
-  border-color: #aaa #bbb #bbb;
+  outline: 0;
 }
 
 input[type=text],
@@ -856,6 +851,11 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+}
+
+.main-navigation.toggled button {
+  color: white;
+  background-color: #d3b178;
 }
 
 @media screen and (min-width: 37.5em) {
