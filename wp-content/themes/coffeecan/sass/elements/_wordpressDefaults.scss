@@ -23,7 +23,6 @@
 }
 
 .wp-block-columns.has-3-columns {
-  flex-wrap: nowrap;
 }
 
 .wp-block-columns.has-2-columns {
@@ -67,4 +66,41 @@ p.wp-block-cover-text {
 .wp-block-cover-image .wp-block-cover-text,
 .wp-block-cover-image h2 {
   font-size: 4em;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.little-margin {
+  margin: -30px 0 25px 0px;
+}
+
+@media (min-width: 782px) {
+  .wp-block-columns {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 781px) {
+  .no-show {
+    display: none;
+  }
+}
+
+
+p {
+  strong {
+    @include respond-to(smallest) {
+      font-size: .6em;
+    }
+    @include respond-to(phone) {
+      font-size: .8em;
+    }
+    @include respond-to(tablet) {
+      font-size: 1em;
+    }
+    @include respond-to(monitor) {
+      font-size: 1em;
+    }
+  }
 }
