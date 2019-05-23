@@ -747,7 +747,7 @@ p.wp-block-cover-text {
   box-shadow: 10px 10px 8px #332a1d;
 }
 
-.two-em-text p {
+.two-em-text p.wp-block-cover-text {
   font-size: 2em;
 }
 
