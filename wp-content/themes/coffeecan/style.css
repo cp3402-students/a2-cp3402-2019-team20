@@ -568,22 +568,12 @@ figure {
 }
 
 table {
-  margin: 0 0 1.5em;
-  width: 100%;
-}
-
-table {
   background-color: #332a1d;
+  margin: 0 0 3em;
+  width: 100%;
   border-collapse: collapse;
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05), 0 20px 20px rgba(0, 0, 0, 0.05), 0 30px 20px rgba(0, 0, 0, 0.05);
-}
-table tr:hover {
-  background: #d9bc8b;
-}
-table tr:hover td {
-  color: #332a1d;
-  border: 1px solid #332a1d;
 }
 table td {
   color: #f8f3eb;
@@ -664,6 +654,10 @@ hr {
   flex-basis: 100%;
 }
 
+.wp-block-columns.has-3-columns {
+  flex-wrap: nowrap;
+}
+
 table.wp-block-table.aligncenter {
   width: 100%;
 }
@@ -678,10 +672,23 @@ table.wp-block-table.aligncenter {
   width: 100%;
 }
 
+@media (min-width: 800px) {
+  .wp-block-column:not(:last-child) {
+    margin-right: 32px;
+  }
+}
 p.wp-block-cover-text {
   font-family: "Chewy", cursive;
+  text-shadow: 3px 3px #000000;
+}
+
+.wp-block-cover .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover-image .wp-block-cover-text,
+.wp-block-cover-image h2 {
   font-size: 4em;
-  text-shadow: 1.5px 1.5px #000000;
 }
 
 /*--------------------------------------------------------------
@@ -691,21 +698,16 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border: 3px solid;
   border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+  background-color: #d9bc8b;
+  border: #000000;
   font-size: 15px;
   font-size: 0.9375rem;
+  font-weight: bold;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-}
-button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
-  border-color: #ccc #bbb #aaa;
 }
 button:active, button:focus,
 input[type=button]:active,
@@ -714,7 +716,7 @@ input[type=reset]:active,
 input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
-  border-color: #aaa #bbb #bbb;
+  outline: 0;
 }
 
 input[type=text],
@@ -849,6 +851,11 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+}
+
+.main-navigation.toggled button {
+  color: white;
+  background-color: #d3b178;
 }
 
 @media screen and (min-width: 37.5em) {
