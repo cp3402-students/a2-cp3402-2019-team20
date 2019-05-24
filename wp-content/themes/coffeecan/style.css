@@ -412,6 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
+  color: #332a1d;
 }
 
 h2 {
@@ -529,32 +530,6 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
-@media only screen and (min-width: 561px) and (max-width: 799px) {
-  .map {
-    margin-right: 9%;
-    margin-left: 9%;
-    width: auto;
-  }
-}
-@media only screen and (min-width: 341px) and (max-width: 559px) {
-  .map {
-    margin: 0 auto;
-    width: auto;
-  }
-}
-@media only screen and (max-width: 340px) {
-  .map {
-    margin: 0 auto;
-    width: auto;
-  }
-}
-
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
@@ -593,29 +568,19 @@ figure {
 }
 
 table {
-  margin: 0 0 1.5em;
-  width: 100%;
-}
-
-table {
   background-color: #332a1d;
-  margin: 25px auto;
+  margin: 0 0 3em;
+  width: 100%;
   border-collapse: collapse;
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05), 0 20px 20px rgba(0, 0, 0, 0.05), 0 30px 20px rgba(0, 0, 0, 0.05);
-}
-table tr:hover {
-  background: #d9bc8b;
-}
-table tr:hover td {
-  color: #332a1d;
-  border: 1px solid #332a1d;
 }
 table td {
   color: #f8f3eb;
   border: 1px solid #d9bc8b;
   padding: 12px 35px;
   border-collapse: collapse;
+  min-width: 140px;
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   table {
@@ -654,12 +619,167 @@ table td {
   }
 }
 
+hr {
+  background-color: #332a1d;
+  height: 1.5px;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  .map {
+    margin-right: 9%;
+    margin-left: 9%;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .map {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
 .wp-block-column {
   flex-basis: 100%;
 }
 
 table.wp-block-table.aligncenter {
   width: 100%;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  p strong {
+    font-size: 20px;
+  }
+}
+
+.wp-block-image img {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .wp-block-column:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+p.wp-block-cover-text {
+  font-family: "Chewy", cursive;
+  text-shadow: 3px 3px #000000;
+}
+
+.wp-block-cover .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover-image .wp-block-cover-text,
+.wp-block-cover-image h2 {
+  font-size: 4em;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.little-margin {
+  margin: -30px 0 25px 0px;
+}
+
+.round-right img {
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.round-left img {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+@media (min-width: 782px) {
+  .wp-block-columns {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 781px) {
+  .no-show {
+    display: none;
+  }
+
+  .no-show-image {
+    display: flex;
+  }
+  .no-show-image img {
+    display: none;
+  }
+  .no-show-image .wp-block-columns.has-2-columns {
+    flex-wrap: nowrap;
+  }
+  .no-show-image .wp-block-button.alignright.is-style-default {
+    min-width: 140px;
+    margin: 0 5px 0 0;
+  }
+  .no-show-image .wp-block-button.alignleft.is-style-default {
+    min-width: 140px;
+    margin: 0 0 0 5px;
+  }
+
+  .wp-block-column:nth-child(2n) {
+    margin: 0;
+  }
+
+  .half img {
+    width: 100vw;
+    max-height: 40vh;
+    object-fit: cover;
+  }
+}
+.shadow img {
+  box-shadow: 10px 10px 8px #332a1d;
+}
+
+.two-em-text {
+  font-size: 2em;
+}
+.two-em-text p.wp-block-cover-text {
+  font-size: 2em;
+}
+.two-em-text p.wp-block-cover-text em {
+  font-size: 2em;
+}
+
+a.wp-block-button__link.has-text-color.has-background strong {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 340px) {
+  p strong {
+    font-size: 0.6em;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 559px) {
+  p strong {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 799px) {
+  p strong {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  p strong {
+    font-size: 1em;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -669,21 +789,16 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border: 3px solid;
   border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+  background-color: #d9bc8b;
+  border: #000000;
   font-size: 15px;
   font-size: 0.9375rem;
+  font-weight: bold;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-}
-button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
-  border-color: #ccc #bbb #aaa;
 }
 button:active, button:focus,
 input[type=button]:active,
@@ -692,7 +807,7 @@ input[type=reset]:active,
 input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
-  border-color: #aaa #bbb #bbb;
+  outline: 0;
 }
 
 input[type=text],
@@ -827,6 +942,11 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+}
+
+.main-navigation.toggled button {
+  color: white;
+  background-color: #d3b178;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -1197,7 +1317,7 @@ div#div-spacer {
   object-fit: cover;
   display: block;
   width: 100vw;
-  max-height: 35vh;
+  max-height: 40vh;
   opacity: 0.8;
 }
 
