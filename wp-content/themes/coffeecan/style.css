@@ -747,12 +747,6 @@ p.wp-block-cover-text {
   box-shadow: 10px 10px 8px #332a1d;
 }
 
-.two-em-text {
-  font-size: 2em;
-}
-.two-em-text p.wp-block-cover-text {
-  font-size: 2em;
-}
 .two-em-text p.wp-block-cover-text em {
   font-size: 2em;
 }
@@ -780,6 +774,10 @@ a.wp-block-button__link.has-text-color.has-background strong {
   p strong {
     font-size: 1em;
   }
+}
+
+.wp-block-button.aligncenter :hover {
+  opacity: 0.8;
 }
 
 /*--------------------------------------------------------------
