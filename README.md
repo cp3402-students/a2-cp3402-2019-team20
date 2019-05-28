@@ -76,7 +76,7 @@ That's it! You should now have a local environment replica of the staging site t
 2) Webhooks automatically pull in changes
 
 ### Changes to production:
-_Ensure WordMove is setup correctly_
+_Ensure wordmove is setup correctly_
 
 - Only Database Changes:
 `wordmove push -d`
