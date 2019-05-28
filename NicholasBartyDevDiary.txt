@@ -29,3 +29,6 @@
 - Move opening hours to location page
 - Add images / content to location page
 - Re-styled buttons and content layout for enquire page
+
+28/05:
+- Add call to action for enquire page on home page
