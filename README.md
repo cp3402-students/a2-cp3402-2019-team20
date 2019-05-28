@@ -4,7 +4,6 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Setting up a local environment](#setting-up-a-local-environment)
-- [Theme Details](#theme-details)
 - [Workflow](#workflow)
 - [Wordpress](#wordpress)
 - [Contributors](#contributors)
@@ -53,9 +52,6 @@ Project repository containing all necessary requirements, instructions and detai
 
 That's it! You should now have a local environment replica of the staging site that is connected to this repository
 
-## Theme Details:
-_To Be Added_
-
 ## Workflow:
 
 ### Development:
@@ -80,7 +76,14 @@ _To Be Added_
 2) Webhooks automatically pull in changes
 
 ### Changes to production:
-1)
+_Ensure WordMove is setup correctly_
+
+- Only Database Changes:
+`wordmove push -d`
+- Only Theme Changes:
+`wordmove push -t`
+- All Changes:
+`wordmove push -a`
 
 ## Wordpress:
 - **Version**: 5.0.4
