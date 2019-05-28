@@ -23,3 +23,9 @@
 - Re-format menu page to be a more readable format
 - Re-format the home page to be more user friendly and add openening hours
 - Re-ordered nav menu to be more logical and in line with home page content
+
+22/05:
+- Add many images to home/menu/location pages
+- Move opening hours to location page
+- Add images / content to location page
+- Re-styled buttons and content layout for enquire page
