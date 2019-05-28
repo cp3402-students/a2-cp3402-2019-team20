@@ -7,3 +7,20 @@
 - Edit + format About-Us page based on feedback.
 - Add feature image to About-Us.
 - Add placeholder images for review.
+
+12/05:
+- Update about us page from feedback
+- Remove default plug-ins
+- Research options for having posts appear on Events page
+- Install posts-in-page
+
+
+16/05:
+- Create repeatable posts from client content
+- Test inserting posts with different formats 
+- Add content to events page 
+
+19/05
+- Edit home page from feedback in meeting
+- Replace all placeholder images with formatted images
+- Reword paragraphs for scanning and readability
