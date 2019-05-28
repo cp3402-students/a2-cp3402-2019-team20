@@ -20,3 +20,8 @@
 - Add Facebook events feed to Events page.
 - Work on a2.html file.
 - Add introduction to readme.
+
+28/05:
+- Add Changes to production documentation.
+- Add References to a2.html.
+- Add Site Goals to a2.html.
