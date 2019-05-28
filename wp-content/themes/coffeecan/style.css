@@ -684,7 +684,7 @@ p.wp-block-cover-text {
 .wp-block-cover-image .wp-block-cover-image-text,
 .wp-block-cover-image .wp-block-cover-text,
 .wp-block-cover-image h2 {
-  font-size: 4em;
+  font-size: 2em;
 }
 
 .no-wrap {
@@ -747,13 +747,12 @@ p.wp-block-cover-text {
   box-shadow: 10px 10px 8px #332a1d;
 }
 
-.two-em-text {
-  font-size: 2em;
-}
-.two-em-text p.wp-block-cover-text {
-  font-size: 2em;
-}
-.two-em-text p.wp-block-cover-text em {
+.two-em-text .wp-block-cover .wp-block-cover-image-text,
+.two-em-text .wp-block-cover .wp-block-cover-text,
+.two-em-text .wp-block-cover h2,
+.two-em-text .wp-block-cover-image .wp-block-cover-image-text,
+.two-em-text .wp-block-cover-image .wp-block-cover-text,
+.two-em-text .wp-block-cover-image h2 {
   font-size: 2em;
 }
 
@@ -780,6 +779,10 @@ a.wp-block-button__link.has-text-color.has-background strong {
   p strong {
     font-size: 1em;
   }
+}
+
+.wp-block-button.aligncenter :hover {
+  opacity: 0.8;
 }
 
 /*--------------------------------------------------------------
