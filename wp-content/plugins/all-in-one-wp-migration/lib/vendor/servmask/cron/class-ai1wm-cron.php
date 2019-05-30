@@ -33,34 +33,24 @@ class Ai1wm_Cron {
 	 * Schedules a hook which will be executed by the WordPress
 	 * actions core on a specific interval
 	 *
-	 * @param  string $hook       Event hook
-	 * @param  string $recurrence How often the event should reoccur
-	 * @param  array  $args       Arguments to pass to the hook function(s)
-	 * @param  string $time       Preferred time of day when the event shall be run, e.g. 23:59 (optional)
+	 * @param  string  $hook       Event hook
+	 * @param  string  $recurrence How often the event should reoccur
+	 * @param  integer $timestamp  Preferred timestamp (when the event shall be run)
+	 * @param  array   $args       Arguments to pass to the hook function(s)
 	 * @return mixed
 	 */
-	public static function add( $hook, $recurrence, $args = array(), $time = null ) {
+	public static function add( $hook, $recurrence, $timestamp, $args = array() ) {
 		$schedules = wp_get_schedules();
 
-		if ( is_null( $time ) ) {
-			// Use current time as default
-			$timestamp = time();
-		} else {
-			// Preferred time is used with current date
-			$date      = date( 'Y-m-d' );
-			$datetime  = sprintf( '%s %s', $date, $time );
-			$timestamp = strtotime( $datetime );
-		}
-
+		// Schedule event
 		if ( isset( $schedules[ $recurrence ] ) && ( $current = $schedules[ $recurrence ] ) ) {
-			if ( $timestamp < time() ) {
-				// Calculating number of intervals from $timestamp to the next run
-				$intervals = ceil( ( time() - $timestamp ) / $current['interval'] );
-				$duration  = $intervals * $current['interval'];
-
-				$timestamp += $duration;
+			if ( $timestamp <= ( $current_timestamp = time() ) ) {
+				while ( $timestamp <= $current_timestamp ) {
+					$timestamp += $current['interval'];
+				}
 			}
-			return wp_schedule_event( $timestamp, $recurrence, $hook, array( $args ) );
+
+			return wp_schedule_event( $timestamp, $recurrence, $hook, $args );
 		}
 	}
 
@@ -89,5 +79,26 @@ class Ai1wm_Cron {
 		}
 
 		return update_option( AI1WM_CRON, $cron );
+	}
+
+	/**
+	 * Checks whether cronjob already exists
+	 *
+	 * @param  string  $hook Event hook
+	 * @return boolean
+	 */
+	public static function exists( $hook ) {
+		$cron = get_option( AI1WM_CRON, array() );
+		if ( empty( $cron ) ) {
+			return false;
+		}
+
+		foreach ( $cron as $timestamp => $hooks ) {
+			if ( isset( $hooks[ $hook ] ) ) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 }

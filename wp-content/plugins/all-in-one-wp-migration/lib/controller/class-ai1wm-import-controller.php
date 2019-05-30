@@ -136,6 +136,7 @@ class Ai1wm_Import_Controller {
 				next( $filters );
 			}
 		}
+
 		return $params;
 	}
 

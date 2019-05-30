@@ -75,23 +75,22 @@ class Ai1wm_Feedback_Controller {
 
 		$extensions = Ai1wm_Extensions::get();
 
+		// Exclude File Extension
 		if ( defined( 'AI1WMTE_PLUGIN_NAME' ) ) {
 			unset( $extensions[ AI1WMTE_PLUGIN_NAME ] );
 		}
 
 		$purchases = array();
 		foreach ( $extensions as $extension ) {
-			if ( $uuid = get_option( $extension['key'] ) ) {
+			if ( ( $uuid = get_option( $extension['key'] ) ) ) {
 				$purchases[] = $uuid;
 			}
 		}
 
-		$purchases = implode( PHP_EOL, $purchases );
-
 		$model = new Ai1wm_Feedback;
 
 		// Send feedback
-		$errors = $model->add( $type, $email, $message, $terms, $purchases );
+		$errors = $model->add( $type, $email, $message, $terms, implode( PHP_EOL, $purchases ) );
 
 		echo json_encode( array( 'errors' => $errors ) );
 		exit;

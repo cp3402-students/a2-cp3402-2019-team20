@@ -35,7 +35,7 @@ define( 'AI1WM_DEBUG', false );
 // ==================
 // = Plugin Version =
 // ==================
-define( 'AI1WM_VERSION', '6.95' );
+define( 'AI1WM_VERSION', '6.96' );
 
 // ===============
 // = Plugin Name =
@@ -326,6 +326,11 @@ define( 'AI1WM_MAX_TRANSACTION_QUERIES', 1000 );
 // = Max Select Records =
 // ======================
 define( 'AI1WM_MAX_SELECT_RECORDS', 1000 );
+
+// =======================
+// = Max Storage Cleanup =
+// =======================
+define( 'AI1WM_MAX_STORAGE_CLEANUP', 24 * 60 * 60 );
 
 // ===========================
 // = WP_CONTENT_DIR Constant =
